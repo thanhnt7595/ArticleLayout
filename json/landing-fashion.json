@@ -1,0 +1,606 @@
+{
+    "header": [
+      {
+        "content": [
+          {
+            "name": "logo",
+            "title": "Logo",
+            "type": "file",
+            "value": "http://file.hstatic.net/1000234244/file/thanh_fashion-logo-design.png"
+          },
+          {
+            "name": "menu_1",
+            "title": "Menu 1",
+            "type": "text",
+            "value": "Trang chủ",
+            "loopName": "menu",
+            "href": "#lp-main-slider"
+          },
+          {
+            "name": "menu_2",
+            "title": "Menu 2",
+            "type": "text",
+            "value": "Giới thiệu",
+            "loopName": "menu",
+            "href": "#lp-about"
+          },
+          {
+            "name": "menu_3",
+            "title": "Menu 3 ",
+            "type": "text",
+            "value": "Sản phẩm",
+            "loopName": "menu",
+            "href": "#lp-flash-sale"
+          },
+          {
+            "name": "menu_4",
+            "title": "Menu 4",
+            "type": "text",
+            "value": "Nhóm sản phẩm",
+            "loopName": "menu",
+            "href": "#lp-collections"
+          },
+          {
+            "name": "menu_5",
+            "title": "Menu 5",
+            "type": "text",
+            "value": "Banner",
+            "loopName": "menu",
+            "href": "#lp-banner"
+          },
+          {
+            "name": "menu_6",
+            "title": "Menu 6",
+            "type": "text",
+            "value": "Chính sách",
+            "loopName": "menu",
+            "href": "#lp-policy"
+          },
+          {
+            "name": "menu_5",
+            "title": "Menu 5",
+            "type": "text",
+            "value": "Nhận xét",
+            "loopName": "menu",
+            "href": "#lp-testimonials"
+          }
+        ],
+        "loop": [
+          {
+            "name": "menu",
+            "structure": "<li><a class='smooth-scroll' href='{href}'>{value}</a></li>",
+            "target": "{menu}"
+          }
+        ],
+        "css": "@media (max-width: 768px) { #lp01-mobile-page .topnav .mobile-logo{ padding: 5px 0 !important; }}#lp01-mobile-page{ background-color: #333;}#lp01-mobile-page .sidenav { height: 100%; /* 100% Full-height */ width: 0; /* 0 width - change this with JavaScript */ position: fixed; /* Stay in place */ z-index: 99; /* Stay on top */ top: 0; right: 0px; background-color: #111; /* Black*/ overflow-x: hidden; /* Disable horizontal scroll */ padding-top: 60px; /* Place content 60px from the top */ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */}#lp01-mobile-page .sidenav .header-search{ margin-bottom: 20px; padding: 0 20px;}#lp01-mobile-page .sidenav .header-search form input{ border-radius: 0px; border:none;}#lp01-mobile-page .sidenav .header-search form button{ padding: 10px 15px 9px; margin-left: -5px; background: #fff;}#lp01-mobile-page .sidenav .header-search form button i{ color: #000;}#lp01-mobile-page .sidenav ul li a{ padding: 10px 20px;}/* The navigation menu links */#lp01-mobile-page .sidenav a { /* padding: 8px 8px 8px 32px; */ text-decoration: none; font-size: 18px; color: #818181; display: block; transition: 0.3s}/* When you mouse over the navigation links, change their color */#lp01-mobile-page .sidenav a:hover, .offcanvas a:focus{ color: #f1f1f1;}/* Position and style the close button (top right corner) */#lp01-mobile-page .sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px;}/* Add a black background color to the top navigation */#lp01-mobile-page .topnav { overflow: hidden;}#lp01-mobile-page .topnav .mobile-logo{ float: left; background-color: none; padding: 14px 0;}#lp01-mobile-page .topnav .mobile-logo img{ width: 100px;}#lp01-mobile-page .topnav .mobile-menu { float: right; display: block; color: #f2f2f2; text-align: center; padding: 26px 16px; text-decoration: none; font-size: 17px;}/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */@media screen and (max-height: 450px) { .sidenav {padding-top: 15px;} .sidenav a {font-size: 18px;}}#lp01-mobile-page i{ color: #fff;}#lp01-mobile-page a i{ transition:all .5s ease;}#lp01-mobile-page a i:hover{ transform:rotate(180deg);}/*end mobile header*/@media (max-width: 480px) { #lp-header .home-logo{ padding: 10px 0 !important; } #lp-header .home-logo img{ width: 110px; }}#lp-header{ position: absolute; top: 0; z-index: 99; width: 100%; .home-logo{ padding: 15px 0; h1{ margin-bottom:0px; } } .home-header{ float: right; display: inline-flex; padding: 30px 0; .home-social{ ul{ display: inline-flex; margin-bottom: 0; li{ margin-bottom: 0; padding: 0 5px; a{ color: #998b4c; font-size: 20px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; &:hover{ color:#fff; } } } } } .home-phone{ float: left; margin-right: 30px; a{ font-family: 'Bungee', cursive; color: rgba(255,255,255,1); font-weight: 400; line-height: 22px; font-size: 14px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; &:hover{ color:#998b4c; } i{ color: #998b4c; font-size: 20px; margin-right: 5px; } } } }} #header{ position: relative;}#bottom-lp01-header ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; padding: 55px 0; float: right;}#bottom-lp01-header ul .header-search{ float: right;}#bottom-lp01-header ul .header-search input{ padding: 4px 7px; font-size: 17px; border: none; border-radius: 0;}#bottom-lp01-header ul .header-search button{ float: right; padding: 4px 10px; margin-right: 16px; background: #ddd; font-size: 17px; border: none; cursor: pointer;}#bottom-lp01-header li { float: left; margin: 0; padding: 14px;}#bottom-lp01-header li .fa-shopping-bag{ font-size: 18px; color: #fff; line-height: 0;}#bottom-lp01-header li a { display: block; color: #fff; text-align: center; text-decoration: none; font-size: 17px; text-transform: uppercase; position: relative;}#bottom-lp01-header li a:after { content: ''; display: block; border-bottom: 1px solid #FF8617; width: 0; position: absolute; left: 0; -webkit-transition: 1s ease; transition: 1s ease;}#bottom-lp01-header li a:hover { opacity: 1 !important; color: #FF8617;}#bottom-lp01-header li a:hover:after { width: 100%;}",
+        "html": " <header> <div id='lp-header' class='medium--hide small--hide'> <div id='bottom-lp01-header'> <div class='wrapper'> <div class='inner'> <div class='grid'> <div class='grid__item large--three-twelfths'> <div class='home-logo'> <h1> <a href='/'> <img src='{logo}' alt='' /> </a> </h1> </div> </div> <div class='grid__item large--nine-twelfths'> <ul class='no-bullets'> {menu} </ul> </div> </div> </div> </div> </div> </div> <div id='lp01-mobile-page' class='large--hide'> <div class='wrapper'> <div class='inner'> <div id='sideNavigation' class='sidenav'> <a href='javascript:void(0)' class='closebtn' onclick='closeNav()'>&times;</a> <div class='header-search'> <form action='/action_page.php'> <input type='text' placeholder='Search..' name='search'> <button type='submit'><i class='fa fa-search'></i></button> </form> </div> <ul class='no-bullets'> {menu} </ul> </div> <nav class='topnav'> <a href='/' class='mobile-logo'> <img src='{value}' alt='' /> </a> <a href='#' onclick='openNav()' class='mobile-menu'> <i class='fas fa-bars'></i> </a> </nav> </div> </div> </div> </header>",
+        "id": "lp_header_01_th",
+        "image_demo": "http://file.hstatic.net/1000234244/file/thanh_demo_header.png",
+        "type": "header"
+      }
+    ],
+    "aboutus": [
+      {
+        "content": [
+          {
+            "name": "lp_aboutus_title",
+            "title": "Tiêu đề mục giới thiệu",
+            "type": "text",
+            "value": "CHƯƠNG TRÌNH KHUYẾN MÃI"
+          },
+          {
+            "name": "lp_aboutus_desc",
+            "title": "Mô tả mục giới thiệu",
+            "type": "text",
+            "value": "Tri ân khách hàng thân thiết của Suplo. Chương trình khuyến mãi lớn nhất chưa từng có."
+          },
+          {
+            "name": "aboutus_img",
+            "title": "Ảnh cho mục giới thiệu",
+            "type": "file",
+            "value": "http://file.hstatic.net/1000234244/file/thanh_bg-body1.jpg"
+          },
+          {
+            "name": "ab_link",
+            "title": "Link ảnh cho mục giới thiệu",
+            "type": "file",
+            "value": "/collections/all"
+          },
+          {
+            "name": "aboutus_button",
+            "title": "Nội dung nút",
+            "type": "file",
+            "value": "<i class='fas fa-shopping-cart'></i>Mua ngay"
+          },
+          {
+            "name": "aboutus_button_link",
+            "title": "Đường dẫn nút",
+            "type": "file",
+            "value": "/collections/all"
+          },
+          {
+            "name": "lp_aboutus_desc1",
+            "title": "Nội dung 1",
+            "type": "file",
+            "value": "<i class='fas fa-caret-right'></i> Khách hàng được giảm 5% cho các hóa đơn về sau khi điểm tích lũy trên 1.000.000 vnđ.",
+            "href": "/collections/all",
+            "loopName": "desc_about",
+            "display": true
+          },
+          {
+            "name": "lp_aboutus_desc2",
+            "title": "Nội dung 2",
+            "type": "file",
+            "value": "<i class='fas fa-caret-right'></i> Khách hàng được giảm 10% cho các hóa đơn về sau khi điểm tích lũy trên 2.000.000 vnđ.",
+            "href": "/collections/all",
+            "loopName": "desc_about",
+            "display": true
+          },
+          {
+            "name": "lp_aboutus_desc3",
+            "title": "Nội dung 3",
+            "type": "file",
+            "value": "<i class='fas fa-caret-right'></i> Khách hàng được giảm 50% cho các thương hiệu thời trang đẳng cấp.",
+            "href": "/collections/all",
+            "loopName": "desc_about",
+            "display": true
+          },
+          {
+            "name": "lp_aboutus_desc4",
+            "title": "Nội dung 4",
+            "type": "file",
+            "value": "<i class='fas fa-caret-right'></i> Flash sale - 100.000 mẫu đầm hiệu thiết kế đồng giá 255k.",
+            "href": "/collections/all",
+            "loopName": "desc_about",
+            "display": true
+          },
+          {
+            "name": "lp_aboutus_desc5",
+            "title": "Nội dung 5",
+            "type": "file",
+            "value": "<i class='fas fa-caret-right'></i> Mua 5 sản phẩm giảm 50% toàn bộ sản phẩm.",
+            "href": "/collections/all",
+            "loopName": "desc_about",
+            "display": true
+          },
+          {
+            "name": "lp_aboutus_desc6",
+            "title": "Nội dung 6",
+            "type": "file",
+            "value": "<i class='fas fa-caret-right'></i> Khách hàng được giảm 20% cho các mặt hàng trên 500k.",
+            "href": "/collections/all",
+            "loopName": "desc_about",
+            "display": true
+          },
+          {
+            "name": "lp_aboutus_desc6",
+            "title": "Nội dung 6",
+            "type": "file",
+            "value": "<i class='fas fa-caret-right'></i> Cơ hội hoàn 100% giá trị mua hàng cho tổng trị giá hóa đơn từ 1 triệu đồng. Hoàn tối đa 5 triệu đồng mỗi khách hàng bằng phiếu ưu đãi Aeon.",
+            "href": "/collections/all",
+            "loopName": "desc_about",
+            "display": true
+          }
+        ],
+        "loop": [
+          {
+            "name": "desc_about",
+            "structure": " <ul class='no-bullets'> {desc_about} </ul>",
+            "target": "{desc_about}"
+          }
+        ],
+        "css": "@media (max-width: 768px) { #lp-about .top-border{ border-top: none !important; background: none !important; padding: 10px 20px 20px 50px !important; }}#lp-about{ padding: 30px 0;}#lp-about .inner{ -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);}#lp-about .top-border{ border-top:solid 3px #FF8617; background: #fff; padding: 10px 50px 50px;}#lp-about .intro-img{ overflow: hidden; position: relative; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-about .intro-img a img{ width: 100%; vertical-align: middle; transform: scale(1); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-about .intro-img:hover img{ width: 100%; vertical-align: middle; transform: scale(1.05);}#lp-about .right-intro{ padding-top: 30px;}#lp-about .right-intro .content-intro{ #lp-about .right-intro .content-intro p{ font-size: 20px; font-weight: bold; line-height: 26px; color: #FF8617; text-align: center; letter-spacing: 0.5px;}#lp-about .right-intro .content-intro ul{ margin-bottom: 0;}#lp-about .right-intro .content-intro ul li{ margin-bottom: 0; line-height: 24px; text-align: justify; letter-spacing: 0.5px;}#lp-about .right-intro .content-intro .button-ab{ text-align: center;}#lp-about .right-intro .content-intro .button-ab button{ padding: 5px 25px; border: solid 2px #FF8617; margin-top: 9px; font-size: 20px; text-align: center; font-weight: bold; text-transform: uppercase; color: #015c69; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-about .right-intro .content-intro .button-ab button i{ margin-right: 10px; font-size: 20px; color: #015c69;}#lp-about .right-intro .content-intro .button-ab button:hover{ background: #FF8617; color: #fff;}#lp-about .right-intro .content-intro .button-ab button:hover i{ color: #fff;}#lp-about .product-list{ border:solid 1px #eeeeee;}#lp-about .product-list .prd-content ul{ padding-top: 20px;}#lp-about .product-list .prd-content ul .prd-price{ color: #FF8617; font-size: 14px; font-weight: bold;}#lp-about .product-list .prd-content ul .prd-title{ -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; font-weight: bold; font-size: 16px;}#lp-about .product-list .prd-content ul:hover{ color:#FF8617;}",
+        "html": " <section id='lp-about'> <div class='wrapper'> <div class='inner'> <div class='grid'> <div class='grid__item large--one-half medium--one-whole small--one-whole'> <div class='intro-img'> <a href='{ab_link}'><img src='{aboutus_img}' alt='ab-img' /></a> </div> </div> <div class='grid__item large--one-half medium--one-whole small--one-whole top-border'> <div class='right-intro'> <div class='sec-title'> <h2>{lp_aboutus_title}</h2> <span class='section-title-border'></span> </div> <div class='content-intro'> <div> <p>{lp_aboutus_desc}</p> <ul class='no-bullets'> {desc_about} </ul> <div class='button-ab'><button><i class='fas fa-shopping-cart'></i>Mua ngay</button></div> </div> </div> </div> </div> </div> </div> </div> </section>",
+        "id": "lp_aboutus_01_th",
+        "image_demo": "http://file.hstatic.net/1000234244/file/thanh_demo_about.png",
+        "type": "aboutus"
+      }
+    ],  
+    "flashsale": [
+      {
+        "content": [
+          {
+            "name": "fs_title",
+            "title": "Tiêu đề cho mục flash sale",
+            "type": "text",
+            "value": "Giảm giá sốc ngay hôm nay"
+          }
+        ],
+        "countdownTime": 1546275600000,
+        "selectedCollection": [
+          {
+            "title": "Sản phẩm khuyến mãi",
+            "id": 1000828801,
+            "handle": "san-pham-khuyen-mai",
+            "display": true
+          }
+        ],
+        "css": "@media (max-width: 768px) { #lp-flash-sale{ background-attachment: scroll !important; }}#lp-flash-sale{ background-image: url('../../images/7717.jpg'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; overflow: hidden; padding:30px 0;}#lp-flash-sale .product-list{ background: #fff; border:solid 1px #eeeeee; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-flash-sale .product-list .prd-img { position: relative;}#lp-flash-sale .product-list .prd-img a { display: block;}#lp-flash-sale .product-list .prd-img a img { width: 100%;}#lp-flash-sale .product-list .prd-img .tag-saleoff { position: absolute; height: 34px; width: 34px; line-height: 34px; display: inline-block; top: 5px; right: 5px; background: #FF8617; color: #fff; font-size: 12px; border-radius: 50%;}#lp-flash-sale .product-list .prd-img .tag-soldout { position: absolute; height: 34px; width: 34px; line-height: 34px; display: inline-block; top: 5px; left: 5px; background: #f66d52; color: #fff; font-size: 12px; border-radius: 50%;}#lp-flash-sale .product-list .prd-img .product-actions { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; overflow: hidden;}#lp-flash-sale .product-list .prd-img .product-actions div { display: inline-block; margin: auto; padding: 5px 0px;}#lp-flash-sale .product-list .prd-img .product-actions div button { height: 34px; line-height: 34px; padding: 0px 5px; margin-right: 5px; background: #FF8617; color: #fff; border: 0px; outline: 0px; border-radius: 3px; float: left; -webkit-transition: all 0.6s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-flash-sale .product-list .prd-img .product-actions div button:last-child { margin-right: 0px;}#lp-flash-sale .product-list .prd-img .product-actions div button.btnQuickView { width: 34px; font-size: 18px; transform: translateX(-150px);}#lp-flash-sale .product-list .prd-img .product-actions div button.btnAddToCart { width: 34px; font-size: 18px; transform: translateX(150px);}#lp-flash-sale .product-list .prd-img .product-actions div button.btnBuyNow { font-size: 14px; font-weight: bold; transform: translateY(150px);}#lp-flash-sale .product-list .prd-img .product-actions div button:hover { background:#FF8617;}}#lp-flash-sale .product-list .prd-content ul{ padding-top: 20px;}#lp-flash-sale .product-list .prd-content ul .prd-price{ color: #FF8617; font-size: 14px; font-weight: bold;}#lp-flash-sale .product-list .prd-content ul .prd-title{ -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; font-weight: bold; font-size: 16px;}#lp-flash-sale .product-list .prd-content ul .prd-title:hover{ color:#FF8617;}#lp-flash-sale .product-list :hover .prd-img > .product-actions > div > button { transform: translate(0px) !important;}#lp-flash-sale .home-collection-countdown { margin-bottom: 30px;}#lp-flash-sale .home-collection-countdown .countdown-days{ display: inline-block; margin-right: 15px; text-transform: uppercase;}#lp-flash-sale .home-collection-countdown .countdown-days #days{ font-size: 24px; font-weight: bold; background: #FF8617; color: #fff; height: 60px; width: 60px; line-height: 60px; margin-bottom: 5px;}#lp-flash-sale .home-collection-countdown .countdown-hrs{ display: inline-block; margin-right: 15px; text-transform: uppercase;}#lp-flash-sale .home-collection-countdown .countdown-hrs #hrs{ font-size: 24px; font-weight: bold; background: #FF8617; color: #fff; height: 60px; width: 60px; line-height: 60px; margin-bottom: 5px;}#lp-flash-sale .home-collection-countdown .countdown-mins{ display: inline-block; margin-right: 15px; text-transform: uppercase;}#lp-flash-sale .home-collection-countdown .countdown-mins #mins{ font-size: 24px; font-weight: bold; background: #FF8617; color: #fff; height: 60px; width: 60px; line-height: 60px; margin-bottom: 5px;}#lp-flash-sale .home-collection-countdown .countdown-secs{ display: inline-block; margin-right: 15px; text-transform: uppercase;}#lp-flash-sale .home-collection-countdown .countdown-secs #secs{ font-size: 24px; font-weight: bold; background: #FF8617; color: #fff; height: 60px; width: 60px; line-height: 60px; margin-bottom: 5px;}#lp-flash-sale .home-collection-countdown .countdown-secs { margin-right: 0px;}#lp-flash-sale .owl-nav .owl-prev,.owl-next span{ color:#fff; font-size:30px; font-weight:700; line-height: 38px;}#lp-flash-sale .owl-nav .owl-prev{ height: 40px; line-height: 40px; width: 40px; padding: 0; margin: 0; background: #FF8617; color: #fff; opacity: 0.6; position: absolute; top: calc(50% - 20px); border-radius: 0; left:16px;}#lp-flash-sale .owl-nav .owl-next{ height: 40px; line-height: 40px; width: 40px; padding: 0; margin: 0; background: #FF8617; color: #fff; opacity: 0.6; position: absolute; top: calc(50% - 20px); border-radius: 0; right:-14px;}",
+        "html": "<section id='lp-flash-sale'> <div id='home-collection-countdown'>{contdowntime}</div> <div class='wrapper'> <div class='inner'> <div class='sec-title'> <h2>{fs_title}</h2> <span class='section-title-border'></span> </div> <div class='grid-uniform'> <div id='lp-flash-sale-slider' class=' owl-carousel owl-theme'> </div> </div> <div class='home-collection-countdown text-center'> <div class='countdown-days'> <div id='days'> 11 </div> <div> Ngày </div> </div> <div class='countdown-hrs'> <div id='hrs'> 11 </div> <div> Giờ </div> </div> <div class='countdown-mins'> <div id='mins'> 11 </div> <div> Phút </div> </div> <div class='countdown-secs'> <div id='secs'> 11 </div> <div> Giây </div> </div> </div> </div> </section>",
+        "id": "lp_flashsale_01_th",
+        "js": "(function () {var countdownDateTime = document.getElementById('home-collection-countdown').innerHTML;console.log('handle and time',handle,countdownDateTime); var headers = {}; if (document.referrer.includes('myharavan.com')){ headers.shop = document.referrer.split('?shop=')[1].split('&timestamp')[0]; } else { headers.shop = \"suplo-fashion.myharavan.com\"} $.ajax({ type: 'GET', url: `https://sage-inn-206908.appspot.com/lp/collections/${handle}?view=lp-detail.json`, headers:headers, dataType: 'json' }).done(function (data) { localStorage.setItem(handle,JSON.stringify(data.products)); data.products.forEach(function(product) { $('#lp-flash-sale-slider').append(setProductSaleData(product)); }); $('#lp-flash-sale-slider').owlCarousel({smartSpeed: 1000, nav: false, dots: true, loop: false, responsiveRefreshRate: 200, navText: ['<i class=\"fa fa-angle-left\" aria-hidden=true></i>', '<i class=\"fa fa-angle-right\" aria-hidden=true></i>'], responsive: { 0: { items: 2 }, 480: { items: 2 }, 768: { items: 2 }, 1000: { items: 2 } } }); }); function setProductSaleData(product){ return `<div class='item grid__item md-pd-left10'> <div class='product-list'> <div class='prd-img'> <a href='${product.handle}'> <img src='https:${product.featured_image}' alt='${product.title}'> </a> <div class='tag-saleoff text-center'> ${product.sale} </div> <div class='tag-soldout text-center'>${product.soldout}</div> <div class='product-actions text-center clearfix'> <div> <button type='button' class='btnAddToCart add-to-cart ' data-id='${product.id}'> <span> <i class='fa fa-cart-plus' aria-hidden='true'></i> </span> </button> <button type='button' class='btnQuickView quick-view' data-handle='${product.handle}'> <span> <i class='fa fa-search-plus' aria-hidden='true'></i> </span> </button> <button type='button' class='btnBuyNow buy-now ' data-id='${product.id}'> <i class='fa fa-shopping-bag' aria-hidden='true'></i> </button> </div> </div> </div> <div class='prd-content'> <ul class='no-bullets text-center'> <li class='prd-title'> <a href='javascript:void()'>${product.title}</a> </li> <li class='prd-price'> <span class='current-price'>${product.price_format}</span> <span class='original-price'> <s>${product.compare_at_price_format}</s> </span> </li> </ul> </div> </div></div> ` } function countdown(time) {var countDownDate = time; countdownInterval = setInterval(function () { var now = new Date().getTime();var distance = countDownDate - now; var days = Math.floor(distance / (1000 * 60 * 60 * 24)); var hours = Math.floor((distance% (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)); varseconds = Math.floor((distance % (1000 * 60)) / 1000); document.getElementById('days').innerHTML = days; document.getElementById('hrs').innerHTML= hours; document.getElementById('mins').innerHTML = minutes; document.getElementById('secs').innerHTML = seconds; }, 1000);}countdown(countdownDateTime);})();",
+        "image_demo": "http://file.hstatic.net/1000234244/file/thanh_demo_flash_sale.png",
+        "type": "flashsale"
+      }
+    ],
+    
+  "collections": [
+    {
+      "content": [
+        {
+        "name": "collection_title",
+        "title": "Tiêu đề cho mục nhóm sản phẩm",
+        "type": "text",
+        "value": "Sản phẩm yêu thích"
+      },
+        {
+          "title": "Áo phông",
+          "id": 1000828801,
+          "handle": "ao-phong",
+          "display": true
+        },
+        {
+          "title": "Áo sơ mi",
+          "id": 1000814629,
+          "handle": "ao-so-mi",
+          "display": true
+        },
+        {
+          "title": "Váy",
+          "id": 1000801096,
+          "handle": "vay"
+        }
+      ],
+      "loop": [
+        {
+          "name": "collection",
+          "structure": "<button class='tablinks collection-tab-links' data-handle='{handle}' onclick='openTabs(event ,\"{handle}\")'>{title}</button>",
+          "target": "{collection_tab}"
+        },
+        {
+          "name": "collection",
+          "structure": "<div id='{handle}' class='tabcontent'> <div class='grid-uniform md-mg-left-10'> <div class='structure-collections'> </div></div></div>",
+          "target": "{collection_content}"
+        }
+      ],
+      "css": "#lp-collections{ padding:30px 0;}#lp-collections .grid-uniform .grid__item{ margin-bottom: 30px;}#lp-collections .product-list{ border:solid 1px #eeeeee; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-collections .product-list .prd-img { position: relative;}#lp-collections .product-list .prd-img a{ display: block;}#lp-collections .product-list .prd-img a img { width: 100%;}#lp-collections .product-list .prd-img .tag-saleoff { position: absolute; height: 34px; width: 34px; line-height: 34px; display: inline-block; top: 5px; right: 5px; background: #FF8617; color: #fff; font-size: 12px; border-radius: 50%;}#lp-collections .product-list .prd-img .tag-soldout { position: absolute; height: 34px; width: 34px; line-height: 34px; display: inline-block; top: 5px; left: 5px; background: #f66d52; color: #fff; font-size: 12px; border-radius: 50%;}#lp-collections .product-list .prd-img .product-actions { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; overflow: hidden;}#lp-collections .product-list .prd-img .product-actions div { display: inline-block; margin: auto; padding: 5px 0px;}#lp-collections .product-list .prd-img .product-actions div button { height: 34px; line-height: 34px; padding: 0px 5px; margin-right: 5px; background: #FF8617; color: #fff; border: 0px; outline: 0px; border-radius: 3px; float: left; -webkit-transition: all 0.6s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; &:last-child { margin-right: 0px; } &.btnQuickView { width: 34px; font-size: 18px; transform: translateX(-150px); } &.btnAddToCart { width: 34px; font-size: 18px; transform: translateX(150px); } &.btnBuyNow { font-size: 14px; font-weight: bold; transform: translateY(150px); } &:hover { background:#FF8617; }}#lp-collections .product-list .prd-content ul{ padding-top: 20px;}#lp-collections .product-list .prd-content ul .prd-price{ color: #FF8617; font-size: 14px; font-weight: bold;}#lp-collections .product-list .prd-content ul .prd-title{ -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; font-weight: bold; font-size: 16px;}#lp-collections .product-list .prd-content ul .prd-title:hover{ color:#FF8617;}#lp-collections .product-list:hover { .prd-img > .product-actions > div > button { transform: translate(0px) !important; }}#lp-collections .tab{ margin-bottom: 30px;}#lp-collections .tab .tablinks{ background: #FF8617; padding: 7px 20px; font-size: 18px; text-transform: uppercase; color: #fff; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-collections .tab .tablinks:hover{ background:#015c69;}#lp-collections .tab .tablinks .active{ background:#015c69;}",
+          "html": " <section id='lp-collections'> <div class='wrapper'> <div class='inner'> <div class='sec-title'> <h2>{collection_title}</h2> <span class='section-title-border'></span> </div> <div class='tab text-center'> {collection_tab} </div> <div id='{handle}' class='tabcontent'> <div class='grid-uniform md-mg-left-10'> <div class='structure-collections'></div> </div> </div> </div> </div> </section>",
+          "js": "function openTabs(evt, cityName){var i, tabcontent, tablinks,shop; tabcontent=document.getElementsByClassName('tabcontent'); for (i=0; i< tabcontent.length; i++){tabcontent[i].style.display='none' ;}tablinks=document.getElementsByClassName( 'tablinks'); for (i=0; i < tablinks.length; i++){tablinks[i].className=tablinks[i].className.replace( ' active', '');}document.getElementById(cityName).style.display='block' ; evt.currentTarget.className +=' active' ;}$(document).ready(function () {$( '#lp-collections button.tablinks:first-child').attr( 'id', 'defaultOpen'); document.getElementById( 'defaultOpen').click(); $( '.collection-tab-links').each(function () { getListProduct($(this).data( 'handle')); }); function getListProduct(handle) { var headers={ }; if (document.referrer.includes( 'myharavan.com')) { shop=h eaders.shop=d ocument.referrer.split( '?shop=')[1].split( '&timestamp')[0]; } else { shop=h eaders.shop=\"suplo-watch.myharavan.com\" } let dataProducts; if (!localStorage.getItem(handle)) { $.ajax({ type: 'GET', url: `https://sage-inn-206908.appspot.com/lp/collections/${handle}?view=lp-detail.json`, headers: headers, dataType: 'json' }).done(function (data) { localStorage.setItem(handle,JSON.stringify(data.products)); dataProducts=d ata.products; $.each(dataProducts, function (key, value) { $( '#' + handle + ' .structure-collections').append(setProductData(value)); }) }); } else { dataProducts=l ocalStorage.getItem(handle); dataProducts=J SON.parse(dataProducts); $.each(dataProducts, function (key, value) {console.log( 'value',value); $( '#' + handle + ' .structure-collections').append(setProductData(value)); }) } } function setProductData(product) { return `<div class='grid__item large--one-quarter medium--one-third small--one-half md-pd-left10 '><div class='product-list'><div class='prd-img'><a href=''><img src='https:${product.featured_image}' alt='' /></a><div class='tag-saleoff text-center'>${product.sale}</div><div class='product-actions text-center clearfix'><div><button type='button' class='btnAddToCart add-to-cart ' data-id='${product.id}'> <span> <i class='fa fa-cart-plus' aria-hidden='true'></i> </span> </button><button type='button' class='btnQuickView quick-view' data-handle='${product.handle}'> <span> <i class='fa fa-search-plus' aria-hidden='true'></i> </span> </button><button type='button' class='btnBuyNow buy-now ' data-id='${product.id}'> <i class='fa fa-shopping-bag' aria-hidden='true'></i> </button></div></div></div><div class='prd-content'><ul class='no-bullets text-center'><li class='prd-title'> <a href=\"https://${shop}/products/${product.handle}\" target='_blank'>${product.title}</a> </li><li class='prd-price'><span class='current-price'>${product.price_format}</span> <span class='original-price'> <s>${product.compare_at_price_format}</s> </span></li></ul></div></div></div>` }});",
+          "id": "lp_collection_01_th",
+          "image_demo": "",
+          "type": "collection"
+    }
+  ],
+    "banner": [
+      {
+        "content":[
+          {
+            "name": "banner_bg",
+            "title": "Ảnh nền cho mục banner",
+            "type": "file",
+            "value": "http://file.hstatic.net/1000234244/file/thanh_banner.jpg"
+          },
+          {
+            "name": "banner_title",
+            "title": "Tiêu đề banner",
+            "type": "text",
+            "value": "Đặt hàng ngay bây giờ"
+          },
+          {
+            "name": "banner_desc",
+            "title": "Mô tả banner",
+            "type": "text",
+            "value": "Giảm 20% khi đặt ở đây"
+          },
+          {
+            "name": "banner_button",
+            "title": "Nội dung nút",
+            "type": "text",
+            "value": "Đăng ký ngay"
+          },
+          {
+            "name": "banner_button_link",
+            "title": "Đường dẫn nút",
+            "type": "text",
+            "value": "/collections/all"
+          }
+        ],
+        "css": "@media (max-width: 768px) { #lp-banner .lp-banner-content{ padding-top: 20px !important; padding-left: 20px !important; }}#lp-banner{ background-image: url('{banner_bg}'); background-color: rgba(2,5,43,1); background-origin: content-box; background-size: cover; background-attachment: scroll; background-position: top center; background-repeat: no-repeat;}#lp-banner .lp-banner-content{ padding-top: 120px; padding-left: 200px; height: 350px; line-height: 55px;}#lp-banner .lp-banner-content .banner-txt1{ color: #015c69; font-size: 46px; font-weight: bold;}#lp-banner .lp-banner-content .banner-txt2{ color: #015c69; font-size: 20px; letter-spacing: 2px;}#lp-banner .lp-banner-content .btn-banner a{ background: #fff; color: #015c69; padding: 10px 30px; line-height: 10px; text-transform: uppercase; -webkit-box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.5); -moz-box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.5); box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.5); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-banner .lp-banner-content .btn-banner a:hover{ background:#FF8617;}",
+        "html": " <section id='lp-banner'> <div class='lp-banner-content text-center'> <div class='banner-txt1'>{banner_title}</div> <div class='banner-txt2'>{banner_desc}</div> <div class='btn-banner'><a href='{banner_button_link}'>{banner_button}</a></div> </div> </section>",
+        "id": "lp_banner_01_th",
+        "image_demo": "http://file.hstatic.net/1000234244/file/thanh_demo_banner.png",
+        "type": "banner"
+      }
+    ],
+    "policy": [
+      {
+        "content": [
+            {
+                "name": "policy_icon_1",
+                "title": "Hình ảnh cho chính sách 1",
+                "type": "text",
+                "value": "http://file.hstatic.net/1000234244/file/thanh_policy1.png"
+            },
+            {
+                "name": "policy_content_1",
+                "title": "Nội dung chính sách 1",
+                "type": "text",
+                "value": "Giao hàng thần tốc"
+            },
+            {
+                "name": "policy_desc_1",
+                "title": "Mô tả chính sách 1",
+                "type": "text",
+                "value": "Mọi địa điểm"
+            },
+            {
+                "name": "policy_icon_2",
+                "title": "Hình ảnh cho chính sách 2",
+                "type": "text",
+                "value": "http://file.hstatic.net/1000234244/file/thanh_policy2.png"
+            },
+            {
+                "name": "policy_content_2",
+                "title": "Nội dung chính sách 2",
+                "type": "text",
+                "value": "Dễ dàng order"
+            },
+            {
+                "name": "policy_desc_2",
+                "title": "Mô tả chính sách 2",
+                "type": "text",
+                "value": "Trên mọi công cụ"
+            },
+            {
+                "name": "policy_icon_3",
+                "title": "Hình ảnh cho chính sách 3",
+                "type": "text",
+                "value": "http://file.hstatic.net/1000234244/file/thanh_policy3.png"
+            },
+            {
+                "name": "policy_content_3",
+                "title": "Nội dung chính sách 2",
+                "type": "text",
+                "value": "Đổi trả miễn phí"
+            },
+            {
+                "name": "policy_desc_3",
+                "title": "Mô tả chính sách 3",
+                "type": "text",
+                "value": "Mọi lúc mọi nơi"
+            }
+        ],
+        "css": "@media (max-width: 1024) { #lp-policy .policy-item .policy-inner { padding: 10px 5px !important; min-height: 60px; } #lp-policy .policy-item .policy-inner .policy-info { margin-left: 5px !important; } #lp-policy .policy-item .policy-inner .policy-info h3, #lp-policy .policy-item .policy-inner .policy-info .h3 { margin: 0px !important; font-size: 10px !important; } #lp-policy .policy-item .policy-inner .policy-info span { font-size: 10px !important; }}#lp-policy { padding: 50px 0px; background: url({policy_bg});}#lp-policy .policy-item { margin-bottom: 10px;}#lp-policy .policy-item:nth-child(odd) .policy-inner { background: #add07e;}#lp-policy .policy-item .policy-inner { background: #86bfd2; padding: 15px; border-radius: 10px; color: #fff; display: flex; align-items: center; margin-bottom: 10px;}#lp-policy .policy-item .policy-inner .policy-info { margin-left: 10px;}#lp-policy .policy-item .policy-inner .policy-info h3, #lp-policy .policy-item .policy-inner .policy-info .h3 { margin-bottom: 5px;}#lp-policy .policy-item .policy-inner .policy-info h3, #lp-policy .policy-item .policy-inner .policy-info .h3 { font-size: 13px;}#lp-policy .policy-item .policy-inner .policy-info h3, #lp-policy .policy-item .policy-inner .policy-info .h3 { font-weight: 700;}#lp-policy .policy-item .policy-inner .policy-info h3, #lp-policy .policy-item .policy-inner .policy-info .h3 { text-transform: uppercase !important;}",
+        "html": " <!-- lp01-all-collections --> <section id='lp-policy'> <div class='wrapper'> <div class='inner'> <div class='grid'> <div class='grid__item large--four-twelfths'> <div class='policy-list'> <div class='policy-img'> <img src='{policy_icon_1}' alt=''> </div> <div class='policy-content'> <ul class='no-bullets'> <li class='policy-title'>{policy_content_1}</li> <li class='policy-address'>{policy_desc_1}</li> </ul> </div> </div> </div> <div class='grid__item large--four-twelfths'> <div class='policy-list'> <div class='policy-img'> <img src='{policy_icon_2}' alt=''> </div> <div class='policy-content'> <ul class='no-bullets'> <li class='policy-title'>{policy_content_2}</li> <li class='policy-address'>{policy_desc_2}</li> </ul> </div> </div> </div> <div class='grid__item large--four-twelfths'> <div class='policy-list'> <div class='policy-img'> <img src='{policy_icon_3}' alt=''> </div> <div class='policy-content'> <ul class='no-bullets'> <li class='policy-title'>{policy_content_3}</li> <li class='policy-address'>{policy_desc_3}</li> </ul> </div> </div> </div> </div> </div> </div> </section>",
+        "id": "lp_policy_01_th",
+        "image_demo": "http://file.hstatic.net/1000234244/file/thanh_demo_policy.png",
+        "type": "policy"
+      }
+    ],
+    "testimonial": [
+      {
+        "content": [
+          {
+              "name": "testi_bg",
+              "title": "Ảnh nền cho mục nhận xét",
+              "type": "text",
+              "value": "http://file.hstatic.net/1000234244/file/thanh_bg_testimonial.png"
+          },
+          {
+              "name": "testi_over",
+              "title": "Ảnh khung cho KH của mục nhận xét",
+              "type": "text",
+              "value": "http://file.hstatic.net/1000234244/file/thanh_bg_testimonial2.png"
+          },
+          {
+            "name": "review_1",
+            "title": "Anh Phạm Thế Lợi",
+            "type": "text",
+            "value": "Tôi rất hài lòng về sản phẩm của Suplo và cũng rất thích cách chăm sóc khách hàng nhiệt tình của các bạn. Những sản phẩm của các bạn làm tôi thấy tự tin vào chính mình hơn. Tuy nhiên các tôi rất muốn có thật nhiều mẫu mới, ra liên tục để người dùng như chúng tôi có nhiều sự lựa chọn hơn. Tôi sẽ ủng hộ công ty thường xuyên vào thời gian tới",
+            "loopName": "review",
+            "href": "http://file.hstatic.net/1000234244/file/thanh_avatar_1.png",
+            "display": true
+          },
+          {
+            "name": "review_2",
+            "title": "Chị Bùi Thị Minh Hà",
+            "type": "text",
+            "value": "Tôi rất hài lòng về sản phẩm của Suplo và cũng rất thích cách chăm sóc khách hàng nhiệt tình của các bạn. Những sản phẩm của các bạn làm tôi thấy tự tin vào chính mình hơn. Tuy nhiên các tôi rất muốn có thật nhiều mẫu mới, ra liên tục để người dùng như chúng tôi có nhiều sự lựa chọn hơn. Tôi sẽ ủng hộ công ty thường xuyên vào thời gian tới",
+            "loopName": "review",
+            "href": "http://file.hstatic.net/1000234244/file/thanh_avatar_2.png",
+            "display": true
+          },
+          {
+            "name": "review_3",
+            "title": "Anh Trần Thanh Tùng",
+            "type": "text",
+            "value": "Tôi rất hài lòng về sản phẩm của Suplo và cũng rất thích cách chăm sóc khách hàng nhiệt tình của các bạn. Những sản phẩm của các bạn làm tôi thấy tự tin vào chính mình hơn. Tuy nhiên các tôi rất muốn có thật nhiều mẫu mới, ra liên tục để người dùng như chúng tôi có nhiều sự lựa chọn hơn. Tôi sẽ ủng hộ công ty thường xuyên vào thời gian tới",
+            "loopName": "review",
+            "href": "http://file.hstatic.net/1000234244/file/thanh_avatar_3.png",
+            "display": true
+          },
+          {
+            "name": "review_4",
+            "title": "Chị Nguyễn Thị Thanh",
+            "type": "text",
+            "value": "Tôi rất hài lòng về sản phẩm của Suplo và cũng rất thích cách chăm sóc khách hàng nhiệt tình của các bạn. Những sản phẩm của các bạn làm tôi thấy tự tin vào chính mình hơn. Tuy nhiên các tôi rất muốn có thật nhiều mẫu mới, ra liên tục để người dùng như chúng tôi có nhiều sự lựa chọn hơn. Tôi sẽ ủng hộ công ty thường xuyên vào thời gian tới",
+            "loopName": "review",
+            "href": "http://file.hstatic.net/1000234244/file/thanh_avatar_1.png",
+            "display": true
+          },
+          {
+            "name": "review_5",
+            "title": "Anh Trần Quang Hiệp",
+            "type": "text",
+            "value": "Tôi rất hài lòng về sản phẩm của Suplo và cũng rất thích cách chăm sóc khách hàng nhiệt tình của các bạn. Những sản phẩm của các bạn làm tôi thấy tự tin vào chính mình hơn. Tuy nhiên các tôi rất muốn có thật nhiều mẫu mới, ra liên tục để người dùng như chúng tôi có nhiều sự lựa chọn hơn. Tôi sẽ ủng hộ công ty thường xuyên vào thời gian tới",
+            "loopName": "review",
+            "href": "http://file.hstatic.net/1000234244/file/thanh_avatar_2.png",
+            "display": true
+          }
+        ],
+        "loop": [
+          {
+            "name": "review",
+            "structure": "<div class='item'> <div class='testi-list'> <div class='testi-img'> <img src='{href}' alt='testi' /> </div> <div class='testi-content'> <ul class='no-bullets text-left'> <li class='testi-desc'>{value}</li> <li class='testi-title'><a href='#'>{title}</a></li> </ul> </div> </div> </div>",
+            "target": "{review}"
+          }
+        ],
+        "js": "$(document).ready(function() { $('.lp01-testi-prod-carousel').owlCarousel({ smartSpeed: 1000, nav: false, dots: true, loop: false, autoplay: true, autoplayHoverPause: true, responsiveRefreshRate : 200, items:4, navText: ['<i class='fa fa-angle-left' aria-hidden='true'></i>', '<i class='fa fa-angle-right' aria-hidden='true'></i>'], responsive:{ 0:{ items:1 }, 480:{ items:1 }, 768:{ items:1 }, 1000:{ items:1 } } }) } );",
+        "css": "@media (max-width: 768px) { #lp-testimonials .lp01-testi-prod-carousel{ background:none !important; } #lp-testimonials .lp01-testi-prod-carousel .testi-list{ display: block !important; }}#lp-testimonials{ position: relative; background-image: url('{testi_bg}'); background-repeat: no-repeat; background-size: cover; background-position: center; padding: 30px 0;}#lp-testimonials .lp01-testi-prod-carousel{ background: url('{testi_over}') no-repeat scroll left center; padding: 85px;}#lp-testimonials .lp01-testi-prod-carousel .item .testi-list{ -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; display: inline-flex; /* padding: 70px 0; */}#lp-testimonials .lp01-testi-prod-carousel .item .testi-list:hover .testi-title a{ color: #FF8617;}#lp-testimonials .lp01-testi-prod-carousel .item .testi-list .testi-img{ padding-top: 40px; width: 100%; margin: 0 auto; /* margin-bottom: 10px; */ -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; transition: all 0.6s ease; margin-right: 20px;}#lp-testimonials .lp01-testi-prod-carousel .item .testi-list .testi-img img{ width:100%;}#lp-testimonials .lp01-testi-prod-carousel .item .testi-list .testi-content{ padding-top: 43px;}#lp-testimonials .lp01-testi-prod-carousel .item .testi-list .testi-content .testi-title{ font-weight: bold; font-size: 18px;}#lp-testimonials .lp01-testi-prod-carousel .item .testi-list .testi-content .testi-title a{ -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; color: #015c69;}#lp-testimonials .lp01-testi-prod-carousel .item .testi-list .testi-content .testi-title a:hover{ color:#FF8617;}#lp-testimonials .lp01-testi-prod-carousel .item .testi-list .testi-content .testi-desc{ text-align: justify; line-height: 1.6em; letter-spacing: 1px;}#lp-testimonials .owl-nav .owl-prev,.owl-next span{ color:#fff; font-size:30px; font-weight:700; line-height: 38px;}#lp-testimonials .owl-nav .owl-prev{ height: 40px; line-height: 40px; width: 40px; padding: 0; margin: 0; background: #FF8617; color: #fff; opacity: 0.6; position: absolute; top: calc(50% - 20px); border-radius: 0; left:16px;}#lp-testimonials .owl-nav .owl-next{ height: 40px; line-height: 40px; width: 40px; padding: 0; margin: 0; background: #FF8617; color: #fff; opacity: 0.6; position: absolute; top: calc(50% - 20px); border-radius: 0; right:-14px;}",
+        "id": "lp_testimonials_01_th",
+        "image_demo": "",
+        "html": "  <section id='lp-testimonials'> <div class='wrapper'> <div class='inner'> <div class='grid'> <div class='grid__item large--nine-twelfths medium--one-whole small--one-whole'> <div class='lp01-testi-prod-carousel owl-carousel owl-theme'> <div class='item'> <div class='testi-list'> <div class='testi-img'> <img src='{href}' alt='testi' /> </div> <div class='testi-content'> <ul class='no-bullets text-left'> <li class='testi-desc'>{value}</li> <li class='testi-title'><a href='#'>{title}</a></li> </ul> </div> </div> </div> </div> </div> </div> </div> </div> </section>",
+        "type": "testimonial"
+      }
+    ],
+    "footer": [
+      {
+        "content": [
+          {
+            "name": "footer_title",
+            "title": "Nội dung tiêu đề footer",
+            "type": "text",
+            "value": "Đăng ký nhận tin"
+          },
+          {
+            "name": "footer_desc",
+            "title": "Nội dung mô tả footer",
+            "type": "text",
+            "value": "Hãy nhập địa chỉ email của bạn vào ô dưới đây để có thể nhận được tất cả các tin tức mới nhất của Suplo."
+          },
+          {
+            "name": "footer_copyright",
+            "title": "Nội dung copyright",
+            "type": "text",
+            "value": "Copyrights © 2018 by <a target='_blank' href='http://suplo.vn'>Suplo</a>. <a target='_blank' href='https://www.haravan.com'>Powered by Haravan</a>"
+          },
+          {
+            "name": "facebook_link",
+            "title": "Link facebook",
+            "type": "text",
+            "href": "https://facebook.com",
+            "class": "fa fa-facebook",
+            "loopName": "social",
+            "display": true
+          },
+          {
+            "name": "twitter_link",
+            "title": "Link twitter",
+            "type": "text",
+            "href": "https://twitter.com",
+            "class": "fa fa-twitter",
+            "loopName": "social",
+            "display": true
+          },
+          {
+            "name": "instagram_link",
+            "title": "Link instagram",
+            "type": "text",
+            "href": "https://twitter.com",
+            "class": "fa fa-instagram",
+            "loopName": "social",
+            "display": true
+          },
+          {
+            "name": "youtube_link",
+            "title": "Link youtube",
+            "type": "text",
+            "href": "https://twitter.com",
+            "class": "fa fa-youtube-play",
+            "loopName": "social",
+            "display": true
+          },
+          {
+            "name": "google_link",
+            "title": "Link google plus",
+            "type": "text",
+            "href": "https://plus.google.com/",
+            "class": "fa fa-google-plus",
+            "loopName": "social",
+            "display": true
+          }
+        ],
+        "loop": [
+          {
+            "name": "social",
+            "structure": "<li><a href='{href}'><i class='{class}' aria-hidden='true'></i></a></li>",
+            "target": "{social}"
+          }
+        ],
+        "css": "/*footer*/#lp-footer{ line-height: 25px; background: #222522;}#lp-footer .copyright{ color: #fff; background: #000; padding: 10px 0;}#lp-footer .content-footer{ padding: 30px 0; position: relative; z-index: 99; color: #fff; width: 500px; margin: 0 auto; text-align: center;}#lp-footer .content-footer a{ color: #fff; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-footer .content-footer a:hover{ color:#998b4c;}#lp-footer h3{ font-weight: bold !important; color: #fff; text-transform: uppercase; font-size: 18px; letter-spacing: 1px;}#lp-footer ul li a{ -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; color: #fff;}#lp-footer ul li a:hover{ color:#998b4c;}#lp-footer .ft-social{ display: inline-flex;}#lp-footer .ft-social li{ padding:0 10px;}#lp-footer .ft-social li i{ font-size: 20px; color: #fff; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-footer .ft-social li i:hover{ color:#998b4c;}#lp-footer span{ font-weight: bold; color: #fff;}#lp-footer form { margin-bottom: 20px;}#lp-footer form input { width: 100%; height: 38px; line-height: 40px; padding: 0px 15px; outline: 0px; border: 0px; background: #fff; color: #fff; font-size: 14px; letter-spacing: 0.25px;}#lp-footer form .input-group-field{ height: 38px !important;}#lp-footer form button { padding: 0px 30px; height: 38px; line-height: 40px; outline: 0px; border: 0px; color: #fff; background: #998b4c; font-size: 18px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}#lp-footer form button:hover { background: #998b4c;}",
+        "html": " <footer id='lp-footer'> <div class='wrapper'> <div class='inner'> <div class='content-footer'> <h3>{footer_title}</h3> <p>{footer_desc}</p> <form action='' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' target='_blank' class='input-group'> <input type='email' value='' placeholder='Email của bạn' name='EMAIL' id='mail' class='input-group-field' aria-label=''> <span class='input-group-btn'> <button type='submit' name='subscribe' id='subscribe' value=''><i class='fa fa-paper-plane' aria-hidden='true'></i></button> </span> </form> <ul class='no-bullets ft-social'> {social} </ul> </div> </div> </div> <div class='copyright text-center'>{footer_copyright}</div> </footer>",
+        "id": "lp_footer_01_th",
+        "image_demo": "http://file.hstatic.net/1000234244/file/thanh_demo_footer_ccf2df6d30264b74be675ebfc426d413.png",
+        "type": "footer"
+      }
+    ],
+    "mainslider": [
+      {
+          "content": [
+              {
+                  "name": "lp_mainslider_img1",
+                  "description": "* Áp dụng từ 15/6 - 31/12/2018",
+                  "title": "Tặng voucher 200.000Đ",
+                  "type": "file",
+                  "value": "http://file.hstatic.net/1000234244/file/thanh_slider1.png",
+                  "loopName": "mainslider-img",
+                  "href": "/",
+                  "display": true
+              },
+              {
+                  "name": "lp_mainslider_img2",
+                  "description": "* Áp dụng từ 15/6 - 31/12/2018",
+                  "title": "Tặng voucher 200.000Đ",
+                  "type": "file",
+                  "value": "http://file.hstatic.net/1000234244/file/thanh_slider3.png",
+                  "href": "/",
+                  "loopName": "mainslider-img",
+                  "display": true
+              },
+              {
+                  "name": "lp_mainslider_img3",
+                  "description": "* Áp dụng từ 15/6 - 31/12/2018",
+                  "title": "Tặng voucher 200.000Đ",
+                  "type": "file",
+                  "value": "http://file.hstatic.net/1000234244/file/thanh_slider4.png",
+                  "href": "/",
+                  "loopName": "mainslider-img",
+                  "display": true
+              },
+              {
+                  "name": "lp_mainslider_img4",
+                  "description": "* Áp dụng từ 15/6 - 31/12/2018",
+                  "title": "Tặng voucher 200.000Đ",
+                  "type": "file",
+                  "value": "http://file.hstatic.net/1000234244/file/thanh_slider1.png",
+                  "href": "/",
+                  "loopName": "mainslider-img",
+                  "display": false
+              },
+              {
+                  "name": "lp_mainslider_img5",
+                  "description": "* Áp dụng từ 15/6 - 31/12/2018",
+                  "title": "Tặng voucher 200.000Đ",
+                  "type": "file",
+                  "value": "http://file.hstatic.net/1000234244/file/thanh_slider1.png",
+                  "href": "/",
+                  "loopName": "mainslider-img",
+                  "display": false
+              }
+          ],
+          "loop": [
+              {
+                  "name": "mainslider-img",
+                  "structure": "<div class='item'> <a href='{href}'> <img src='{value}' alt='' /> </a> <div class='wrapper'> <div class='inner'> <div class='slider-content'> <div class='txt1'>{title}</div> <div class='txt3'>{description}</div> <div class='slider-btn'><a href='{href}'>Click nhận ưu đãi</a></div> </div> </div> </div> </div>",
+                  "target": "{mainslider-img}"
+              }
+          ],
+          "css": "@media (max-width: 768px) { #lp-main-slider{ margin-bottom: 30px !important; } #custom1 .owl-dots{ bottom:0px !important; } #lp-main-slider .slider-content{ top: 15% !important; line-height: 24px !important; left:10% !important; width:255px !important;}#lp-main-slider .txt1{ padding-bottom: 0px !important; font-size: 18px !important; padding-left: 0px !important; letter-spacing: 3px !important; line-height: 25px !important;}#lp-main-slider .txt1 strong{ font-size: 20px !important;}#lp-main-slider .txt1 span{ font-size: 16px !important;}#lp-main-slider .txt2{ font-size: 18px !important; line-height: 20px !important; margin-bottom: 10px !important;}#lp-main-slider .slider-btn{ margin-top: 0px;}#lp-main-slider .slider-btn a{ padding: 3px 8px !important;}}#lp-main-slider{ margin-bottom: 40px; position: relative; top: 0; left: 0; right: 0; bottom: 0; z-index: 9;}#lp-main-slider #custom1 img{ width: 100%;}#lp-main-slider #custom1 .owl-dots{ position: absolute; bottom: 10px; margin: 0 auto; width: 100%;}#lp-main-slider #custom1 .owl-dots .owl-dot{ margin-bottom: 15px;}#lp-main-slider #custom1 .owl-dots .owl-dot span{ background: rgba(#F09AA4, 0.7);}#lp-main-slider #custom1 .owl-dots .active span{ background: #F09AA4; width: 9px; height: 9px; margin: 5px 7px; display: block;}#lp-main-slider .slider-content{ position: absolute; top: 20%; color: #fff; font-weight: 400; left: 40%; width: 520px; text-align: center;}#lp-main-slider .slider-content .txt1{ text-transform: capitalize; font-size: 65px; padding-bottom: 5px; color: #F09AA4; font-weight: bold; line-height: 110px; letter-spacing: 10px; /* font-family: 'Open Sans', sans-serif; */ font-family: 'SVN-FreshScript';}#lp-main-slider .slider-content .txt2{ font-size: 35px; line-height: 55px; /* font-weight: bold; */ color: #868686; margin-bottom: 40px; font-family: 'Arsenal', sans-serif; letter-spacing: 0.5px;}#lp-main-slider .slider-content .slider-btn{ text-transform: uppercase;}#lp-main-slider .slider-content .slider-btn a{ color: #ffffff; padding: 10px 25px; border-radius: 25px; background: #f09aa4; font-size: 16px; letter-spacing: 1.5px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; border:solid 2px #f09aa4;}#lp-main-slider .slider-content .slider-btn a:hover{ color:#484848; background: none; border:solid 2px #f09aa4;}",
+          "html": " <section id='lp-main-slider'> <div id='custom1' class='main-slider fadeOut owl-carousel owl-theme'> {mainslider-img} </div> </section>",
+          "js": "(function () { $('#custom1').owlCarousel({ dragEndSpeed: 1000, navSpeed: 1000, dotsSpeed: 1000, loop: true, margin: 0, callbacks:true, URLhashListener: true, startPosition: 'URLHash', nav: false, dots: true, responsiveClass: true, responsive: { 0: {items: 1, }, 480: { items: 1, }, 768: { items: 1 }, 900: { items: 1 }, 1000: { items: 1 } } }); })();",
+          "id": "lp_main_slider_01_th",
+          "image_demo": "http://file.hstatic.net/1000234244/file/thanh_demo_main_slider.png",
+          "type": "mainslider"
+      }
+  ]
+  }
