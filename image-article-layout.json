@@ -1,0 +1,64 @@
+{
+    "list_layout": [
+        {
+            "name": "company_layout_04_thanh",
+            "id": "company_layout_04_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/company_demo.png",
+            "primary_color": ""
+        },
+        {
+            "name": "fashion_layout_06_thanh",
+            "id": "fashion_layout_06_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/fashion6_demo.png",
+            "primary_color": ""
+        },
+        {
+            "name": "wedding_layout_05_thanh",
+            "id": "wedding_layout_05_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/wedding5_demo.png",
+            "primary_color": ""
+        },
+        {
+            "name": "wedding_layout_03_thanh",
+            "id": "wedding_layout_03_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/wedding3_demo.png",
+            "primary_color": ""
+        },
+        {
+            "name": "holiday_layout_02_thanh",
+            "id": "holiday_layout_02_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/holiday_demo.png",
+            "primary_color": ""
+        },
+        {
+            "name": "food_layout_01_thanh",
+            "id": "food_layout_01_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/food_demo.png",
+            "primary_color": ""
+        },
+        {
+            "name": "bicycle_layout_07_thanh",
+            "id": "bicycle_layout_07_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/bicycle_demo.png",
+            "primary_color": ""
+        },
+        {
+            "name": "organic_layout_08_thanh",
+            "id": "organic_layout_08_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/organic_demo.png",
+            "primary_color": ""
+        },
+        {
+            "name": "fashion_layout_9_thanh",
+            "id": "fashion_layout_9_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/fashion9_demo.png",
+            "primary_color": ""
+        },
+        {
+            "name": "fashion_layout_10_thanh",
+            "id": "fashion_layout_10_thanh",
+            "image": "http://file.hstatic.net/1000234244/file/fashion10_demo.png",
+            "primary_color": ""
+        }
+    ]
+}
