@@ -2643,112 +2643,80 @@ input[type="search"]::-webkit-search-decoration {
   border: 0;
 }
 
-/*============================================================================
-  #Typography
-==============================================================================*/
-/* line 777, ../../sass/partials/timber.scss */
-body,
-input,
-textarea,
-button,
-select {
-  font-size: 14px;
-  line-height: 1.6;
-  font-family: "OpenSans", Helvetica, Arial, sans-serif;
-  color: #000;
-  font-weight: 300;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-}
-
-/* line 791, ../../sass/partials/timber.scss */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  display: block;
-  font-family: "OpenSans", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  margin: 0 0 0.5em;
-  line-height: 1.4;
-}
-/* line 798, ../../sass/partials/timber.scss */
-h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a {
-  text-decoration: none;
-  font-weight: inherit;
-}
-
 /*================ Use em() Sass function to declare font-size ================*/
-/* line 805, ../../sass/partials/timber.scss */
+/* line 775, ../../sass/partials/timber.scss */
 h1, .h1 {
   font-size: 2.57143em;
 }
 
-/* line 809, ../../sass/partials/timber.scss */
+/* line 779, ../../sass/partials/timber.scss */
 h2, .h2 {
   font-size: 2em;
 }
 
-/* line 813, ../../sass/partials/timber.scss */
+/* line 783, ../../sass/partials/timber.scss */
 h3, .h3 {
   font-size: 1.57143em;
 }
 
-/* line 817, ../../sass/partials/timber.scss */
+/* line 787, ../../sass/partials/timber.scss */
 h4, .h4 {
   font-size: 1.42857em;
 }
 
-/* line 821, ../../sass/partials/timber.scss */
+/* line 791, ../../sass/partials/timber.scss */
 h5, .h5 {
   font-size: 1.14286em;
 }
 
-/* line 825, ../../sass/partials/timber.scss */
+/* line 795, ../../sass/partials/timber.scss */
 h6, .h6 {
   font-size: 1em;
 }
 
-/* line 837, ../../sass/partials/timber.scss */
+/* line 807, ../../sass/partials/timber.scss */
 p {
   margin: 0 0 15px 0;
 }
-/* line 840, ../../sass/partials/timber.scss */
+/* line 810, ../../sass/partials/timber.scss */
 p img {
   margin: 0;
 }
 
-/* line 845, ../../sass/partials/timber.scss */
+/* line 815, ../../sass/partials/timber.scss */
 em {
   font-style: italic;
 }
 
-/* line 849, ../../sass/partials/timber.scss */
+/* line 819, ../../sass/partials/timber.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 853, ../../sass/partials/timber.scss */
+/* line 823, ../../sass/partials/timber.scss */
 small {
   font-size: 0.9em;
 }
 
-/* line 857, ../../sass/partials/timber.scss */
+/* line 827, ../../sass/partials/timber.scss */
 sup, sub {
   position: relative;
   font-size: 60%;
   vertical-align: baseline;
 }
 
-/* line 862, ../../sass/partials/timber.scss */
+/* line 832, ../../sass/partials/timber.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 866, ../../sass/partials/timber.scss */
+/* line 836, ../../sass/partials/timber.scss */
 sub {
   bottom: -0.5em;
 }
 
 /*================ Blockquotes ================*/
-/* line 871, ../../sass/partials/timber.scss */
+/* line 841, ../../sass/partials/timber.scss */
 blockquote {
   font-size: 1.125em;
   line-height: 1.45;
@@ -2757,26 +2725,26 @@ blockquote {
   padding: 15px 30px;
   border-left: 1px solid #111111;
 }
-/* line 879, ../../sass/partials/timber.scss */
+/* line 849, ../../sass/partials/timber.scss */
 blockquote p {
   margin-bottom: 0;
 }
-/* line 882, ../../sass/partials/timber.scss */
+/* line 852, ../../sass/partials/timber.scss */
 blockquote p + cite {
   margin-top: 15px;
 }
-/* line 887, ../../sass/partials/timber.scss */
+/* line 857, ../../sass/partials/timber.scss */
 blockquote cite {
   display: block;
   font-size: 0.75em;
 }
-/* line 891, ../../sass/partials/timber.scss */
+/* line 861, ../../sass/partials/timber.scss */
 blockquote cite:before {
   content: '\2014 \0020';
 }
 
 /*================ Code ================*/
-/* line 898, ../../sass/partials/timber.scss */
+/* line 868, ../../sass/partials/timber.scss */
 code, pre {
   background-color: #faf7f5;
   font-family: Consolas,monospace;
@@ -2786,7 +2754,7 @@ code, pre {
   color: #51ab62;
 }
 
-/* line 907, ../../sass/partials/timber.scss */
+/* line 877, ../../sass/partials/timber.scss */
 pre {
   overflow: auto;
   padding: 15px;
@@ -2794,7 +2762,7 @@ pre {
 }
 
 /*================ Horizontal Rules ================*/
-/* line 914, ../../sass/partials/timber.scss */
+/* line 884, ../../sass/partials/timber.scss */
 hr {
   clear: both;
   border-top: solid #111111;
@@ -2802,16 +2770,16 @@ hr {
   margin: 30px 0;
   height: 0;
 }
-/* line 921, ../../sass/partials/timber.scss */
+/* line 891, ../../sass/partials/timber.scss */
 hr.hr--small {
   margin: 15px 0;
 }
-/* line 925, ../../sass/partials/timber.scss */
+/* line 895, ../../sass/partials/timber.scss */
 hr.hr--clear {
   border-top-color: transparent;
 }
 
-/* line 930, ../../sass/partials/timber.scss */
+/* line 900, ../../sass/partials/timber.scss */
 .change-view {
   display: block;
   background: none;
@@ -2821,12 +2789,12 @@ hr.hr--clear {
   color: #111111;
   line-height: 1;
 }
-/* line 939, ../../sass/partials/timber.scss */
+/* line 909, ../../sass/partials/timber.scss */
 .change-view:hover, .change-view:focus {
   color: #222222;
 }
 
-/* line 945, ../../sass/partials/timber.scss */
+/* line 915, ../../sass/partials/timber.scss */
 .change-view--active {
   cursor: default;
   color: #222222;
@@ -2835,36 +2803,36 @@ hr.hr--clear {
 /*============================================================================
   #Rich Text Editor
 ==============================================================================*/
-/* line 953, ../../sass/partials/timber.scss */
+/* line 923, ../../sass/partials/timber.scss */
 .rte {
   margin-bottom: 15px;
 }
-/* line 956, ../../sass/partials/timber.scss */
+/* line 926, ../../sass/partials/timber.scss */
 .rte a {
   text-decoration: underline;
 }
-/* line 961, ../../sass/partials/timber.scss */
+/* line 931, ../../sass/partials/timber.scss */
 .rte h1, .rte .h1, .rte h2, .rte .h2, .rte h3, .rte .h3, .rte h4, .rte .h4, .rte h5, .rte .h5, .rte h6, .rte .h6 {
   margin-top: 2em;
 }
-/* line 964, ../../sass/partials/timber.scss */
+/* line 934, ../../sass/partials/timber.scss */
 .rte h1:first-child, .rte .h1:first-child, .rte h2:first-child, .rte .h2:first-child, .rte h3:first-child, .rte .h3:first-child, .rte h4:first-child, .rte .h4:first-child, .rte h5:first-child, .rte .h5:first-child, .rte h6:first-child, .rte .h6:first-child {
   margin-top: 0;
 }
-/* line 968, ../../sass/partials/timber.scss */
+/* line 938, ../../sass/partials/timber.scss */
 .rte h1 a, .rte .h1 a, .rte h2 a, .rte .h2 a, .rte h3 a, .rte .h3 a, .rte h4 a, .rte .h4 a, .rte h5 a, .rte .h5 a, .rte h6 a, .rte .h6 a {
   text-decoration: none;
 }
-/* line 973, ../../sass/partials/timber.scss */
+/* line 943, ../../sass/partials/timber.scss */
 .rte > div {
   margin-bottom: 15px;
 }
-/* line 977, ../../sass/partials/timber.scss */
+/* line 947, ../../sass/partials/timber.scss */
 .rte li {
   margin-bottom: 0.4em;
 }
 
-/* line 982, ../../sass/partials/timber.scss */
+/* line 952, ../../sass/partials/timber.scss */
 .rte--header {
   margin-bottom: 0;
 }
@@ -2872,7 +2840,7 @@ hr.hr--clear {
 /*============================================================================
   #Links and Buttons
 ==============================================================================*/
-/* line 989, ../../sass/partials/timber.scss */
+/* line 959, ../../sass/partials/timber.scss */
 a,
 .text-link {
   color: #222222;
@@ -2880,24 +2848,24 @@ a,
   background: transparent;
 }
 
-/* line 996, ../../sass/partials/timber.scss */
+/* line 966, ../../sass/partials/timber.scss */
 a:hover,
 a:focus {
   color: #484848;
 }
 
-/* line 1001, ../../sass/partials/timber.scss */
+/* line 971, ../../sass/partials/timber.scss */
 button {
   overflow: visible;
 }
 
-/* line 1005, ../../sass/partials/timber.scss */
+/* line 975, ../../sass/partials/timber.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 1010, ../../sass/partials/timber.scss */
+/* line 980, ../../sass/partials/timber.scss */
 .btn,
 .rte .btn {
   display: inline-block;
@@ -2923,20 +2891,20 @@ html input[disabled] {
   background-color: #222222;
   color: #fff;
 }
-/* line 1033, ../../sass/partials/timber.scss */
+/* line 1003, ../../sass/partials/timber.scss */
 .btn:hover,
 .rte .btn:hover {
   background-color: #090909;
   color: #fff;
 }
-/* line 1038, ../../sass/partials/timber.scss */
+/* line 1008, ../../sass/partials/timber.scss */
 .btn:active, .btn:focus,
 .rte .btn:active,
 .rte .btn:focus {
   background-color: black;
   color: #fff;
 }
-/* line 1044, ../../sass/partials/timber.scss */
+/* line 1014, ../../sass/partials/timber.scss */
 .btn[disabled], .btn.disabled,
 .rte .btn[disabled],
 .rte .btn.disabled {
@@ -2946,7 +2914,7 @@ html input[disabled] {
 }
 
 /*================ Force an input/button to look like a text link ================*/
-/* line 1052, ../../sass/partials/timber.scss */
+/* line 1022, ../../sass/partials/timber.scss */
 .text-link {
   display: inline;
   border: 0 none;
@@ -2958,54 +2926,54 @@ html input[disabled] {
 /*============================================================================
   #Lists
 ==============================================================================*/
-/* line 1063, ../../sass/partials/timber.scss */
+/* line 1033, ../../sass/partials/timber.scss */
 ul, ol {
   margin: 0 0 15px 20px;
   padding: 0;
 }
 
-/* line 1068, ../../sass/partials/timber.scss */
+/* line 1038, ../../sass/partials/timber.scss */
 ol {
   list-style: decimal;
 }
 
-/* line 1069, ../../sass/partials/timber.scss */
+/* line 1039, ../../sass/partials/timber.scss */
 ul ul, ul ol,
 ol ol, ol ul {
   margin: 4px 0 5px 20px;
 }
 
-/* line 1071, ../../sass/partials/timber.scss */
+/* line 1041, ../../sass/partials/timber.scss */
 li {
   margin-bottom: 0.25em;
 }
 
-/* line 1073, ../../sass/partials/timber.scss */
+/* line 1043, ../../sass/partials/timber.scss */
 ul.square {
   list-style: square outside;
 }
 
-/* line 1074, ../../sass/partials/timber.scss */
+/* line 1044, ../../sass/partials/timber.scss */
 ul.disc {
   list-style: disc outside;
 }
 
-/* line 1075, ../../sass/partials/timber.scss */
+/* line 1045, ../../sass/partials/timber.scss */
 ol.alpha {
   list-style: lower-alpha outside;
 }
 
-/* line 1077, ../../sass/partials/timber.scss */
+/* line 1047, ../../sass/partials/timber.scss */
 .no-bullets {
   list-style: none outside;
   margin-left: 0;
 }
 
-/* line 1082, ../../sass/partials/timber.scss */
+/* line 1052, ../../sass/partials/timber.scss */
 .inline-list {
   margin-left: 0;
 }
-/* line 1085, ../../sass/partials/timber.scss */
+/* line 1055, ../../sass/partials/timber.scss */
 .inline-list li {
   display: inline-block;
   margin-bottom: 0;
@@ -3014,32 +2982,32 @@ ol.alpha {
 /*============================================================================
   #Tables
 ==============================================================================*/
-/* line 1094, ../../sass/partials/timber.scss */
+/* line 1064, ../../sass/partials/timber.scss */
 table {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 1100, ../../sass/partials/timber.scss */
+/* line 1070, ../../sass/partials/timber.scss */
 table.full {
   width: 100%;
   margin-bottom: 1em;
 }
 
-/* line 1105, ../../sass/partials/timber.scss */
+/* line 1075, ../../sass/partials/timber.scss */
 .table-wrap {
   max-width: 100%;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 1111, ../../sass/partials/timber.scss */
+/* line 1081, ../../sass/partials/timber.scss */
 th {
   font-weight: bold;
 }
 
-/* line 1115, ../../sass/partials/timber.scss */
+/* line 1085, ../../sass/partials/timber.scss */
 th, td {
   text-align: left;
   padding: 15px;
@@ -3051,29 +3019,29 @@ th, td {
   Only defined for IE9+
 ==============================================================================*/
 @media screen and (max-width: 480px) {
-  /* line 1127, ../../sass/partials/timber.scss */
+  /* line 1097, ../../sass/partials/timber.scss */
   .table--responsive thead {
     display: none;
   }
-  /* line 1131, ../../sass/partials/timber.scss */
+  /* line 1101, ../../sass/partials/timber.scss */
   .table--responsive tr {
     display: block;
   }
-  /* line 1136, ../../sass/partials/timber.scss */
+  /* line 1106, ../../sass/partials/timber.scss */
   .table--responsive tr,
   .table--responsive td {
     float: left;
     clear: both;
     width: 100%;
   }
-  /* line 1143, ../../sass/partials/timber.scss */
+  /* line 1113, ../../sass/partials/timber.scss */
   .table--responsive th,
   .table--responsive td {
     display: block;
     text-align: right;
     padding: 15px;
   }
-  /* line 1150, ../../sass/partials/timber.scss */
+  /* line 1120, ../../sass/partials/timber.scss */
   .table--responsive td:before {
     content: attr(data-label);
     float: left;
@@ -3081,29 +3049,29 @@ th, td {
     font-size: 12px;
     padding-right: 10px;
   }
-  /* line 1159, ../../sass/partials/timber.scss */
+  /* line 1129, ../../sass/partials/timber.scss */
   .table--responsive.cart-table img {
     margin: 0 auto;
   }
-  /* line 1163, ../../sass/partials/timber.scss */
+  /* line 1133, ../../sass/partials/timber.scss */
   .table--responsive.cart-table .js-qty {
     float: right;
   }
 }
 
 @media screen and (max-width: 480px) {
-  /* line 1171, ../../sass/partials/timber.scss */
+  /* line 1141, ../../sass/partials/timber.scss */
   .table--small-hide {
     display: none !important;
   }
 
-  /* line 1175, ../../sass/partials/timber.scss */
+  /* line 1145, ../../sass/partials/timber.scss */
   .table__section + .table__section {
     position: relative;
     margin-top: 10px;
     padding-top: 15px;
   }
-  /* line 1180, ../../sass/partials/timber.scss */
+  /* line 1150, ../../sass/partials/timber.scss */
   .table__section + .table__section:after {
     content: '';
     display: block;
@@ -3118,7 +3086,7 @@ th, td {
   #OOCSS Media Object
     - http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
 ==============================================================================*/
-/* line 1197, ../../sass/partials/timber.scss */
+/* line 1167, ../../sass/partials/timber.scss */
 .media,
 .media-flex {
   overflow: hidden;
@@ -3126,19 +3094,19 @@ th, td {
   zoom: 1;
 }
 
-/* line 1204, ../../sass/partials/timber.scss */
+/* line 1174, ../../sass/partials/timber.scss */
 .media-img {
   float: left;
   margin-right: 30px;
 }
 
-/* line 1209, ../../sass/partials/timber.scss */
+/* line 1179, ../../sass/partials/timber.scss */
 .media-img-right {
   float: right;
   margin-left: 30px;
 }
 
-/* line 1214, ../../sass/partials/timber.scss */
+/* line 1184, ../../sass/partials/timber.scss */
 .media-img img,
 .media-img-right img {
   display: block;
@@ -3147,17 +3115,17 @@ th, td {
 /*============================================================================
   #Images and Iframes
 ==============================================================================*/
-/* line 1223, ../../sass/partials/timber.scss */
+/* line 1193, ../../sass/partials/timber.scss */
 img {
   border: 0 none;
 }
 
-/* line 1227, ../../sass/partials/timber.scss */
+/* line 1197, ../../sass/partials/timber.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 1231, ../../sass/partials/timber.scss */
+/* line 1201, ../../sass/partials/timber.scss */
 img,
 iframe {
   max-width: 100%;
@@ -3166,25 +3134,25 @@ iframe {
 /*============================================================================
   #Forms
 ==============================================================================*/
-/* line 1239, ../../sass/partials/timber.scss */
+/* line 1209, ../../sass/partials/timber.scss */
 form {
   margin-bottom: 0;
 }
 
-/* line 1243, ../../sass/partials/timber.scss */
+/* line 1213, ../../sass/partials/timber.scss */
 .form-vertical {
   margin-bottom: 15px;
 }
 
 /*================ Prevent zoom on touch devices in active inputs ================*/
 @media screen and (max-width: 768px) {
-  /* line 1249, ../../sass/partials/timber.scss */
+  /* line 1219, ../../sass/partials/timber.scss */
   input,
   textarea {
     font-size: 16px;
   }
 }
-/* line 1255, ../../sass/partials/timber.scss */
+/* line 1225, ../../sass/partials/timber.scss */
 input,
 textarea,
 button,
@@ -3197,14 +3165,14 @@ select {
   user-select: text;
 }
 
-/* line 1264, ../../sass/partials/timber.scss */
+/* line 1234, ../../sass/partials/timber.scss */
 button {
   background: none;
   border: none;
   cursor: pointer;
 }
 
-/* line 1270, ../../sass/partials/timber.scss */
+/* line 1240, ../../sass/partials/timber.scss */
 button,
 input,
 textarea {
@@ -3212,7 +3180,7 @@ textarea {
   -moz-appearance: none;
 }
 
-/* line 1277, ../../sass/partials/timber.scss */
+/* line 1247, ../../sass/partials/timber.scss */
 button {
   background: none;
   border: none;
@@ -3220,31 +3188,31 @@ button {
   cursor: pointer;
 }
 
-/* line 1284, ../../sass/partials/timber.scss */
+/* line 1254, ../../sass/partials/timber.scss */
 input[type="image"] {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 1289, ../../sass/partials/timber.scss */
+/* line 1259, ../../sass/partials/timber.scss */
 fieldset {
   border: 1px solid #111111;
   padding: 15px;
 }
 
-/* line 1294, ../../sass/partials/timber.scss */
+/* line 1264, ../../sass/partials/timber.scss */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 1299, ../../sass/partials/timber.scss */
+/* line 1269, ../../sass/partials/timber.scss */
 button,
 input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 1304, ../../sass/partials/timber.scss */
+/* line 1274, ../../sass/partials/timber.scss */
 input,
 textarea,
 select {
@@ -3253,13 +3221,13 @@ select {
   padding: 8px 10px;
   border-radius: 3px;
 }
-/* line 1312, ../../sass/partials/timber.scss */
+/* line 1282, ../../sass/partials/timber.scss */
 input:focus,
 textarea:focus,
 select:focus {
   border: 1px solid black;
 }
-/* line 1316, ../../sass/partials/timber.scss */
+/* line 1286, ../../sass/partials/timber.scss */
 input[disabled], input.disabled,
 textarea[disabled],
 textarea.disabled,
@@ -3269,20 +3237,20 @@ select.disabled {
   background-color: #f6f6f6;
   border-color: #b6b6b6;
 }
-/* line 1323, ../../sass/partials/timber.scss */
+/* line 1293, ../../sass/partials/timber.scss */
 input.input-full,
 textarea.input-full,
 select.input-full {
   width: 100%;
 }
 
-/* line 1328, ../../sass/partials/timber.scss */
+/* line 1298, ../../sass/partials/timber.scss */
 textarea {
   min-height: 100px;
 }
 
 /*================ Input element overrides ================*/
-/* line 1333, ../../sass/partials/timber.scss */
+/* line 1303, ../../sass/partials/timber.scss */
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
@@ -3291,25 +3259,25 @@ input[type="radio"] {
   width: auto;
 }
 
-/* line 1341, ../../sass/partials/timber.scss */
+/* line 1311, ../../sass/partials/timber.scss */
 input[type="checkbox"] {
   -webkit-appearance: checkbox;
   -moz-appearance: checkbox;
 }
 
-/* line 1346, ../../sass/partials/timber.scss */
+/* line 1316, ../../sass/partials/timber.scss */
 input[type="radio"] {
   -webkit-appearance: radio;
   -moz-appearance: radio;
 }
 
-/* line 1351, ../../sass/partials/timber.scss */
+/* line 1321, ../../sass/partials/timber.scss */
 input[type="image"] {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 1356, ../../sass/partials/timber.scss */
+/* line 1326, ../../sass/partials/timber.scss */
 select {
   /*-webkit-appearance: none;
      -moz-appearance: none;
@@ -3324,30 +3292,30 @@ select {
   cursor: pointer;
   /*================ Hide the svg arrow in IE9 and below ================*/
 }
-/* line 1373, ../../sass/partials/timber.scss */
+/* line 1343, ../../sass/partials/timber.scss */
 .ie9 select, .lt-ie9 select {
   padding-right: 10px;
   background-image: none;
 }
 
-/* line 1380, ../../sass/partials/timber.scss */
+/* line 1350, ../../sass/partials/timber.scss */
 optgroup {
   font-weight: bold;
 }
 
-/* line 1385, ../../sass/partials/timber.scss */
+/* line 1355, ../../sass/partials/timber.scss */
 option {
   color: #000;
   background-color: #fff;
 }
 
-/* line 1390, ../../sass/partials/timber.scss */
+/* line 1360, ../../sass/partials/timber.scss */
 select::-ms-expand {
   display: none;
 }
 
 /*================ Form labels ================*/
-/* line 1395, ../../sass/partials/timber.scss */
+/* line 1365, ../../sass/partials/timber.scss */
 .hidden-label {
   position: absolute;
   height: 0;
@@ -3356,7 +3324,7 @@ select::-ms-expand {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 1404, ../../sass/partials/timber.scss */
+/* line 1374, ../../sass/partials/timber.scss */
 .ie9 .hidden-label, .lt-ie9 .hidden-label {
   position: static;
   height: auto;
@@ -3366,27 +3334,27 @@ select::-ms-expand {
   clip: initial;
 }
 
-/* line 1415, ../../sass/partials/timber.scss */
+/* line 1385, ../../sass/partials/timber.scss */
 label[for] {
   cursor: pointer;
 }
 
 /*================ Horizontal Form ================*/
-/* line 1421, ../../sass/partials/timber.scss */
+/* line 1391, ../../sass/partials/timber.scss */
 .form-vertical input,
 .form-vertical select,
 .form-vertical textarea {
   display: block;
   margin-bottom: 10px;
 }
-/* line 1428, ../../sass/partials/timber.scss */
+/* line 1398, ../../sass/partials/timber.scss */
 .form-vertical input[type="radio"],
 .form-vertical input[type="checkbox"] {
   display: inline-block;
 }
 
 /*================ Error styles ================*/
-/* line 1438, ../../sass/partials/timber.scss */
+/* line 1408, ../../sass/partials/timber.scss */
 input.error,
 select.error,
 textarea.error {
@@ -3395,19 +3363,19 @@ textarea.error {
   color: #d02e2e;
 }
 
-/* line 1445, ../../sass/partials/timber.scss */
+/* line 1415, ../../sass/partials/timber.scss */
 label.error {
   color: #d02e2e;
 }
 
 /*================ Input Group ================*/
-/* line 1451, ../../sass/partials/timber.scss */
+/* line 1421, ../../sass/partials/timber.scss */
 .input-group {
   position: relative;
   display: table;
   border-collapse: separate;
 }
-/* line 1456, ../../sass/partials/timber.scss */
+/* line 1426, ../../sass/partials/timber.scss */
 .input-group .input-group-field:first-child,
 .input-group .input-group-btn:first-child,
 .input-group .input-group-btn:first-child > .btn,
@@ -3415,12 +3383,12 @@ label.error {
 .input-group input[type="hidden"]:first-child + .input-group-btn > .btn {
   border-radius: 3px 0 0 3px;
 }
-/* line 1464, ../../sass/partials/timber.scss */
+/* line 1434, ../../sass/partials/timber.scss */
 .input-group .input-group-field:last-child,
 .input-group .input-group-btn:last-child > .btn {
   border-radius: 0 3px 3px 0;
 }
-/* line 1471, ../../sass/partials/timber.scss */
+/* line 1441, ../../sass/partials/timber.scss */
 .input-group input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -3428,7 +3396,7 @@ label.error {
   margin-bottom: -1px;
 }
 
-/* line 1480, ../../sass/partials/timber.scss */
+/* line 1450, ../../sass/partials/timber.scss */
 .input-group-field,
 .input-group-btn {
   display: table-cell;
@@ -3436,18 +3404,18 @@ label.error {
   margin: 0;
 }
 
-/* line 1487, ../../sass/partials/timber.scss */
+/* line 1457, ../../sass/partials/timber.scss */
 .input-group .btn,
 .input-group .input-group-field {
   height: 37px;
 }
 
-/* line 1492, ../../sass/partials/timber.scss */
+/* line 1462, ../../sass/partials/timber.scss */
 .input-group .input-group-field {
   width: 100%;
 }
 
-/* line 1496, ../../sass/partials/timber.scss */
+/* line 1466, ../../sass/partials/timber.scss */
 .input-group-btn {
   position: relative;
   white-space: nowrap;
@@ -3458,11 +3426,11 @@ label.error {
 /*============================================================================
   #Icons
 ==============================================================================*/
-/* line 1506, ../../sass/partials/timber.scss */
+/* line 1476, ../../sass/partials/timber.scss */
 .icon-fallback-text .icon {
   display: none;
 }
-/* line 1509, ../../sass/partials/timber.scss */
+/* line 1479, ../../sass/partials/timber.scss */
 .supports-fontface .icon-fallback-text .icon {
   display: inline-block;
 }
@@ -3471,12 +3439,12 @@ label.error {
   A generic way to visually hide content while
   remaining accessible to screen readers (h5bp.com)
 ==============================================================================*/
-/* line 1522, ../../sass/partials/timber.scss */
+/* line 1492, ../../sass/partials/timber.scss */
 .icon:before {
   display: none;
 }
 
-/* line 1526, ../../sass/partials/timber.scss */
+/* line 1496, ../../sass/partials/timber.scss */
 .supports-fontface .icon:before {
   display: inline;
   text-decoration: none;
@@ -3491,192 +3459,192 @@ label.error {
 }
 
 /*================ Icon mapping ================*/
-/* line 1541, ../../sass/partials/timber.scss */
+/* line 1511, ../../sass/partials/timber.scss */
 .icon-amazon_payments:before {
   content: "\e800";
 }
 
-/* line 1542, ../../sass/partials/timber.scss */
+/* line 1512, ../../sass/partials/timber.scss */
 .icon-american_express:before {
   content: "\41";
 }
 
-/* line 1543, ../../sass/partials/timber.scss */
+/* line 1513, ../../sass/partials/timber.scss */
 .icon-arrow-down:before {
   content: "\e607";
 }
 
-/* line 1544, ../../sass/partials/timber.scss */
+/* line 1514, ../../sass/partials/timber.scss */
 .icon-bitcoin:before {
   content: "\42";
 }
 
-/* line 1545, ../../sass/partials/timber.scss */
+/* line 1515, ../../sass/partials/timber.scss */
 .icon-cart:before {
   content: "\e600";
 }
 
-/* line 1546, ../../sass/partials/timber.scss */
+/* line 1516, ../../sass/partials/timber.scss */
 .icon-cirrus:before {
   content: "\43";
 }
 
-/* line 1547, ../../sass/partials/timber.scss */
+/* line 1517, ../../sass/partials/timber.scss */
 .icon-dankort:before {
   content: "\64";
 }
 
-/* line 1548, ../../sass/partials/timber.scss */
+/* line 1518, ../../sass/partials/timber.scss */
 .icon-diners_club:before {
   content: "\63";
 }
 
-/* line 1549, ../../sass/partials/timber.scss */
+/* line 1519, ../../sass/partials/timber.scss */
 .icon-discover:before {
   content: "\44";
 }
 
-/* line 1550, ../../sass/partials/timber.scss */
+/* line 1520, ../../sass/partials/timber.scss */
 .icon-dogecoin:before {
   content: "\e904";
 }
 
-/* line 1551, ../../sass/partials/timber.scss */
+/* line 1521, ../../sass/partials/timber.scss */
 .icon-dwolla:before {
   content: "\e905";
 }
 
-/* line 1552, ../../sass/partials/timber.scss */
+/* line 1522, ../../sass/partials/timber.scss */
 .icon-facebook:before {
   content: "\66";
 }
 
-/* line 1553, ../../sass/partials/timber.scss */
+/* line 1523, ../../sass/partials/timber.scss */
 .icon-fancy:before {
   content: "\46";
 }
 
-/* line 1554, ../../sass/partials/timber.scss */
+/* line 1524, ../../sass/partials/timber.scss */
 .icon-forbrugsforeningen:before {
   content: "\e906";
 }
 
-/* line 1555, ../../sass/partials/timber.scss */
+/* line 1525, ../../sass/partials/timber.scss */
 .icon-google-plus:before {
   content: "\e900";
 }
 
-/* line 1556, ../../sass/partials/timber.scss */
+/* line 1526, ../../sass/partials/timber.scss */
 .icon-grid-view:before {
   content: "\e603";
 }
 
-/* line 1557, ../../sass/partials/timber.scss */
+/* line 1527, ../../sass/partials/timber.scss */
 .icon-hamburger:before {
   content: "\e601";
 }
 
-/* line 1558, ../../sass/partials/timber.scss */
+/* line 1528, ../../sass/partials/timber.scss */
 .icon-instagram:before {
   content: "\e901";
 }
 
-/* line 1559, ../../sass/partials/timber.scss */
+/* line 1529, ../../sass/partials/timber.scss */
 .icon-interac:before {
   content: "\49";
 }
 
-/* line 1560, ../../sass/partials/timber.scss */
+/* line 1530, ../../sass/partials/timber.scss */
 .icon-jcb:before {
   content: "\4a";
 }
 
-/* line 1561, ../../sass/partials/timber.scss */
+/* line 1531, ../../sass/partials/timber.scss */
 .icon-list-view:before {
   content: "\e604";
 }
 
-/* line 1562, ../../sass/partials/timber.scss */
+/* line 1532, ../../sass/partials/timber.scss */
 .icon-litecoin:before {
   content: "\e908";
 }
 
-/* line 1563, ../../sass/partials/timber.scss */
+/* line 1533, ../../sass/partials/timber.scss */
 .icon-maestro:before {
   content: "\6d";
 }
 
-/* line 1564, ../../sass/partials/timber.scss */
+/* line 1534, ../../sass/partials/timber.scss */
 .icon-master:before {
   content: "\4d";
 }
 
-/* line 1565, ../../sass/partials/timber.scss */
+/* line 1535, ../../sass/partials/timber.scss */
 .icon-minus:before {
   content: "\e602";
 }
 
-/* line 1566, ../../sass/partials/timber.scss */
+/* line 1536, ../../sass/partials/timber.scss */
 .icon-paypal:before {
   content: "\50";
 }
 
-/* line 1567, ../../sass/partials/timber.scss */
+/* line 1537, ../../sass/partials/timber.scss */
 .icon-pinterest:before {
   content: "\70";
 }
 
-/* line 1568, ../../sass/partials/timber.scss */
+/* line 1538, ../../sass/partials/timber.scss */
 .icon-plus:before {
   content: "\e605";
 }
 
-/* line 1569, ../../sass/partials/timber.scss */
+/* line 1539, ../../sass/partials/timber.scss */
 .icon-rss:before {
   content: "\72";
 }
 
-/* line 1570, ../../sass/partials/timber.scss */
+/* line 1540, ../../sass/partials/timber.scss */
 .icon-search:before {
   content: "\73";
 }
 
-/* line 1571, ../../sass/partials/timber.scss */
+/* line 1541, ../../sass/partials/timber.scss */
 .icon-stripe:before {
   content: "\53";
 }
 
-/* line 1572, ../../sass/partials/timber.scss */
+/* line 1542, ../../sass/partials/timber.scss */
 .icon-tumblr:before {
   content: "\74";
 }
 
-/* line 1573, ../../sass/partials/timber.scss */
+/* line 1543, ../../sass/partials/timber.scss */
 .icon-twitter:before {
   content: "\54";
 }
 
-/* line 1574, ../../sass/partials/timber.scss */
+/* line 1544, ../../sass/partials/timber.scss */
 .icon-vimeo:before {
   content: "\76";
 }
 
-/* line 1575, ../../sass/partials/timber.scss */
+/* line 1545, ../../sass/partials/timber.scss */
 .icon-visa:before {
   content: "\56";
 }
 
-/* line 1576, ../../sass/partials/timber.scss */
+/* line 1546, ../../sass/partials/timber.scss */
 .icon-x:before {
   content: "\e606";
 }
 
-/* line 1577, ../../sass/partials/timber.scss */
+/* line 1547, ../../sass/partials/timber.scss */
 .icon-youtube:before {
   content: "\79";
 }
 
-/* line 1579, ../../sass/partials/timber.scss */
+/* line 1549, ../../sass/partials/timber.scss */
 .payment-icons {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3684,33 +3652,33 @@ label.error {
   user-select: none;
   cursor: default;
 }
-/* line 1583, ../../sass/partials/timber.scss */
+/* line 1553, ../../sass/partials/timber.scss */
 .payment-icons li {
   margin: 0 7.5px 7.5px;
   cursor: default;
 }
-/* line 1589, ../../sass/partials/timber.scss */
+/* line 1559, ../../sass/partials/timber.scss */
 .payment-icons .icon {
   font-size: 30px;
   line-height: 30px;
 }
-/* line 1594, ../../sass/partials/timber.scss */
+/* line 1564, ../../sass/partials/timber.scss */
 .payment-icons .fallback-text {
   text-transform: capitalize;
 }
 
-/* line 1599, ../../sass/partials/timber.scss */
+/* line 1569, ../../sass/partials/timber.scss */
 .social-icons li {
   margin: 0 15px 15px;
   vertical-align: middle;
 }
 @media screen and (min-width: 481px) {
-  /* line 1599, ../../sass/partials/timber.scss */
+  /* line 1569, ../../sass/partials/timber.scss */
   .social-icons li {
     margin-left: 0;
   }
 }
-/* line 1607, ../../sass/partials/timber.scss */
+/* line 1577, ../../sass/partials/timber.scss */
 .social-icons li .icon {
   font-size: 30px;
   line-height: 26px;
@@ -3719,27 +3687,27 @@ label.error {
 /*============================================================================
   #Pagination
 ==============================================================================*/
-/* line 1624, ../../sass/partials/timber.scss */
+/* line 1594, ../../sass/partials/timber.scss */
 .pagination {
   margin-bottom: 1em;
   text-align: center;
 }
-/* line 1628, ../../sass/partials/timber.scss */
+/* line 1598, ../../sass/partials/timber.scss */
 .pagination > span {
   display: inline-block;
   line-height: 1;
 }
-/* line 1633, ../../sass/partials/timber.scss */
+/* line 1603, ../../sass/partials/timber.scss */
 .pagination a {
   display: block;
 }
-/* line 1637, ../../sass/partials/timber.scss */
+/* line 1607, ../../sass/partials/timber.scss */
 .pagination a,
 .pagination .page.current {
   padding: 8px;
 }
 
-/* line 1643, ../../sass/partials/timber.scss */
+/* line 1613, ../../sass/partials/timber.scss */
 #PageContainer {
   overflow: hidden;
 }
