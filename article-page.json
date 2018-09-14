@@ -1330,5 +1330,1588 @@
                 }
             ]
         }
+    ],
+    "tour_layout_01_phuong": [
+        {
+            "type": "tour",
+            "name": "tour_layout_01_phuong-1",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layouttour1.jpg",
+            "color_bg": "#fff",
+            "color_text": "#000",
+            "html": "<div id='layout-tour-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <div class='grid'> <div class='grid__item large--one-half'> <div class='al-md1-content'> <div class='al-md1-title'> <h2>{layout_order} <span>{layout_title}</span></h2> </div> <div class='al-md1-desc'> {layout_content}</div> </div> </div> <div class='grid__item large--one-half '> <div class='al-md1-image'> <div class='grid mg-left-15'> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_1}' alt=''> </div> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_2}' alt=''> </div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-tour-1 { padding: 30px 0px;} #layout-tour-1 .inner{background:{color_bg};} #layout-tour-1 .al-md1 > .grid{ display: flex; align-items: center; } #layout-tour-1 .al-md1 .al-md1-image { transform: skewX(10deg); } #layout-tour-1 .al-md1 .al-md1-image img{width:100%;} #layout-tour-1 .al-md1 .al-md1-content { color: {color_text}; text-align: justify; } #layout-tour-1 .al-md1 .al-md1-content .al-md1-title h2{ font-weight: bold; font-size: 50px; display: flex; align-items: center; color:{primary_color}; } #layout-tour-1 .al-md1 .al-md1-content .al-md1-title h2 span{ font-size: 24px; position: relative; margin-left: 25px; border-bottom: 2px solid; } @media (max-width: 768px) { #layout-tour-1 .al-md1 > .grid{ display: block; } #layout-tour-1 .al-md1 .al-md1-image{ margin-top: 30px; transform: skew(0deg) !important; } #layout-tour-1 .al-md1 .al-md2-image{ margin-top: 30px; padding: 0px !important; transform: rotate(0deg) !important; } }",
+            "id": "tour_layout_01_phuong-1",
+            "content": [
+                {
+                    "name": "layout_order",
+                    "title": "Số thứ tự layout",
+                    "value": "01.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề Layout",
+                    "value": "Hồ nhật nguyệt",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung layout",
+                    "value": "Vào thu, hồ Nhật Nguyệt khoác lên mình vẻ đẹp rực rỡ làm xao xuyến bất kỳ ai đặt chân đến. Hồ nước có màu xanh thẫm và sẽ thay đổi vào mỗi thời khắc khác nhau trong ngày mang đến cho bạn sự ngạc nhiên thú vị. Đến đây, bạn đừng bỏ lỡ chuyến tham quan quanh hồ trên chiếc thuyền và cảm nhận tiết trời vào thu. Ngồi trên thuyền bạn sẽ thu vào tầm mắt non nước hữu tình. Những dãy núi được bao phủ bởi làn sương huyền ảo. Thấp thoáng phía xa là những ngôi đền kiến trúc Trung Hoa nổi bật trên nền trời xanh thẳm. Những hàng phong nghiêng mình bên hồ tựa như hàng liễu rủ rất đẹp, lá vàng, lá đỏ phản chiếu xuống mặt nước trong ánh hoàng hôn rực rỡ. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-1.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh 2 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-2.png",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "type": "tour",
+            "name": "tour_layout_01_phuong-2",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layouttour2.jpg",
+            "color_bg": "#fff",
+            "color_text": "#000",
+            "html": "<div id='layout-tour-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='grid'> <div class='grid__item large--one-half'> <div class='al-md2-image'> <div class='grid mg-left-15'> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_1}' alt=''> </div> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_2}' alt=''> </div> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_3}' alt='' class='mg-bottom0'> </div> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_4}' alt='' class='mg-bottom0'> </div></div> </div> </div> <div class='grid__item large--one-half'> <div class='al-md2-content'> <div class='al-md2-title'> <h2>{layout_order}<span> {layout_title}</span></h2> </div> <div class='al-md2-desc'>{layout_content}</div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-tour-1 .al-md2 > .grid{ display: flex; align-items: center; } #layout-tour-1 .al-md2 > .grid .al-md2-image{ transform: rotate(45deg); padding: 50px; } #layout-tour-1 .al-md2 > .grid .al-md2-image img{ margin-bottom: 15px; } #layout-tour-1 .al-md2 > .grid .al-md2-image img.mg-bottom0{ margin-bottom: 0px; } #layout-tour-1 .al-md2 > .grid .al-md2-content{ color: {color_text}; text-align: justify; } #layout-tour-1 .al-md2 > .grid .al-md2-content .al-md2-title h2{ font-weight: bold; font-size: 50px; display: flex; align-items: center; color: {primary_color}; } #layout-tour-1 .al-md2 > .grid .al-md2-content .al-md2-title h2 span{ font-size: 24px; position: relative; margin-left: 25px; border-bottom: 2px solid; } @media (max-width: 768px) { #layout-tour-1 .al-md2 > .grid{ display: block; } #layout-tour-1 .al-md2 .al-md1-image, #layout-tour-1 .al-md2 .al-md3-image{ margin-top: 30px; transform: skew(0deg) !important; } #layout-tour-1 .al-md2 .al-md2-image, #layout-tour-1 .al-md2 .al-md4-image{ margin-top: 30px; padding: 0px !important; transform: rotate(0deg) !important; } }",
+            "id": "tour_layout_01_phuong-2",
+            "content": [
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh 1",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-4.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh 2",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-5.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_3",
+                    "title": "Hình ảnh 3",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-6.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_4",
+                    "title": "Hình ảnh 4",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-5.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_order",
+                    "title": "Số thứ tự layout",
+                    "value": "02.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Công viên Dương Minh Sơn",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Mô tả layout",
+                    "value": " Sẽ thật thiếu sót nếu chiêm ngưỡng những cung đường mùa thu lãng mạn nhất xứ Đài mà bạn không ghé công viên Dương Minh Sơn để đắm mình trong hương thu thơm ngát. Nơi đó là cả một khoảng trời mênh mông của hoa cỏ, cây lá chuyển màu đẹp rực rỡ. Hãy tản bộ chầm chậm trên những con đường lát đá nép giữa hàng trăm loại hoa, hay trên những cây cầu gỗ mộc mạc thơm mùi hoa cỏ để cảm nhận mùa thu mang vẻ đẹp tự nhiên và phóng khoáng. Ngoài việc tận hưởng thiên nhiên, đừng quên ngâm mình trong dòng suối khoáng nóng tốt cho sức khỏe mang đến cảm giác thật dễ chịu để bạn cảm nhận một Dương Minh Sơn thật khác. ",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "type": "tour",
+            "name": "tour_layout_01_phuong-3",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layouttour3.jpg",
+            "color_bg": "#fff",
+            "color_text": "#000",
+            "html": "<div id='layout-tour-1'> <div class='wrapper'> <div class='inner'> <div class='al-md3'> <div class='grid'> <div class='grid__item large--one-half pull-right'> <div class='al-md3-content'> <div class='al-md3-title'> <h2>{layout_order} <span>{layout_title}</span></h2> </div> <div class='al-md3-desc'> {layout_content} </div> </div> </div> <div class='grid__item large--one-half'> <div class='al-md3-image'> <div class='grid mg-left-15'> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='images/tou1.png' alt=''> </div> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='images/tour2.png' alt=''> </div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-tour-1 .al-md3 > .grid{ display: flex; align-items: center; } #layout-tour-1 .al-md3 .al-md3-image { transform: skewX(-10deg); } #layout-tour-1 .al-md3 .al-md3-content { text-align: justify; color: {color_text}; } #layout-tour-1 .al-md3 .al-md3-content .al-md3-title h2{ font-weight: bold; font-size: 50px; display: flex; align-items: center; color: {primary_color}; } #layout-tour-1 .al-md3 .al-md3-content .al-md3-title h2 span{ font-size: 24px; position: relative; margin-left: 25px; border-bottom: 2px solid; } @media (max-width: 768px) { #layout-tour-1 .al-md3 > .grid{ display: block; } #layout-tour-1 .al-md3 .al-md1-image, #layout-tour-1 .al-md3 .al-md3-image { margin-top: 30px; transform: skew(0deg) !important; } #layout-tour-1 .al-md3 .al-md2-image, #layout-tour-1 .al-md3 .al-md4-image { margin-top: 30px; padding: 0px !important; transform: rotate(0deg) !important; } }",
+            "id": "tour_layout_01_phuong-3",
+            "content": [
+                {
+                    "name": "layout_order",
+                    "title": "Số thứ tự layout",
+                    "value": "03.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Núi A Lý",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Mô tả layout",
+                    "value": " Mùa thu thay áo mới cho dãy núi A Lý một sắc màu vàng, cam, đỏ rực rỡ, lá rụng rợp sườn núi, mang đến một khung cảnh vô cùng lãng mạn. Đây là điểm “check-in” yêu thích nhất của giới trẻ với bức hình bên rừng cây thay lá, những hàng cổ thụ trăm năm tuổi, đoàn tàu lửa cổ sơn màu đỏ tươi. Nếu may mắn, bạn sẽ ghi trọn vào ống kính khoảnh khắc ngọn núi bồng bềnh giữa biển mây khi bình minh ló rạng hay hoàng hôn buông xuống tuyệt đẹp. Đi sâu vào trong rừng là đầm Tỷ Muội nép mình giữa thiên nhiên hùng vĩ. Thu về, những hàng cây nghiêng mình soi bóng, lá vàng trôi lờ lững trên mặt hồ xanh biếc làm say lòng lữ khách.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh 1",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-1.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh 2",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-2.png",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "type": "tour",
+            "name": "tour_layout_01_phuong-4",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layouttour4.jpg",
+            "color_bg": "#fff",
+            "color_text": "#000",
+            "html": "<div id='layout-tour-1'> <div class='wrapper'> <div class='inner'> <div class='al-md4'> <div class='grid'> <div class='grid__item large--one-half'> <div class='al-md4-image'> <div class='grid mg-left-15'> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_1}' alt=''> </div> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_2}' alt=''> </div> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_3}' alt='' class='mg-bottom0'> </div> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_4}' alt='' class='mg-bottom0'> </div></div> </div> </div> <div class='grid__item large--one-half'> <div class='al-md4-content'> <div class='al-md4-title'> <h2>{layout_order} <span>{layout_title}</span></h2> </div> <div class='al-md4-desc'>{layout_content}</div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-tour-1 .al-md4 > .grid{ display: flex; align-items: center; } #layout-tour-1 .al-md4 > .grid .al-md4-image{ transform: rotate(45deg); padding: 50px; } #layout-tour-1 .al-md4 > .grid .al-md4-image img{ margin-bottom: 15px; } #layout-tour-1 .al-md4 > .grid .al-md4-image img.mg-bottom0{ margin-bottom: 0px; } #layout-tour-1 .al-md4 > .grid .al-md4-content{ text-align: justify; color: {color_text}; } #layout-tour-1 .al-md4 > .grid .al-md4-content .al-md4-title h2, { font-weight: bold; font-size: 50px; display: flex; align-items: center; color: {primary_color}; } #layout-tour-1 .al-md4 > .grid .al-md4-content .al-md4-title h2 span, { font-size: 24px; position: relative; margin-left: 25px; border-bottom: 2px solid; } @media (max-width: 768px) { #layout-tour-1 .al-md4 > .grid{ display: block; } #layout-tour-1 .al-md4 .al-md1-image, #layout-tour-1 .al-md4 .al-md3-image{ margin-top: 30px; transform: skew(0deg) !important; } #layout-tour-1 .al-md4 .al-md2-image, #layout-tour-1 .al-md4 .al-md4-image{ margin-top: 30px; padding: 0px !important; transform: rotate(0deg) !important; } }",
+            "id": "tour_layout_01_phuong-4",
+            "content": [
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh 1",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-4.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh 2",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-5.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_3",
+                    "title": "Hình ảnh 3",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-6.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_4",
+                    "title": "Hình ảnh 4",
+                    "value": "http://file.hstatic.net/1000234244/file/layout-tour-5.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_order",
+                    "title": "Số thứ tự layout",
+                    "value": "02.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Nông trường Thanh Cảnh",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Mô tả layout",
+                    "value": "  Không thua kém gì cảnh đẹp mùa thu ở các nước châu Âu, đến nông trường Thanh Cảnh bạn sẽ giật mình thảng thốt bởi nơi đây thiên nhiên đẹp đến nhường nào. Không khí mát lành, dạo quanh thảo nguyên rộng lớn với đồi cỏ xanh mướt trải đều thẳng tắp, bạn dễ dàng bắt gặp đàn cừu trắng chạy nhảy tung tăng bên cối xay gió. Những hàng phong khoác lên mình chiếc áo thu điệu đà, những thảm hoa rực rỡ nằm mơ màng dưới thung lũng, xung quanh là những triền núi nhấp nhô. Ngồi nhâm nhi tách trà nóng bên khung cửa sổ hay đi dạo chầm chậm trên những con đường lát đá, bạn sẽ thấy một Thanh Cảnh yên bình và nên thơ.  ",
+                    "type": "text"
+                }
+            ]
+        }
+    ],
+    "cosmetics_layout_01_phuong": [
+        {
+            "type": "cosmetics",
+            "name": "cosmetics_layout_01_phuong-2",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutcomestic1.jpg",
+            "color_bg": "#fff",
+            "color_text": "#000",
+            "html": "<div id='layout-cosmetics-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <div class='grid'> <div class='grid__item large--one-third'> <div class='al-md1-img'> <img src='{layout_image}' class='img-opacity' alt=''> <img src='{layout_image}' alt=''> </div> </div> <div class='grid__item large--two-thirds'> <div class='al-md1-content'> <div class='al-md1-title'> <h2>{layout_order}</h2> <span>{layout_title}</span> </div> <div class='al-md1-desc'> <div class='al-md1-desc-bold'>{layout_bold} </div> <div class='al-md1-desc-full'>{layout_content}</div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-cosmetics-1 { padding: 30px 0px; } #layout-cosmetics-1 .al-md1 .al-md1-img { position: relative; } #layout-cosmetics-1 .al-md1 .al-md1-img .img-opacity { opacity: 0; position: static; } #layout-cosmetics-1 .al-md1 .al-md1-img img { position: absolute; z-index: 1; top: 0px; left: 0px; } #layout-cosmetics-1 .al-md1 .al-md1-img:before { position: absolute; content: ''; border: 5px solid #7fcac4; width: 100%; height: 100%; top: 15px; left: 15px; z-index: 0; } #layout-cosmetics-1 .al-md1 .al-md1-content { margin-left: 30px; text-align: justify; color: {color_text}; } #layout-cosmetics-1 .al-md1 .al-md1-content .al-md1-title { position: relative; } #layout-cosmetics-1 .al-md1 .al-md1-content .al-md1-title h2{ font-weight: bold; font-size: 45px; letter-spacing: 2px; color: {primary_color}; } #layout-cosmetics-1 .al-md1 .al-md1-content .al-md1-title span { position: absolute; bottom: 0px; left: 30px; display: block; padding: 5px; background: #fff; text-transform: uppercase; font-weight: bold; } #layout-cosmetics-1 .al-md1 .al-md1-content .al-md1-desc-bold { margin-left: -10px; color: {primary_color}; font-weight: bold; margin-bottom: 15px; } @media(max-width:768px){ #layout-cosmetics-1 .al-md1 .al-md1-img { margin-bottom: 15px; } #layout-cosmetics-1 .al-md1 .al-md1-comtent { margin-left: 10px !important; } }",
+            "id": "cosmetics_layout_01_phuong-2",
+            "content": [
+                {
+                    "name": "layout_order",
+                    "title": "Số thứ tự layout",
+                    "value": "01",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề Layout",
+                    "value": "Dùng kem chống nắng",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_bold",
+                    "title": "Mục mô tả chữ đậm",
+                    "value": " Kem chống nắng mỏng nhẹ có thể kiêm luôn vai trò của kem lót",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung layout",
+                    "value": " Khi phải sinh hoạt ngoài trời liên tục trong vài ba giờ, làn da sẽ là thứ bị ảnh hưởng nhiều nhất, bởi vậy các cô nàng nhất định không được quên bôi kem chống nắng nhé. Nếu bạn sở hữu làn da mịn màng, ít khuyết điểm và cảm thấy không cần thiết phải dùng đến kem nền thì sản phẩm kem chống nắng lên tông nhẹ nhàng chính là lựa chọn lý tưởng nhất vì vừa bảo vệ da lại vừa giúp da sáng và đều màu hơn. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/cosmetic1.jpg",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "type": "cosmetics",
+            "name": "cosmetics_layout_01_phuong-2",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutcomestic2.jpg",
+            "color_bg": "#fff",
+            "color_text": "#000",
+            "html": "<div id='layout-cosmetics-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='grid'> <div class='grid__item large--two-thirds'> <div class='al-md2-content'> <div class='al-md2-title'> <h2>{layout_order}</h2> <span>{layout_title}</span> </div> <div class='al-md2-desc'> <div class='al-md2-desc-bold'>{layout_bold} </div> <div class='al-md2-desc-full'>{layout_content}</div> </div> </div> </div> <div class='grid__item large--one-third'> <div class='al-md2-img'> <img src='{layout_image}' alt=''> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-cosmetics-1 { padding: 30px 0px; }#layout-cosmetics-1 .al-md2 .al-md2-img { position: relative; width: 226px; height: 226px; border-radius: 50%; overflow: hidden; } #layout-cosmetics-1 .al-md2 .al-md2-img:before { position: absolute; content: ''; background: #ed4d64; width: 80%; height: 80%; top: 50%; transform: translateY(-50%); right: 0px; border-radius: 50%; opacity: 0.6; } #layout-cosmetics-1 .al-md2 .al-md2-content { margin-left: 30px; text-align: justify; color: {color_text}; } #layout-cosmetics-1 .al-md2 .al-md2-content .al-md2-title { position: relative; } #layout-cosmetics-1 .al-md2 .al-md2-content .al-md2-title h2{ font-weight: bold; font-size: 45px; letter-spacing: 2px; color: {primary_color}; } #layout-cosmetics-1 .al-md2 .al-md2-content .al-md2-title span { position: absolute; bottom: 0px; left: 30px; display: block; padding: 5px; background: #fff; text-transform: uppercase; font-weight: bold; } #layout-cosmetics-1 .al-md2 .al-md2-content .al-md2-desc-bold { margin-left: -10px; color: {primary_color}; font-weight: bold; margin-bottom: 15px; } @media(max-width:768px){ #layout-cosmetics-1 .al-md2 .al-md2-img { margin: 15px auto 0px !important; } #layout-cosmetics-1 .al-md2 .al-md2-comtent { margin-left: 10px !important; } }",
+            "id": "cosmetics_layout_01_phuong-2",
+            "content": [
+                {
+                    "name": "layout_order",
+                    "title": "Số thứ tự layout",
+                    "value": "02",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề Layout",
+                    "value": "Chọn màu son tươi sáng",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_bold",
+                    "title": "Mục mô tả chữ đậm",
+                    "value": "Son tươi màu tươi tắn, trẻ trung ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung layout",
+                    "value": " Son môi chắc chắn là món không thể thiếu với cả hội thích làm điệu lẫn hội ngày thường chẳng màng son phấn. Để thật tươi xinh, rạng rỡ cả ở ngoài lẫn khi chụp ảnh, bạn hãy ưu tiên những màu son tươi tắn, trẻ trung như san hô, cam đất, hồng đất... nhé. Những gam màu này vừa tôn da lại vừa tạo cảm giác trong trẻo, thuần khiết đúng chất nữ sinh. Những màu son ấn tượng như đỏ lạnh, đỏ mận tuy nổi bật nhưng dễ khiến khuôn mặt của chúng ta bị cứng và 'dừ' hơn bình thường, vậy nên các nàng hãy cân nhắc kỹ nhé. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/cosmetic2.jpg",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "type": "cosmetics",
+            "name": "cosmetics_layout_01_phuong-3",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutcomestic3.jpg",
+            "color_bg": "#fff",
+            "color_text": "#000",
+            "html": "<div id='layout-cosmetics-1'> <div class='wrapper'> <div class='inner'> <div class='al-md3'> <div class='grid'> <div class='grid__item large--one-third'> <div class='al-md3-img'> <img src='{layout_image}'> </div> </div> <div class='grid__item large--two-thirds'> <div class='al-md3-content'> <div class='al-md3-title'> <h2>{layout_order}</h2> <span>{layout_title}</span> </div> <div class='al-md3-desc'> <div class='al-md3-desc-bold'>{layout_bold} </div> <div class='al-md1-desc-full'>{layout_content}</div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-cosmetics-1 { padding: 30px 0px; } #layout-cosmetics-1 .al-md3 .al-md3-img { position: relative; overflow: hidden; } #layout-cosmetics-1 .al-md3 .al-md3-img:before { position: absolute; content: ''; background: #f1ad2f; height: 100%; bottom: 0px; transform: skew(45deg); width: 100%; left: -145px; opacity: 0.6; } #layout-cosmetics-1 .al-md3 .al-md3-content { margin-left: 30px; text-align: justify; color: {color_text}; } #layout-cosmetics-1 .al-md3 .al-md3-content .al-md3-title { position: relative; } #layout-cosmetics-1 .al-md3 .al-md3-content .al-md3-title h2{ font-weight: bold; font-size: 45px; letter-spacing: 2px; color: {primary_color}; }  #layout-cosmetics-1 .al-md3 .al-md3-content .al-md3-title span { position: absolute; bottom: 0px; left: 30px; display: block; padding: 5px; background: #fff; text-transform: uppercase; font-weight: bold; } #layout-cosmetics-1 .al-md3 .al-md3-content .al-md3-desc-bold { margin-left: -10px; color: {primary_color}; font-weight: bold; margin-bottom: 15px; } @media(max-width:768px){ #layout-cosmetics-1 .al-md3 .al-md3-img { margin-top:10px !important; } #layout-cosmetics-1 .al-md3 .al-md3-comtent { margin-left: 10px !important; } }",
+            "id": "cosmetics_layout_01_phuong-3",
+            "content": [
+                {
+                    "name": "layout_order",
+                    "title": "Số thứ tự layout",
+                    "value": "03",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề Layout",
+                    "value": "Đánh má hồng ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_bold",
+                    "title": "Mục mô tả chữ đậm",
+                    "value": "\"Má hồng rượu say\"",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung layout",
+                    "value": " Chút má hồng hây hây sẽ khiến khuôn mặt của chúng mình rạng ngời hơn hẳn so với việc chỉ đánh mỗi son đấy. Đừng lo đánh má hồng sẽ biến mình thành chú hề, bạn chỉ cần sử dụng những gam màu nhẹ nhàng, ngọt ngào như hồng cam, cam đất và tán thật nhẹ lên gò má hoặc tán gần một chút gần về phía mắt tạo hiệu ứng \"má hồng say rượu\" xinh xẻo. Phấn má có chút nhũ cũng là gợi ý hay bởi nó sẽ kiêm luôn vai trò của highlighter, tạo hiệu ứng bắt sáng lung linh.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/cosmetic3.jpg",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "type": "cosmetics",
+            "name": "cosmetics_layout_01_phuong-4",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutcomestic4.jpg",
+            "color_bg": "#fff",
+            "color_text": "#000",
+            "html": "<div id='layout-cosmetics-1'> <div class='wrapper'> <div class='inner'> <div class='al-md4'> <div class='grid'> <div class='grid__item large--two-thirds'> <div class='al-md4-content'> <div class='al-md4-title'> <h2>{layout_order}</h2> <span>{layout_title}</span> </div> <div class='al-md4-desc'> <div class='al-md4-desc-bold'>{layout_bold}</div> <div class='al-md1-desc-full'>{layout_content}</div> </div> </div> </div> <div class='grid__item large--one-third'> <div class='al-md4-img'> <img src='{layout_image}' alt=''> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-cosmetics-1{ padding: 30px 0px; } #layout-cosmetics-1 .al-md4 .al-md4-img { position: relative; overflow: hidden; } #layout-cosmetics-1 .al-md4 .al-md4-img:before { position: absolute; content: ''; border: 60px solid #20a282; height: 107%; bottom: -50px; width: 100%; right: -100px; opacity: 0.6; border-radius: 92% 111% 48% 105%; } #layout-cosmetics-1 .al-md4 .al-md4-content { text-align: justify; margin-left: 30px; color: {color_text}; } #layout-cosmetics-1 .al-md4 .al-md4-content .al-md4-title { position: relative; } #layout-cosmetics-1 .al-md4 .al-md4-content .al-md4-title h2{ font-weight: bold; font-size: 45px; letter-spacing: 2px; color: {primary_color}; } #layout-cosmetics-1 .al-md4 .al-md4-content .al-md4-title span { position: absolute; bottom: 0px; left: 30px; display: block; padding: 5px; background: #fff; text-transform: uppercase; font-weight: bold; } #layout-cosmetics-1 .al-md4 .al-md4-content .al-md4-desc-bold { margin-left: -10px; color: {primary_color}; font-weight: bold; margin-bottom: 15px; } @media(max-width:768px){ #layout-cosmetics-1 .al-md4 .al-md4-img { margin-top:10px !important; } #layout-cosmetics-1 .al-md4 .al-md4-comtent { margin-left: 10px !important; } }",
+            "id": "cosmetics_layout_01_phuong-4",
+            "content": [
+                {
+                    "name": "layout_order",
+                    "title": "Số thứ tự layout",
+                    "value": "04",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề Layout",
+                    "value": "Ưu tiên kiểu tóc gọn gàng ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_bold",
+                    "title": "Mục mô tả chữ đậm",
+                    "value": "\"Kiểu tóc gọn gàng tạo cảm giác năng động, tươi mới\"",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung layout",
+                    "value": " Khi diện áo dài, phần lớn các nàng sẽ thích thả tóc, uốn xoăn cho xinh. Công nhận rằng kiểu tóc này khiến chủ nhân trông yêu kiều, thướt tha hơn hẳn nhưng lại có nhược điểm là hơi ngốt ngát, nhất là khi phải 'chịu trận' suốt vài giờ đồng hồ ở ngoài trời. Nếu bạn chịu nóng kém, chi bằng hãy chuyển sang những kiểu tóc gọn gàng hơn như tóc tết, tóc uốn xoăn buộc lệch chẳng hạn, vừa mát mẻ mà vẫn điệu đà, lên hình đảm bảo xinh tươi ngời ngời. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/cosmetics4.jpg",
+                    "type": "file"
+                }
+            ]
+        }
+    ],
+    "medicine_layout_01_phuong": [
+        {
+            "content": [
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề bài viết",
+                    "value": " Chẳng có thần dược nào có tác dụng ngay cả. Saffon cũng thế ! ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung cho layout",
+                    "value": " Được xem như một trong những loại gia vị đắt và tốt nhất thế giới, Saffron ( nhuy hoa nghệ tây) Thứ'' vàng đỏ'','' thần dược''... rất nhiều mỹ từ đã được chị em truyền tai nhau để nói về công dụng của loại gia vị này. Tuy nhiên, thực sự Saffron không tuyệt diệu đến thế và nó chỉ phát huy tác dụng tốt nhất khi chúng ta sử dụng nó đúng cách. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/medicine1.jpg",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-medicine-1 { padding-bottom: 30px; } #layout-medicine-1 .al-md1 .al-md1-image { width: 75%; margin-left: 15px; float: right; } #layout-medicine-1 .al-md1 .al-md1-content { text-align: justify; color:{color_text}; } #layout-medicine-1 .al-md1 .al-md1-content .al-md1-title h2{ font-size: 26px; font-weight: bold; text-transform: uppercase; line-height: 1.6em; color:{primary_color}; } @media(max-width:768px){ #layout-medicine-1 .al-md1 .al-md1-image { width:100% !important; margin: 0px 0px 10px !important; } #layout-medicine-1 .al-md1 .al-md1-content .al-md1-title h2{ font-size: 20px !important; } }",
+            "html": "<div id='layout-medicine-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <div class='al-md1-image'> <img src='{layout_image}' alt=''> </div> <div class='al-md1-content'> <div class='al-md1-title'> <h2>{layout_title}</h2> <div class='al-md1-desc'> {layout_content}</div> </div> </div> </div> </div> </div> </div>",
+            "id": "medicine_layout_01_phuong-1",
+            "name": "medicine_layout_01_phuong-1",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutmedicine1.jpg",
+            "type": "medicine"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề bài viết",
+                    "value": "  Đầu tiên, Saffon thực sự quý hiếm và tốt",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_1",
+                    "title": "Nội dung 1 cho layout",
+                    "value": " Lịch sử ra đời cách đây hơn 3000 năm,chỉ thích hợp với thổ nhưỡng và khí hậu của một số ít quốc gia: không khó hiểu vì sao loại cây Saffron lại quý hiếm đến như vậy. Ấn Độ, Iran, Hy Lạp là những đất nước có truyền thống và ngành nghề nuôi trồng Saffron lớn nhất thế giới. Đặc biệt,chỉ riêng ở Iran, đất nước này chiếm 90% sản lượng Saffron trên thế giới mỗi năm. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Nội dung 2 cho layout",
+                    "value": " Để nói thêm về Saffron, loại cây này phát triển mạnh với những vùng có khí hậu nóng, khô .Tuy nhiên, cây vẫn sống sót được qua mùa đông, chịu được sương giá với nhiệt độ khoảng âm 10 độ. Chúng có thể cao đến 20-30 cm và cho ra đến 4 hoa: mỗi hoa gồm 03 đầu nhụy màu đỏ thắm rực rỡ- là phần ngoài cùng của lá noãn. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh nhỏ cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/medicine2.jpg",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh lớn cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/medicine5.jpg",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-medicine-1 .al-md2 .al-md2-content{ text-align: justify; color: {color_text}; } #layout-medicine-1 .al-md2 .title { font-weight: bold; margin-bottom: 15px; text-transform: uppercase; font-size: 16px; color:{primary_color}; } #layout-medicine-1 .al-md2 img { margin: 10px 0px; }",
+            "html": "<div id='layout-medicine-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='grid'> <div class='grid__item large--two-fifths float-right'> <div class='al-md2-content'> <div class='title'>{layout_title} </div> <div class='desc'>{layout_content_1}</div> <img src='{layout_image_1}' alt=''> <div class='desc'>{layout_content_2}</div> </div> </div> <div class='grid__item large--three-fifths'> <div class='al-md2-image'> <img src='{layout_image_2}' alt=''> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "medicine_layout_01_phuong-2",
+            "name": "medicine_layout_01_phuong-2",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutmedicine2.jpg",
+            "type": "medicine"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề bài viết",
+                    "value": "  Đầu tiên, Saffon thực sự quý hiếm và tốt",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_1",
+                    "title": "Nội dung 1 cho layout",
+                    "value": " Ngoài độ đặc trưng nuôi trồng theo địa lý, thì yếu tố góp phần tạo nên độ quý giá của Saffon cũng nhờ bởi cách thu hoạch. Để có được 1 pound (450g) Saffron khô cần hái khoảng 50000-750000 bông hoa; và để được 1kg thì cần khoảng 110000-170000 trong điều kiện 40 giờ làm việc và hái hoàn toàn thủ công bằng tay. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Nội dung 2 cho layout",
+                    "value": "Saffron có rất nhiều công dụng.Hương thơm của Saffron thưởng được mô tả như gợi nên mùi mật ong thoang thoảng với đặc trưng là mùi kim loại cùng với mùi cỏ khô. Mặt khác, Saffron cũng tạo cho thực phẩm một màu vàng càm rực rỡ. Dùng để làm nguyên liệu trang trí cho món ăn rất tốt.  ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_3",
+                    "title": "Nội dung 3 cho layout",
+                    "value": " Trong ẩm thực đã vậy, trong y học thì sao ?? Theo nhiều nghiên cứu chỉ ra rằng, đối với sức khỏe.Saffron đã được sử dụng từ lâu trong y học cổ truyền một thời gian dài. Chúng có chức năng chống bệnh ung thư( gây ức chế các tế bào ung thư), chống đột biến ( ngăn ngừa), tăng miễn dịch và có các tính chất chống oxy hóa. Đầu nhụy của cây nghê tây, kể cả các cánh hoa cũng có thể hưu ích điều trị chứng bệnh trầm cảm, bảo vệ khỏi sự căng thẳng võng mạc và làm đẹp da.. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh nhỏ cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/medicine3.jpg",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-medicine-1 .al-md3 .al-md3-content { text-align: justify; margin-bottom: 30px; } @media(max-width:768px){ #layout-medicine-1 .al-md3 .al-md3-image img{ margin-bottom: 10px; } }",
+            "html": "<div id='layout-medicine-1'> <div class='wrapper'> <div class='inner'> <div class='al-md3'> <div class='grid'> <div class='grid__item large--one-half'> <div class='al-md3-content'>{layout_content_1}</div> </div> <div class='grid__item large--one-half'> <div class='al-md3-content'> {layout_content_2}</div> </div> </div> <div class='grid'> <div class='grid__item large--one-third'> <div class='al-md3-content'>{layout_content_3}</div> </div> <div class='grid__item large--two-thirds'> <div class='al-md3-image'> <img src='{layout_image}' alt=''> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "medicine_layout_01_phuong-3",
+            "name": "medicine_layout_01_phuong-3",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutmedicine3.jpg",
+            "type": "medicine"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề bài viết",
+                    "value": "  Đầu tiên, Saffon thực sự quý hiếm và tốt",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_1",
+                    "title": "Nội dung 1 cho layout",
+                    "value": " Và Saffron có tác dụng đến thế ?? Có khá nhiều người tin rằng, việc uống Saffron sẽ giúp cho sức khỏe của cơ thế tốt hơn, giảm trừ mọi bệnh tật. Họ coi Saffron như một loại thảo dược thần kì, một thần dược hữu ích Nhưng sự thật là, Saffron không hề '' thần thánh'' đến như vậy nếu chúng ta không hiểu đúng và sử dụng hợp lý . Cũng giống như bạn mong muốn có một loại thuốc nào đó, uống một hơi là hết bệnh, dùng một viên là khỏi vấn đề. Điều đó là gần như hoàn toàn không thể, chưa kể Saffron- vỗn dĩ cũng chỉ là một loại gia vị, một loại thực phẩm chức năng để bổ trợ.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Nội dung 2 cho layout",
+                    "value": " Chúng ta nên biết rằng, sức khỏe cơ thể được tổng hòa bởi nhiều yếu tố: thể trạng có sẵn, chế độ luyện tập, chế độ ăn uống, tinh thần. Một người khỏe mạnh thực sự không chỉ ở sức khỏe mà còn có một thái độ tích cực và đúng đắn. Rèn luyện hàng ngày và theo quy trình, đó mới chính là điều quan trọng để giúp chúng ta sở hữu một sức khỏe vàng. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_3",
+                    "title": "Nội dung 3 cho layout",
+                    "value": " Với Saffron, chắc chắn không đem đến ngay một sự công hiệu tuyệt diệu nào đó. Tuy nhiên, hãy cứ dùng đều đặn mỗi ngày, theo một lộ trình và liệu trình nhất định, kết hợp cùng các phương pháp và các loại thực phẩm khác, chúng ta mới thấy rõ rệt những khác biệt mà nhụy hoa nghệ tây đem lại. Saffron sẽ luôn âm thầm cải thiện sức khỏe cho chúng ta. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh nhỏ cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/medicine4.jpg",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-medicine-1 .al-md4 { position: relative; } #layout-medicine-1 .al-md4 .al-md4-content {position: absolute; top: 50%; width: 90%; left: 50%; transform: translate(-50%,-50%); background: {primary_color}; opacity: 0.8; color: {color_text}; text-align: justify;} #layout-medicine-1 .al-md4 .al-md4-content .al-md4-desc>div:first-child {margin-bottom:15px;} @media (max-width: 768px) { #layout-medicine-1 .al-md4 .al-md4-content { position: static !important; width: 100% !important; left: auto !important; transform: translateX(0px) !important; } }",
+            "html": "<div id='layout-medicine-1'> <div class='wrapper'> <div class='inner'> <div class='al-md4'> <div class='al-md4-image'> <img src='{layout_image}' alt=''> </div> <div class='al-md4-content'> <div class='al-md4-desc'> <div>{layout_content_1} </div> <div class='grid'> <div class='grid__item large--one-half'> <div>{layout_content_2}</div> </div> <div class='grid__item large--one-half> <div>{layout_content_3}</div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "medicine_layout_01_phuong-4",
+            "name": "medicine_layout_01_phuong-4",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutmedicine4.jpg",
+            "type": "medicine"
+        }
+    ],
+    "fashion_layout_01_phuong": [
+        {
+            "content": [
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề bài viết",
+                    "value": " 3 cách phối đồ độc lạ với đầm trắng ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung cho layout",
+                    "value": " Chiếc đầm trắng luôn toát lên vẻ thanh thoát, dịu dàng và nữ tính. Tuy nhiên, bạn cũng có thể biến hóa và làm mới kiểu đầm này nếu biết cách sáng tạo và thử nghiệm với nhiều cách mix match khác nhau. ELLE gợi ý cho bạn 3 cách phối đồ đẹp và độc để thay đổi hoàn toàn vẻ đẹp thường thấy của chiếc đầm trắng. Nếu đã chán với vẻ đẹp dịu dàng thường thấy của chiếc đầm trắng, mời bạn tham khảo 3 cách phối đồ đẹp và độc sau đây để biến chiếc đầm trắng đẹp trở nên sành điệu, phong cách và “ngầu” hơn! ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/fashion2.jpg",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-fashion-1 { padding: 30px 0px; } #layout-fashion-1 .al-md1 { position: relative; } #layout-fashion-1 .al-md1 .al-md1-image { text-align: right; } #layout-fashion-1 .al-md1 .al-md1-image img { width: 80%; margin-bottom: 30px; } #layout-fashion-1 .al-md1 .al-md1-title { display: block; position: absolute; transform: rotate(-90deg); bottom: 60%; width: 50%; left: -20%; text-transform: uppercase; font-weight: bold; font-size: 24px; line-height: 32px; color: {primary_color}; } #layout-fashion-1 .al-md1 .al-md1-content{ text-align: justify; line-height: 1.6em; } @media (max-width: 768px) { #layout-fashion-1 .al-md1 { position: static !important; } #layout-fashion-1 .al-md1 .al-md1-title { width: 100%; transform: rotate(0deg) !important; position: static !important; margin-bottom: 15px; } #layout-fashion-1 .al-md1 .al-md1-image img { width: 100% !important; } #layout-fashion-1 .al-md2 img { margin-top: 30px !important; } }",
+            "html": "<div id='layout-fashion-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <div class='al-md1-image'> <img src='{layout_image}' alt=''> </div> <div class='al-md1-title'>{layout_title}</div> <div class='al-md1-content'>{layout_content}</div> </div> </div> </div> </div>",
+            "id": "fashion_layout_01_phuong-1",
+            "name": "fashion_layout_01_phuong-1",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutfashion1.jpg",
+            "type": "medicine"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_order",
+                    "title": "Thứ tự layout",
+                    "value": "  1.  ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề bài viết",
+                    "value": "Bộ suit mới",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung cho layout",
+                    "value": " Một trong những kiểu phối đồ phá cách và sáng tạo được các fashionista yêu thích là phối đầm với… quần dài. Với chiếc đầm trắng chiết eo cổ điển, bạn hoàn toàn có thể phối cùng “quần culotte” đang làm điên đảo giới mộ điệu để tạo nên phong cách hoàn toàn mới, rất hiện đại, năng động và thời thượng. Bạn không nhất thiết phải kết hợp với áo khoác, nhưng nếu có thì chiếc áo khoác đó phải có độ dài xấp xỉ với chiếc đầm. Bạn có thể chọn quần cùng màu trắng và áo khoác màu đen. Điều cần lưu ý là bạn nên chọn đầm có độ dài không quá đầu gối hay quá xòe, và kiểu phối đồ này chỉ phù hợp với những bạn gái có vóc dáng khá thon thả vào cao ráo. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/fashion3.jpg",
+                    "type": "file"
+                }
+            ],
+            "css": "@media (max-width: 768px) { #layout-fashion-1 .al-md2 img { margin-top: 30px !important; } } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title { width: 150px; height: 150px; transform: rotate(45deg); margin: 30px auto 70px; display: flex; align-items: center; justify-content: center; border: 2px solid; padding: 5px; position: relative; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title:after { content: ''; position: absolute; top: 3px; left: 3px; bottom: 3px; right: 3px; border: 1px solid {primary_color}; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title h2{ display: flex; align-items: center; justify-content: center; transform: rotate(-45deg); text-align: center; width: 100%; height: 100%; color: {primary_color}; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title h2 p{ text-align: center; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title h2 span{ display: block; font-size: 20px; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-desc{ text-align: justify; color: {color_text}; }",
+            "html": "<div id='layout-fashion-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='grid'> <div class='grid__item large--one-half'> <div class='al-md2-content'> <div class='al-md2-title'> <h2><p>{layout_order}<span>{layout_title}</span></p></h2> </div> <div class='al-md2-desc'>{layout_content}</div> </div> </div> <div class='grid__item large--one-half'> <img src='{layout_image}' alt=''> </div> </div> </div> </div> </div> </div>",
+            "id": "fashion_layout_01_phuong-2",
+            "name": "fashion_layout_01_phuong-2",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutfashion2.jpg",
+            "type": "medicine"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_order",
+                    "title": "Thứ tự layout",
+                    "value": "2. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề bài viết",
+                    "value": "Phong cách Boho phóng khoáng",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung cho layout",
+                    "value": " Đối với những chiếc đầm trắng dài, có tay lửng và kiểu dáng thướt tha, bạn có thể thêm “gia vị Boho” bằng cách kết hợp với áo jacket có chiều dài không quá vòng 3, nón vành rộng và giày bốt đế thấp. Nếu muốn trở nên chic hơn nữa, hãy thử cột một dải ruy băng lụa ở cổ thay cho dây chuyền. Nguyên tắc cần nhớ rằng với kiểu đầm và phong cách boho này, bạn tuyệt đối không nên mang giày cao gót để giữ vẻ phóng khoáng và tự nhiên cho bộ trang phục. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/fashion4.jpg",
+                    "type": "file"
+                }
+            ],
+            "css": "@media (max-width: 768px) { #layout-fashion-1 .al-md2 img { margin-top: 30px !important; } } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title { width: 150px; height: 150px; transform: rotate(45deg); margin: 30px auto 70px; display: flex; align-items: center; justify-content: center; border: 2px solid; padding: 5px; position: relative; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title:after { content: ''; position: absolute; top: 3px; left: 3px; bottom: 3px; right: 3px; border: 1px solid {primary_color}; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title h2{ display: flex; align-items: center; justify-content: center; transform: rotate(-45deg); text-align: center; width: 100%; height: 100%; color: {primary_color}; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title h2 p{ text-align: center; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-title h2 span{ display: block; font-size: 20px; } #layout-fashion-1 .al-md2 .al-md2-content .al-md2-desc{ text-align: justify; color: {color_text}; }",
+            "html": "<div id='layout-fashion-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='grid'> <div class='grid__item large--one-half float-right'> <div class='al-md2-content'> <div class='al-md2-title'> <h2><p>{layout_order} <span> {layout_title} </span></p></h2> </div> <div class='al-md2-desc'>{layout_content}</div> </div> </div> <div class='grid__item large--one-half'> <img src='{layout_image}' alt=''> </div> </div> </div> </div> </div> </div>",
+            "id": "fashion_layout_01_phuong-3",
+            "name": "fashion_layout_01_phuong-3",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutfashion3.jpg",
+            "type": "medicine"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_order",
+                    "title": "Thứ tự layout",
+                    "value": "3.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề bài viết",
+                    "value": "Phong cách Baby doll cá tính ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung cho layout",
+                    "value": " Đối với những chiếc đầm trắng không ôm sát và phom dáng rộng rãi, thoải mái, bạn có thể làm chiếc đầm bớt nhàm chán bằng cách mặc cùng áo bomber jacket, giày thể thao và túi xách nhiều màu. Phong cách này sẽ giúp bạn trông trẻ trung, năng động hơn rất nhiều. Tuy nhiên, bạn nên lưu ý cách phối đồ này không phù hợp cho môi trường công sở hay những nơi cần sự trang trọng và lịch sự. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/fashion5.jpg",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-fashion-1 { padding: 30px 0px; } #layout-fashion-1 .al-md1 { position: relative; } #layout-fashion-1 .al-md1 .al-md1-image { text-align: right; } #layout-fashion-1 .al-md1 .al-md1-image img { width: 80%; margin-bottom: 30px; } #layout-fashion-1 .al-md1 .al-md1-title { display: block; position: absolute; transform: rotate(-90deg); bottom: 60%; width: 50%; left: -20%; text-transform: uppercase; font-weight: bold; font-size: 24px; line-height: 32px; color: {primary_color}; } #layout-fashion-1 .al-md1 .al-md1-content{ text-align: justify; line-height: 1.6em; } @media (max-width: 768px) { #layout-fashion-1 .al-md1 { position: static !important; } #layout-fashion-1 .al-md1 .al-md1-title { width: 100%; transform: rotate(0deg) !important; position: static !important; margin-bottom: 15px; } #layout-fashion-1 .al-md1 .al-md1-image img { width: 100% !important; } #layout-fashion-1 .al-md2 img { margin-top: 30px !important; } }",
+            "html": "<div id='layout-fashion-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='grid'> <div class='grid__item large--one-half'> <div class='al-md2-content'> <div class='al-md2-title'> <h2><p>{layout_order}<span>{layout_title}</span></p></h2> </div> <div class='al-md2-desc'>{layout_content}</div> </div> </div> <div class='grid__item large--one-half'> <img src='{layout_image}' alt=''> </div> </div> </div> </div> </div> </div>",
+            "id": "fashion_layout_01_phuong-4",
+            "name": "fashion_layout_01_phuong-4",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutfashion4.jpg",
+            "type": "medicine"
+        }
+    ],
+    "furniture_layout_01_phuong": [
+        {
+            "content": [
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề bài viết",
+                    "value": " Ngất ngây với biệt thự Tây Âu nằm giữa thiên nhiên ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture1.png",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-fur-1 { padding: 30px 0px; } #layout-fur-1 .al-md1 { position: relative; overflow: hidden; }#layout-fur-1 .al-md1 .al-md1-image img{width:100%;} #layout-fur-1 .al-md1 .al-md1-title { position: absolute; top: 0px; right: -100px; width: 70%; bottom: 0px; display: flex; transform: skew(25deg); background: #fff; opacity: 0.8; align-items: center; } #layout-fur-1 .al-md1 .al-md1-title h2{ transform: skew(-25deg); width: 70%; margin: 0px 30px; text-transform: uppercase; font-weight: bold; line-height: 1.6em; color: {primary_color}; } @media (max-width: 768px) { #layout-fur-1 { padding: 10px 0px !important; } #layout-fur-1 .al-md1 .al-md1-title { right: -40px !important; width: 100% !important; } #layout-fur-1 .al-md1 .al-md1-title h2{ font-size: 20px !important; width: 70% !important; } }",
+            "html": "<div id='layout-fur-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <div class='al-md1-image'> <img src='{layout_image}' alt=''> </div> <div class='al-md1-title'> <h2>{layout_title}</h2> </div> </div> </div> </div> </div>",
+            "id": "funiture_layout_01_phuong-1",
+            "name": "funiture_layout_01_phuong-1",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/noithatlayout1.jpg",
+            "type": "funiture"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content",
+                    "title": "Tiêu đề bài viết",
+                    "value": " Phòng khách với đèn trần mô phỏng pháo hoa độc đáo.Bàn cafe đơn giản mang hơi thở hiện đại cho phòng khách. Bên cạnh các tone màu trung tính, chủ nhân còn chọn đồ nội thất theo tone màu đá quý, như xanh ngọc lục bảo, thạch anh vàng,...Kệ trang trí sang trọng và bức tranh phong cách Botanical làm điểm nhấn cho phòng khách.Ngăn cách giữa không gian phòng khách và phòng ăn là lò sưởi dạng hộp hiện đại, kiến trúc sư tận dụng mặt bên của lò để chứa củi. Sáng kiến này không chỉ tiện dụng mà còn đạt hiệu quả thẩm mỹ. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture2.png",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-fur-1{ padding: 30px 0px; } #layout-fur-1 .al-md2 { position: relative; } #layout-fur-1 .al-md2 img{width:100%;} #layout-fur-1 .al-md2 .al-md2-content { position: absolute; top: 50px; bottom: 50px; right: 50px; left: 50px; background: #fff; opacity: 0.8; display: flex; align-items: justify; justify-content: center; padding: 30px; line-height: 1.6em; color: {color_text}; } @media (max-width: 768px) { #layout-fur-1 .al-md2 .al-md2-content { position: static !important; padding: 10px !important; } }",
+            "html": "<div id='layout-fur-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='al-md2-img'> <img src='{layout_image}' alt=''> </div> <div class='al-md2-content'>{layout_content}</div> </div> </div> </div> </div>",
+            "id": "funiture_layout_01_phuong-2",
+            "name": "funiture_layout_01_phuong-2",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/noithatlayout2.jpg",
+            "type": "funiture"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content_1",
+                    "title": "Mô tả ảnh 1",
+                    "value": "  Kệ trang trí sang trọng và bức tranh phong cách Botanical làm điểm nhấn cho phòng khách. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Mô tả chi tiết layout",
+                    "value": "  Ngăn cách giữa không gian phòng khách và phòng ăn là lò sưởi dạng hộp hiện đại, kiến trúc sư tận dụng mặt bên của lò để chứa củi. Sáng kiến này không chỉ tiện dụng mà còn đạt hiệu quả thẩm mỹ.Phòng ăn vừa cổ điển vừa hiện đại với ghế ngồi lớn dành cho chủ nhân của căn nhà, ghế ngồi nhỏ màu xanh ngọc lục bảo 'ton-sur-ton' với phòng khách. Với cách sắp đặt lò sưởi này, cả hai không gian đều có được sự ấm áp.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture3.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh 2 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture4.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_3",
+                    "title": "Hình ảnh 3 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture5.png",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-fur-1 .al-md3 .al-md3-left .al-md3-left-up { position: relative; } #layout-fur-1 .al-md3 .al-md3-left .al-md3-left-up .al-md3-left-text { position: absolute; bottom: 0px; left: 0px; width: 100%; background: {primary_color}; opacity: 0.9; color: #fff; padding: 10px; font-weight: bold; text-align: justify; } #layout-fur-1 .al-md3 img{width:100%;} #layout-fur-1 .al-md3 .al-md3-right { position: relative; } #layout-fur-1 .al-md3 .al-md3-right .al-md3-content { position: absolute; bottom: 0px; left: 0px; right: 0px; padding: 10px; background: #fff; height: 50%; color: {color_text}; display: flex; align-items: center; overflow: hidden; text-align:justify; } #layout-fur-1 .al-md3 .al-md3-right .al-md3-content:after { content: ''; top: -40px; left: -40px; width: 80px; height: 80px; transform: rotate(45deg); background: {primary_color}; position: absolute; }",
+            "html": "<div id='layout-fur-1'> <div class='wrapper'> <div class='inner'> <div class='al-md3'> <div class='grid mg-left-0'> <div class='grid__item large--one-third pd-left0'> <div class='al-md3-left'> <div class='al-md3-left-up'> <img src='{layout_image_1}' alt=''> <div class='al-md3-left-text'>{layout_content_1}</div> </div> <img src='{layout_image_2}' alt=''> </div> </div> <div class='grid__item large--two-thirds pd-left0'> <div class='al-md3-right'> <img src='{layout_image_3}' alt=''> <div class='al-md3-content'> <div class='al-md3-desc'>{layout_content_2} </div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "funiture_layout_01_phuong-3",
+            "name": "funiture_layout_01_phuong-3",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/noithatlayout3.jpg",
+            "type": "funiture"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "  Phòng giải trí  ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_1",
+                    "title": "Nội dung phía trên bên trái",
+                    "value": "Phòng giải trí có view nhìn ra vườn cây với bàn bida, tủ rượu lớn 'sang chảnh'. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh bên trái",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture6.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Nội dung phía dưới bên trái",
+                    "value": "  Cách bài trí nội thất khéo léo giúp cho phòng giải trí phù hợp với mọi thành viên trong gia đình và bạn bè.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_3",
+                    "title": "Nội dung bên phải layout",
+                    "value": " Ngay trong khuôn viên nhà có một khu tiểu cảnh nhỏ với cây bonsai nghệ thuật, gia chủ tạo thêm góc thư giãn tại đây với bàn trà dạng khúc cây độc đáo, ghế ngồi màu nhung đỏ tạo độ tương phản với 'thảm thực vật' phía sau rất hút mắt ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh bên phải layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture7.png",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-fur-1 .al-md4 .al-md4-left { background: #fff; } #layout-fur-1 .al-md4 img{width:100%;} #layout-fur-1 .al-md4 .al-md4-left .al-md4-left-text { padding: 20px; height: calc(400px / 3); } #layout-fur-1 .al-md4 .al-md4-left .al-md4-left-text .title { font-size: 24px; font-weight: bold; text-align: center; margin-bottom: 20px; color: {primary_color}; } #layout-fur-1 .al-md4 .al-md4-left .al-md4-left-text .desc { line-height: 1.6em; text-align: justify; color: {color_text}; } #layout-fur-1 .al-md4 .al-md4-left .al-md4-left-center { height: calc(400px / 3); overflow: hidden; } #layout-fur-1 .al-md4 .al-md4-right { position: relative; height: 400px; overflow: hidden; } #layout-fur-1 .al-md4 .al-md4-right img { height: 100%;} #layout-fur-1 .al-md4 .al-md4-right .al-md4-right-content { position: absolute; top: 50%; transform: translateY(-50%); left: 0px; background: #fff; opacity: 0.8; width: 70%; padding: 10px; color:{color_text}; text-align: justify; }",
+            "html": "<div id='layout-fur-1'> <div class='wrapper'> <div class='inner'> <div class='al-md4'> <div class='grid mg-left-0'> <div class='grid__item large--one-half pd-left0'> <div class='al-md4-left'> <div class='al-md4-left-text'> <div class='title'>{layout_title}</div> <div class='desc'> {layout_content_1}</div> </div> <div class='al-md4-left-center'> <img src='{layout_image_1}' alt=''> </div> <div class='al-md4-left-text'> <div class='desc'>{layout_content_2}</div> </div> </div> </div> <div class='grid__item large--one-half pd-left0'> <div class='al-md4-right'> <img src='{layout_image_2}' alt=''> <div class='al-md4-right-content'> <div class='desc'>{layout_content_3}</div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "funiture_layout_01_phuong-4",
+            "name": "funiture_layout_01_phuong-4",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/noithatlayout4.jpg",
+            "type": "funiture"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content_1",
+                    "title": "Nội dung phía trên ",
+                    "value": " Phòng tắm sang trọng với tone nâu chủ đạo, ánh sáng trắng và các thiết bị bằng kim loại ánh đồng. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture8.jpg",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Nội dung phía dưới ",
+                    "value": "Cách bố trí bồn rửa đôi rất thường gặp trong các thiết kế nội thất sang trọng. Tường và sàn đều được lát bằng đá cẩm thạch nâu đẹp mắt. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh bên phải layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture9.png",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-fur-1 .al-md5 { background: #fff; } #layout-fur-1 .al-md5 img{ width: 100%; } #layout-fur-1 .al-md5 .al-md5-left .desc { padding: 20px 100px 20px 20px; text-align: justify; color: {color_text}; } #layout-fur-1 .al-md5 .al-md5-right .desc { padding: 20px; margin-bottom: 30px; text-align: justify; color: {color_text}; } #layout-fur-1 .al-md5 .al-md5-right img { margin-left: -90px; } @media(max-width:768px){ #layout-fur-1 .al-md5 .al-md5-right img { margin: 0px !important; } }",
+            "html": "<div id='layout-fur-1'> <div class='wrapper'> <div class='inner'> <div class='al-md5'> <div class='grid mg-left-0'> <div class='grid__item large--one-half pd-left0'> <div class='al-md5-left'> <img src='{layout_image_1}' alt=''> <div class='desc'>{layout_content_1}</div> </div> </div> <div class='grid__item large--one-half pd-left0'> <div class='al-md5-right'> <div class='desc'>{layout_content_2} </div> <img src='{layout_image_2}' alt=''> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "funiture_layout_01_phuong-5",
+            "name": "funiture_layout_01_phuong-5",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/noithatlayout5.jpg",
+            "type": "funiture"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content_1",
+                    "title": "Nội dung phía trên ",
+                    "value": "Phòng ngủ chính với tone màu trung tính và ánh sáng êm dịu, phụ kiện được gia chủ chọn theo tone màu đỏ ngọc bích và xanh sapphire.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture10.jpg",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Nội dung phía dưới ",
+                    "value": "Phòng ngủ cho bé cực đáng yêu với những chi tiết trang trí dễ thương, ngộ nghĩnh. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh bên phải layout",
+                    "value": "http://file.hstatic.net/1000234244/file/funiture11.jpg",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-fur-1 .al-md6 .al-md6-content { background: #f2f2f2; }#layout-fur-1 .al-md6 img{width:100%;} #layout-fur-1 .al-md6 .al-md6-content > .grid{ display: flex; align-items: center; } #layout-fur-1 .al-md6 .al-md6-content > .grid .desc{ padding: 15px; line-height: 1.6em; text-align: justify; color: {color_text}; } @media (max-width: 768px) { #layout-fur-1 .al-md6 .al-md6-content > .grid{ display: block !important; } }",
+            "html": "<div id='layout-fur-1'> <div class='wrapper'> <div class='inner'> <div class='al-md6'> <div class='al-md6-content'> <div class='grid mg-left-0'> <div class='grid__item large--one-half pd-left0'> <div class='desc'> <span>{layout_content_1}</span> </div> </div> <div class='grid__item large--one-half pd-left0'> <img src='{layout_image_1}' alt=''> </div> </div> </div> <div class='al-md6-content'> <div class='grid mg-left-0'> <div class='grid__item large--one-half pd-left0'> <img src='{layout_image_2}' alt=''> </div> <div class='grid__item large--one-half pd-left0'> <div class='desc'> <span>{layout_content_2}</span> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "funiture_layout_01_phuong-6",
+            "name": "funiture_layout_01_phuong-6",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/noithatlayout6.jpg",
+            "type": "funiture"
+        }
+    ],
+    "food_layout_01_phuong": [
+        {
+            "content": [
+                {
+                    "name": "layout_title_1",
+                    "title": "Tiêu đề chữ nhỏ",
+                    "value": "Đẹp hơn nhờ ăn",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title_bold",
+                    "title": "Phần chữ đậm",
+                    "value": "Chuối",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_title_2",
+                    "title": "Tiêu đề chữ nhỏ",
+                    "value": "đúng cách",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/banana-2.png",
+                    "type": "file"
+                }
+            ],
+            "css": "#layout-food-1{ padding-bottom: 15px; } #layout-food-1 .al-md1{ position: relative; } #layout-food-1 .al-md1-content{ position: absolute; top: 50%; right: 20px; transform: translateY(-50%); text-align: right; } #layout-food-1 .al-md1-content .al-md1-text{ font-size: 36px; line-height: 1.2em; font-family: 'Patrick Hand', cursive; text-transform: uppercase; color: {color_text}; } #layout-food-1 .al-md1-content .al-md1-text-bold{ color: {primary_color}; line-height: 1.2em; font-size: 50px; font-family: 'Lobster', cursive; } @media(max-width:768px){ #layout-food-1 .al-md1-content .al-md1-text-bold{ font-size: 36px !important; } }",
+            "html": "<div id='layout-food-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <img src='{layout_image}' alt=''> <div class='al-md1-content'> <div class='al-md1-text'>{layout_title_1}</div> <div class='al-md1-text-bold'>{layout_title_bold}</div> <div class='al-md1-text'>{layout_title_2}</div> </div> </div> </div> </div> </div>",
+            "id": "food_layout_01_phuong-1",
+            "name": "food_layout_01_phuong-1",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/foodlayout1.jpg",
+            "type": "food"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content_1",
+                    "title": "Nội dung chữ thường 1",
+                    "value": "Có nhiều",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_bold",
+                    "title": "Phần chữ cần nhấn mạnh",
+                    "value": "Magie , Kali , Kẽm, Sắt , Acid Folic",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Nội dung chữ thường 2",
+                    "value": "Rất có lợi cho sức khỏe, vóc dáng và làn da",
+                    "type": "text"
+                }
+            ],
+            "css": "#layout-food-1 .al-md2{ padding: 20px; border: 3px solid {primary_color}; text-align: center; } #layout-food-1 .al-md2 .al-md2-content >div{ display: inline-block; } #layout-food-1 .al-md2 .al-md2-text{ font-weight: bold; font-family: 'Lobster', cursive; font-size: 36px; line-height: 1.2em; color: {primary_color}; margin-right: 10px; } #layout-food-1 .al-md2 .al-md2-text-up{ font-family: 'Patrick Hand', cursive; font-size: 40px; text-transform: uppercase; font-weight: 700; line-height: 1.2em; font-style: italic; }",
+            "html": "<div id='layout-food-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='al-md2-content'> <div class='al-md2-text'>{layout_content_1}</div> <div class='al-md2-text-up'>{layout_content_bold}</div> <div class='al-md2-text'>{layout_content_2}</div> </div> </div> </div> </div> </div>",
+            "id": "food_layout_01_phuong-2",
+            "name": "food_layout_01_phuong-2",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/foodlayout2.jpg",
+            "type": "food"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung cho layout",
+                    "value": " Chà vỏ chuối lên vùng da bị mụn cóc hoặc đắp vỏ chuối lên mụn qua đêm giúp loại bỏ mụn ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/banana1.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Nội dung chữ thường 2",
+                    "value": " Trị mụn",
+                    "type": "text"
+                }
+            ],
+            "css": "#layout-food-1 .al-md3 .al-md3-img{ position: relative; } #layout-food-1 .al-md3 .al-md3-title{ position: absolute; bottom: 0px; left: 0px; right: 0px; padding: 15px; font-size: 36px; font-family: 'Patrick Hand',cursive; background: rgba(255,255,255,0.7); text-align: center; text-transform: uppercase; color: {color_text}; } #layout-food-1 .al-md3 .inner { background: {primary_color}; } #layout-food-1 .al-md3 .inner .grid .large--two-thirds{ background: #fff; } #layout-food-1 .al-md3 .inner .grid{ display: flex; align-items: center; } #layout-food-1 .al-md3 .al-md3-content { padding: 15px; font-size: 24px; line-height: 1.2em; font-family: 'Lobster', cursive; color: #FFF; } @media(max-width :768px){ #layout-food-1 .al-md3 .inner .grid{ display: block !important; } }",
+            "html": "<div id='layout-food-1'> <div class='al-md3'> <div class='wrapper'> <div class='inner'> <div class='grid mg-left-15'> <div class='grid__item large--one-third pd-left15'> <div class='al-md3-content'>{layout_content}</div> </div> <div class='grid__item large--two-thirds pd-left15'> <div class='al-md3-img'> <img src='{layout_image}' alt=''> <div class='al-md3-title'>{layout_title} </div> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "food_layout_01_phuong-3",
+            "name": "food_layout_01_phuong-3",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/foodlayout3.jpg",
+            "type": "food"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung cho layout",
+                    "value": "Đắp mặt nạ chuối và mật ong 15-20' mỗi tuần để da sáng mịn và se khít lỗ chân lông",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/banana2.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Nội dung chữ thường 2",
+                    "value": "Tái tạo làn da",
+                    "type": "text"
+                }
+            ],
+            "css": "#layout-food-1 .al-md3 .al-md3-img{ position: relative; } #layout-food-1 .al-md3 .al-md3-title{ position: absolute; bottom: 0px; left: 0px; right: 0px; padding: 15px; font-size: 36px; font-family: 'Patrick Hand',cursive; background: rgba(255,255,255,0.7); text-align: center; text-transform: uppercase; color: {color_text}; } #layout-food-1 .al-md3 .inner { background: {primary_color}; } #layout-food-1 .al-md3 .inner .grid .large--two-thirds{ background: #fff; } #layout-food-1 .al-md3 .inner .grid{ display: flex; align-items: center; } #layout-food-1 .al-md3 .al-md3-content { padding: 15px; font-size: 24px; line-height: 1.2em; font-family: 'Lobster', cursive; color: #FFF; } @media(max-width :768px){ #layout-food-1 .al-md3 .inner .grid{ display: block !important; } }",
+            "html": "<div id='layout-food-1'> <div class='al-md3'> <div class='wrapper'> <div class='inner'> <div class='grid mg-left-15'> <div class='grid__item large--one-third pd-left15'> <div class='al-md3-content'>{layout_content}</div> </div> <div class='grid__item large--two-thirds pd-left15'> <div class='al-md3-img'> <img src='{layout_image}' alt=''> <div class='al-md3-title'>{layout_title} </div> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "food_layout_01_phuong-4",
+            "name": "food_layout_01_phuong-4",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/foodlayout4.jpg",
+            "type": "food"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung cho layout",
+                    "value": " Sau khi đánh răng, dùng mặt trong của vỏ chuối chín chà lên răng từ 30 giây đến 1 phút rồi súc miệng sạch",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/banana3.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Nội dung chữ thường 2",
+                    "value": "Làm trắng răng",
+                    "type": "text"
+                }
+            ],
+            "css": "#layout-food-1 .al-md3 .al-md3-img{ position: relative; } #layout-food-1 .al-md3 .al-md3-title{ position: absolute; bottom: 0px; left: 0px; right: 0px; padding: 15px; font-size: 36px; font-family: 'Patrick Hand',cursive; background: rgba(255,255,255,0.7); text-align: center; text-transform: uppercase; color: {color_text}; } #layout-food-1 .al-md3 .inner { background: {primary_color}; } #layout-food-1 .al-md3 .inner .grid .large--two-thirds{ background: #fff; } #layout-food-1 .al-md3 .inner .grid{ display: flex; align-items: center; } #layout-food-1 .al-md3 .al-md3-content { padding: 15px; font-size: 24px; line-height: 1.2em; font-family: 'Lobster', cursive; color: #FFF; } @media(max-width :768px){ #layout-food-1 .al-md3 .inner .grid{ display: block !important; } }",
+            "html": "<div id='layout-food-1'> <div class='al-md3'> <div class='wrapper'> <div class='inner'> <div class='grid mg-left-15'> <div class='grid__item large--one-third pd-left15'> <div class='al-md3-content'>{layout_content}</div> </div> <div class='grid__item large--two-thirds pd-left15'> <div class='al-md3-img'> <img src='{layout_image}' alt=''> <div class='al-md3-title'>{layout_title} </div> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "food_layout_01_phuong-5",
+            "name": "food_layout_01_phuong-5",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/foodlayout5.jpg",
+            "type": "food"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung cho layout",
+                    "value": "Chuối chứa nhiều axit no và chất hữu cơ hòa tan giúp cơ thể no lâu và giảm cơn thèm ăn",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/banana4.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_title",
+                    "title": "Nội dung chữ thường 2",
+                    "value": "Giảm cân",
+                    "type": "text"
+                }
+            ],
+            "css": "#layout-food-1 .al-md3 .al-md3-img{ position: relative; } #layout-food-1 .al-md3 .al-md3-title{ position: absolute; bottom: 0px; left: 0px; right: 0px; padding: 15px; font-size: 36px; font-family: 'Patrick Hand',cursive; background: rgba(255,255,255,0.7); text-align: center; text-transform: uppercase; color: {color_text}; } #layout-food-1 .al-md3 .inner { background: {primary_color}; } #layout-food-1 .al-md3 .inner .grid .large--two-thirds{ background: #fff; } #layout-food-1 .al-md3 .inner .grid{ display: flex; align-items: center; } #layout-food-1 .al-md3 .al-md3-content { padding: 15px; font-size: 24px; line-height: 1.2em; font-family: 'Lobster', cursive; color: #FFF; } @media(max-width :768px){ #layout-food-1 .al-md3 .inner .grid{ display: block !important; } }",
+            "html": "<div id='layout-food-1'> <div class='al-md3'> <div class='wrapper'> <div class='inner'> <div class='grid mg-left-15'> <div class='grid__item large--one-third pd-left15'> <div class='al-md3-content'>{layout_content}</div> </div> <div class='grid__item large--two-thirds pd-left15'> <div class='al-md3-img'> <img src='{layout_image}' alt=''> <div class='al-md3-title'>{layout_title} </div> </div> </div> </div> </div> </div> </div> </div>",
+            "id": "food_layout_01_phuong-6",
+            "name": "food_layout_01_phuong-6",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/foodlayout6.jpg",
+            "type": "food"
+        }
+    ],
+    "coffee_layout_01_phuong": [
+        {
+            "content": [
+                {
+                    "name": "layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Ngũ vị trong cà phê",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content",
+                    "title": "Nội dung layout",
+                    "value": "Ngọt - Chua - Đắng là 3 vị cơ bản mà chúng ta có thể dễ dàng nhận biết khi thưởng thức một tách cà phê. Tuy nhiên, trên thực tế, cà phê là sự cân bằng và hài hòa của ngũ vị: đắng, chua, mặn, ngọt và cay ",
+                    "type": "text"
+                }
+            ],
+            "html": "<div id='layout-coffee-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <div class='al-md1-title'> <h2>{layout_title}</h2> </div> <div class='al-md1-content'>{layout_content} </div> </div> </div> </div> </div>",
+            "css": "#layout-coffee-1{background:{primary_color};} #layout-coffee-1 { padding: 30px 0px; } #layout-coffee-1 .al-md1 .al-md1-title h2, #layout-coffee-1 .al-md1 .al-md1-title .h2 { text-align: center; font-size: 60px; font-style: italic; font-family: 'Patrick Hand', cursive; color: {color_text}; } #layout-coffee-1 .al-md1 .al-md1-content { font-style: italic;color: {color_text}; }",
+            "id": "coffee_layout_01_phuong-1",
+            "name": "coffee_layout_01_phuong-1",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutcoffee1.jpg",
+            "type": "coffee"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_title_1",
+                    "title": "Tiêu đề bên trái layout",
+                    "value": "Vị ngọt",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_1",
+                    "title": "Nội dung bên trái layout",
+                    "value": " Vị ngọt do lượng đường Fructose và Glucose có trong hạt cà phê tạo nên. Khi cà phê được rang, phần lớn lượng đường này được Caramen hóa, góp phần tạo ra vị đắng, màu nâu và mùi hương khét. Một phần đường còn lại tạo nên vị tinh tế, nhẹ nhàng trong ly cà phê. Vị ngọt của cà phên được cảm nhận ở đầu lưỡi. Cà phê ngon sẽ có vị ngọt tự nhiên hài hòa với các vị khác trong cà phê. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh bên trái layout",
+                    "value": "http://file.hstatic.net/1000234244/file/image-coffee-1.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_title_2",
+                    "title": "Tiêu đề bên phải layout",
+                    "value": "Vị Chua",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Nội dung bên phải layout",
+                    "value": " Vị chua là đặc điểm chính của dòng cà phê Arabica, được cảm nhận xen lẫn với vị đắng, tạo ra một cảm nhận rõ ràng, sắc nét về chất lượng cà phê. Vị chua của cà phê được cảm nhận bới 2 bên cạnh cua lưỡi. Nếu không đủ độ axit, vị cà phê sẽ có xu hướng nhạt nhẽo. Do đó, tính acid tạo ra cảm giác thú vị và đặc biệt khi chúng ta thưởng thức cà phê. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh bên phải layout",
+                    "value": "http://file.hstatic.net/1000234244/file/image-coffee-3.png",
+                    "type": "file"
+                }
+            ],
+            "html": "<div id='layout-coffee-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='grid mg-left-15'> <div class='grid__item large--one-half pd-left15'> <div class='al-md2-item al-md-left'> <div class='al-md2-title'> <h2><span>{layout_title_1}</span></h2> </div> <div class='al-md2-content al-md-content'> <div class='al-md2-desc'>{layout_content_1}</div> <div class='al-md2-img al-md-img'> <img src='{layout_image_1}' alt=''> </div> </div> </div> </div> <div class='grid__item large--one-half pd-left15'> <div class='al-md2-item al-md-right'> <div class='al-md2-title'> <h2>{layout_title_2}</h2> </div> <div class='al-md2-content al-md-content'> <div class='al-md2-desc'> {layout_content_2}</div> <div class='al-md2-img al-md-img'> <img src='{layout_image_2}' alt=''> </div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-coffee-1{background:{primary_color};} #layout-coffee-1 .al-md-left { margin-right: 50px; } #layout-coffee-1 .al-md-left h2{ text-transform: uppercase; font-weight: bold; position: relative;color: {color_text}; } #layout-coffee-1 .al-md-left h2:before, #layout-coffee-1 .al-md-left .h2:before { content: ''; position: absolute; top: 50%; transform: translateY(-50%); right: 0px; height: 2px; background: #b18c5c; width: 50%; } #layout-coffee-1 .al-md-left h2:after, #layout-coffee-1 .al-md-left .h2:after { content: ''; position: absolute; top: 50%; height: 100px; right: 0px; background: #b18c5c; width: 2px; } #layout-coffee-1 .al-md-left .al-md-content {color: {color_text}; padding: 0px 50px 0px 15px; position: relative; text-align: justify; } #layout-coffee-1 .al-md-left .al-md-content .al-md-img { position: absolute; bottom: 0px; right: -30px; width: 80px; } #layout-coffee-1 .al-md-right { margin-left: 50px; } #layout-coffee-1 .al-md-right h2, #layout-coffee-1 .al-md-right .h2 { text-transform: uppercase; font-weight: bold; position: relative; text-align: right; } #layout-coffee-1 .al-md-right h2:before, #layout-coffee-1 .al-md-right .h2:before { content: ''; position: absolute; top: 50%; transform: translateY(-50%); left: 0px; height: 2px; background: #b18c5c; width: 50%; } #layout-coffee-1 .al-md-right h2:after, #layout-coffee-1 .al-md-right .h2:after { content: ''; position: absolute; top: 50%; height: 100px; left: 0px; background: #b18c5c; width: 2px; } #layout-coffee-1 .al-md-right .al-md-content {color: {color_text}; padding: 0px 15px 0px 50px; position: relative; text-align: justify; } #layout-coffee-1 .al-md-right .al-md-content .al-md-img { position: absolute; bottom: 0px; left: -30px; width: 80px; } @media (max-width: 768px) { #layout-coffee-1 .al-md-left { margin-bottom: 30px; } #layout-coffee-1 .al-md-right { margin-bottom: 30px; } } @media (max-width: 480px) { #layout-coffee-1 .al-md-left { margin-right: 30px !important; } #layout-coffee-1 .al-md-right { margin-left: 30px !important; } }",
+            "id": "coffee_layout_01_phuong-2",
+            "name": "coffee_layout_01_phuong-2",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutcoffee2.jpg",
+            "type": "coffee"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_title_1",
+                    "title": "Tiêu đề bên trái layout",
+                    "value": "Vị đắng",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_1",
+                    "title": "Nội dung bên trái layout",
+                    "value": "Vị đắng là kết quả của sự tương tác từ hợp chats Trigonelline trong cà phê với các gai vị giác nằm trên mặt sau của lưỡi. Trigonelline phát sinh tỉ lệ thuận với nhiệt độ và mức độ rang. Vị đắng có thể làm giảm tính axit trong cà phê nên nó tỉ lệ nghịch với vị chua trong cà phê. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh bên trái layout",
+                    "value": "http://file.hstatic.net/1000234244/file/image-coffee-5.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_title_2",
+                    "title": "Tiêu đề bên phải layout",
+                    "value": "Vị mặn, cay",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title": "Nội dung bên phải layout",
+                    "value": " Vị mặn : Hàm lượng muối Khoandg trong hạt cà phê thường nằm ở dạng muối Vô cơ tự do như NaCl, KCl. Vị mặn được cảm nhận được rõ ràng hơn. Vị cay : Theo các chuyên gia về cảm quan, ngoài vị đắng, ngọt, chua và mặn thì trong cà phê còn có vị cay. Tuy nhiên, với những ai có vị giác tinh tế thì mới có thể nhận ra vị cay này trên mặt sau của lưỡi khi thưởng thức Cà phê. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh bên phải layout",
+                    "value": "http://file.hstatic.net/1000234244/file/image-coffee-6.png",
+                    "type": "file"
+                }
+            ],
+            "html": "<div id='layout-coffee-1'> <div class='wrapper'> <div class='inner'> <div class='al-md3'> <div class='grid mg-left-15'> <div class='grid__item large--one-half pd-left15'> <div class='al-md3-item al-md-left'> <div class='al-md3-title'> <h2>{layout_title_1}</h2> </div> <div class='al-md3-content al-md-content'> <div class='al-md3-desc'> {layout_content_1}</div> <div class='al-md3-img al-md-img'> <img src='{layout_image_1}' alt=''> </div> </div> </div> </div> <div class='grid__item large--one-half pd-left15'> <div class='al-md3-item al-md-right'> <div class='al-md3-title'> <h2>{layout_title_2}</h2> </div> <div class='al-md3-content al-md-content'> <div class='al-md3-desc'>{layout_content_2}</div> <div class='al-md3-img al-md-img'> <img src='{layout_image_2}' alt=''> </div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-coffee-1{background:{primary_color};} #layout-coffee-1 .al-md-left { margin-right: 50px; } #layout-coffee-1 .al-md-left h2, #layout-coffee-1 .al-md-left .h2 { text-transform: uppercase; font-weight: bold; position: relative; color: {color_text};} #layout-coffee-1 .al-md-left h2:before, #layout-coffee-1 .al-md-left .h2:before { content: ''; position: absolute; top: 50%; transform: translateY(-50%); right: 0px; height: 2px; background: #b18c5c; width: 50%; } #layout-coffee-1 .al-md-left h2:after, #layout-coffee-1 .al-md-left .h2:after { content: ''; position: absolute; top: 50%; height: 100px; right: 0px; background: #b18c5c; width: 2px; } #layout-coffee-1 .al-md-left .al-md-content { padding: 0px 50px 0px 15px; position: relative; text-align: justify; color: {color_text};} #layout-coffee-1 .al-md-left .al-md-content .al-md-img { position: absolute; bottom: 0px; right: -30px; width: 80px; } #layout-coffee-1 .al-md-right { margin-left: 50px; } #layout-coffee-1 .al-md-right h2, #layout-coffee-1 .al-md-right .h2 { text-transform: uppercase; font-weight: bold; position: relative; text-align: right; } #layout-coffee-1 .al-md-right h2:before, #layout-coffee-1 .al-md-right .h2:before { content: ''; position: absolute; top: 50%; transform: translateY(-50%); left: 0px; height: 2px; background: #b18c5c; width: 50%; } #layout-coffee-1 .al-md-right h2:after, #layout-coffee-1 .al-md-right .h2:after { content: ''; position: absolute; top: 50%; height: 100px; left: 0px; background: #b18c5c; width: 2px; } #layout-coffee-1 .al-md-right .al-md-content { padding: 0px 15px 0px 50px; position: relative; text-align: justify; color: {color_text};} #layout-coffee-1 .al-md-right .al-md-content .al-md-img { position: absolute; bottom: 0px; left: -30px; width: 80px; } @media (max-width: 768px) { #layout-coffee-1 .al-md-left { margin-bottom: 30px; } #layout-coffee-1 .al-md-right { margin-bottom: 30px; } } @media (max-width: 480px) { #layout-coffee-1 .al-md-left { margin-right: 30px !important; } #layout-coffee-1 .al-md-right { margin-left: 30px !important; } }",
+            "id": "coffee_layout_01_phuong-3",
+            "name": "coffee_layout_01_phuong-3",
+            "color_text": "#333",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutcoffee3.jpg",
+            "type": "coffee"
+        }
+    ],
+    "garden_layout_01_phuong": [
+        {
+            "content": [
+                {
+                    "name": "layout_content",
+                    "title": "Mô tả cho layout",
+                    "value": "Niềm vui, những điều may mắn, tốt lành sẽ đến với ngôi nhà của bạn trong dịp năm mới khi có sự hiện diện của những chậu cây cảnh mini vô cùng đẹp mắt này.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/garden1.png",
+                    "type": "file"
+                }
+            ],
+            "html": "<div id='layout-garden-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <div class='al-md1-img'> <img src='{layout_image}' alt=''> <div class='al-md1-desc'> {layout_content} </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-garden-1 .al-md1{ padding-bottom: 30px; } #layout-garden-1 .al-md1 .al-md1-img{ position: relative; } #layout-garden-1 .al-md1-desc{ position: absolute; bottom: 0px; width: 70%; left:50%; transform: translateX(-50%); background: #e4e4e4; color:{color_text}; border-left: 5px solid {primary_color}; padding:15px 30px; font-weight: bold; font-style: italic; }",
+            "id": "garden_layout_01_phuong-1",
+            "name": "garden_layout_01_phuong-1",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutgarden_77ddb11d896347f4a79541f82bbcc284.png",
+            "color_text": "#333",
+            "type": "garden"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content",
+                    "title": "Mô tả cho layout",
+                    "value": " Khi mua sắm đồ trang trí nhà đón Tết, bạn và mọi người trong gia đình thường chú trọng đến các vật dụng cần thiết, đồ gia dụng thường sử dụng hàng ngày mà quên mất một điều rằng, nếu không có sự hiện diện của cây xanh ở những góc nhỏ, chắc chắn ngôi nhà sẽ thiếu đi sinh khí và niềm vui của mùa xuân. Vì thế, với những mẫu chậu cây cảnh mini với các loại cây hoa đá, xương rồng... sẽ giúp từng góc nhỏ ở bệ cửa sổ, tap đầu giường phòng ngủ, bàn trà phòng khách hay bàn ăn nơi góc bếp thêm đẹp mắt và đáng yêu hơn.",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/garden2.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/garden3.png",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_image_3",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/garden4.png",
+                    "type": "file"
+                }
+            ],
+            "html": "<div id='layout-garden-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='al-md2-content'> {layout_content}</div> <div class='al-md2-img'> <div class='grid'> <div class='grid__item large--one-third'> <div class='al-md2-img-item'> <img src='{layout_image_1}' alt=''> </div> </div> <div class='grid__item large--one-third'> <div class='al-md2-img-item'> <img src='{layout_image_2}' alt=''> </div> </div> <div class='grid__item large--one-third'> <div class='al-md2-img-item'> <img src='{layout_image_3}' alt=''> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-garden-1 .al-md2{ padding: 30px 0px; } #layout-garden-1 .al-md2 .al-md2-content{ margin-bottom: 15px; text-align: justify; color: {color_text}; } #layout-garden-1 .al-md2 .al-md2-img .al-md2-img-item{ overflow: hidden; position: relative; } #layout-garden-1 .al-md2 .al-md2-img .al-md2-img-item img{ transition: 0.5s; width: 100%; } #layout-garden-1 .al-md2 .al-md2-img .al-md2-img-item img:hover{ transform:scale(1.02); }",
+            "id": "garden_layout_01_phuong-2",
+            "name": "garden_layout_01_phuong-2",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutgarden2.jpg",
+            "color_text": "#333",
+            "type": "garden"
+        },
+        {
+            "content": [
+                {
+                    "name": "layout_content_1",
+                    "title": "Mô tả cho layout bên trái",
+                    "value": "Chậu cây được thiết kế dạng 'tổ hợp' để trồng những loại cây nhỏ xíu, đặt khéo léo trên khay gỗ và có thể làm duyên cho bất kỳ góc nhỏ nào mà chúng có mặt. Khi bạn yêu những loài cây bé nhỏ, chúng sẽ mang đến nhiều bất ngờ và niềm vui cho bạn. Với các chậu cây nhỏ xíu, bạn có thể trồng các loại hoa đá, xương rồng, các loại cây ưa khí hậu khô và dễ thích nghi với điều kiện thời tiết trong nhà. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/garden5.jpg",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_content_2",
+                    "title":"Mô tả  1 bên phải",
+                    "value": "Khi nhà chật hẹp thì những chậu cây nhỏ xíu trở thành tâm điểm của sự chú ý, thành điểm nhấn duyên dáng và đẹp mắt trong những ngày đầu năm. Bạn sẽ có thêm hứng thú và niềm vui khi được chăm sóc và ngắm nghía những chậu cây nhỏ xíu đang lớn lên từng ngày. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_2",
+                    "title": "Hình ảnh 1 bên phải",
+                    "value": "http://file.hstatic.net/1000234244/file/garden6.jpg",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_content_3",
+                    "title":"Nội dung 2 bên phải",
+                    "value": "Khay gỗ dài đựng các chậu cây với nhiều hình dạng khác nhau cũng là cách giản đơn để tăng màu xanh cho bàn ăn góc bếp. Chậu cây lấy cảm hứng từ những quân bài tăng thêm nét đẹp độc đáo cho ngôi nhà trong dịp đầu năm mới.  ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_3",
+                    "title": "Hình ảnh 2 bên phải",
+                    "value": "http://file.hstatic.net/1000234244/file/garden7.jpg",
+                    "type": "file"
+                },
+                {
+                    "name": "layout_content_4",
+                    "title":"Nội dung 3 bên phải",
+                    "value": " Thiết kế kệ nhiều tầng với kích cỡ nhỏ nhắn để những chậu cây thêm vừa vặn và đẹp mắt. Kệ có thể được thiết kế với kiểu dáng khác nhau để tăng thêm nét đẹp xinh tươi, dịu dàng cho những ngày đầu năm. ",
+                    "type": "text"
+                },
+                {
+                    "name": "layout_image_4",
+                    "title": "Hình ảnh 3 bên phải",
+                    "value": "http://file.hstatic.net/1000234244/file/garden8.jpg",
+                    "type": "file"
+                }
+            ],
+            "html": "<div id='layout-garden-1'> <div class='wrapper'> <div class='inner'> <div class='al-md3'> <div class='grid mg-left-15'> <div class='grid__item large--one-half pd-left15'> <div class='al-md3-item'> <div class='al-md3-content'> {layout_content_1}</div> <img src='{layout_image_1}' alt=''> </div> </div> <div class='grid__item large--one-half pd-left15'> <div class='al-md3-item-left '> <div class='grid mg-left-15'> <div class='grid__item large--one-third pd-left15'> <div class='al-md3-img'> <img src='{layout_image_2}' alt=''> </div> </div> <div class='grid__item large--two-thirds pd-left15'> <div class='al-md3-content'>{layout_content_2}</div> </div> </div> </div> <div class='al-md3-item-left'> <div class='grid mg-left-15'> <div class='grid__item large--one-third pd-left15'> <div class='al-md3-img'> <img src='{layout_image_3}' alt=''> </div> </div> <div class='grid__item large--two-thirds pd-left15'> <div class='al-md3-content'>{layout_content_3}</div> </div> </div> </div> <div class='al-md3-item-left'> <div class='grid mg-left-15'> <div class='grid__item large--one-third pd-left15'> <div class='al-md3-img'> <img src='{layout_image_4}' alt=''> </div> </div> <div class='grid__item large--two-thirds pd-left15'> <div class='al-md3-content'>{layout_content_4}</div> </div> </div> </div> </div> </div> </div> </div> </div> </div>",
+            "css": "#layout-garden-1 .al-md3 .al-md3-item .al-md3-content{ margin-bottom: 15px; text-align: justify; color: {color_text}; } #layout-garden-1 .al-md3-item-left .al-md3-img{ position: relative; overflow: hidden; } #layout-garden-1 .al-md3{ padding: 30px 0px; } #layout-garden-1 .al-md3 .al-md3-item-left{ margin-bottom: 15px; } #layout-garden-1 .al-md3 .al-md3-item-left .al-md3-img:before{ content: ''; display: block; padding: 50%; } #layout-garden-1 .al-md3 .al-md3-item-left .al-md3-img img{ position: absolute; top: 0; left: 50%; width: auto; max-width: none; height: 100%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }",
+            "id": "garden_layout_01_phuong-3",
+            "name": "garden_layout_01_phuong-3",
+            "image_demo": "http://file.hstatic.net/1000234244/file/layoutgarden3.jpg",
+            "color_text": "#333",
+            "type": "garden"
+        }
+    ],
+    "tech_layout_01_phuong":[
+        {
+            "content":[
+                {
+                    "name":"layout_content",
+                    "title":"Nội dung layout",
+                    "value":"Sau 11 năm làm điện thoại, Apple cũng tung ra chiếc iPhone 2 SIM",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_image",
+                    "title":"Hình ảnh layout",
+                    "value":"http://file.hstatic.net/1000234244/file/tech1.jpg",
+                    "type":"file"
+                }
+            ],
+            "html":"<div id='layout-tech-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <img src='{layout_image}' alt='' width='100%'> <div class='al-md1-content'> <h2>{layout_content}</h2> </div> </div> </div> </div> </div>",
+            "css":"#layout-tech-1 .al-md1 { position: relative; margin-bottom:30px;} #layout-tech-1 .al-md1 .al-md1-content { background: {primary_color}; width: 70%; opacity: 0.9; padding: 70px 100px; position: absolute; bottom: 0px; right: 0px; border-radius: 110% 110% 0% 108%; font-weight: bold; } #layout-tech-1 .al-md1 .al-md1-content h2 { color: {color_text}; text-transform: uppercase; font-weight: bold; } @media (max-width: 768px) { #layout-tech-1 .al-md1 .al-md1-content { width: 90% !important; padding: 15px 30px !important; } #layout-tech-1 .al-md1 .al-md1-content h2{ font-size: 18px !important; margin: 10px 0px !important; } }",
+            "id":"tech_layout_01_phuong-1",
+            "name":"tech_layout_01_phuong-1",
+            "color_text":"#000",
+            "image_demo":"http://file.hstatic.net/1000234244/file/layouttech1.jpg",
+            "type":"tech"
+        },
+        {
+            "content":[
+                {
+                    "name":"layout_image",
+                    "title":"Ảnh nền cho layout",
+                    "value":"http://file.hstatic.net/1000234244/file/tech8.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_content_1",
+                    "title":"Nội dung 1 layout",
+                    "value":" Mới đây tại sự kiện ra mắt sản phẩm của mình, Apple đã công bố tới 3 chiếc iPhone mới và lần này, Apple đã chịu làm iPhone với 2 SIM. Mặc dù cả 3 máy mới đều hỗ trợ 2 SIM nhưng thực tế 2 SIM này ở mọi thị trường đều là 1 SIM vật lý và 1 eSIM. Riêng iPhone cho thị trường Trung Quốc sẽ có 2 khe cắm SIM vật lý. ",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_2",
+                    "title":"Nội dung 21 layout",
+                    "value":" Với iPhone Xs, Tim Cook đã gọi: “Chiếc iPhone hấp dẫn nhất mà chúng tôi từng tạo ra”. Máy vẫn mang phong cách thiết kế của chiếc iPhone X của năm ngoái nhưng có thêm màu vàng gold. Ngoài ra chuẩn kháng nước của máy đã được nâng lên IP68 ",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_image_2",
+                    "title":"Hình ảnh nhỏ cho layout",
+                    "value":"http://file.hstatic.net/1000234244/file/tech5.jpg",
+                    "type":"file"
+                }
+            ],
+            "html":"<div id='layout-tech-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <img src='{layout_image}' alt='' width='100%'> <div class='al-md2-content'> <div class='desc'>{layout_content_1}</div> <div class='al-md2-content-image'> <img src='{layout_image_2}' alt=''> <div class='content'>{layout_content_2}</div> </div> </div> </div> </div> </div> </div>",
+            "css":"#layout-tech-1 .al-md2 { position: relative; margin-bottom:30px;} #layout-tech-1 .al-md2 .al-md2-content { position: absolute; top: 0px; left: 0px; right: 40%; bottom: 0px; background: #fff; padding: 30px; display: flex; align-items: center; color:{color_text}; } #layout-tech-1 .al-md2 .al-md2-content .desc { text-align: justify; color:{color_text}; } #layout-tech-1 .al-md2 .al-md2-content .al-md2-content-image { margin-right: -160px; margin-left: 15px; background: {primary_color}; opacity: 0.9; color:{color_text}; padding: 15px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35); } #layout-tech-1 .al-md2 .al-md2-content .al-md2-content-image img { margin-top: -50px; width: 80%; margin-bottom: 10px; } #layout-tech-1 .al-md2 .al-md2-content .al-md2-content-image .content { text-align: justify; color: {color_text}; } @media (max-width: 768px) { #layout-tech-1 .al-md2 .al-md2-content { display: block !important; padding: 15px !important; position: static !important; } #layout-tech-1 .al-md2 .al-md2-content .al-md2-content-image { margin: 10px 0px 0px !important; } #layout-tech-1 .al-md2 .al-md2-content .al-md2-content-image img { margin: 0px 0px 15px !important; width: 100% !important; } }",
+            "id":"tech_layout_01_phuong-2",
+            "name":"tech_layout_01_phuong-2",
+            "color_text":"#000",
+            "image_demo":"http://file.hstatic.net/1000234244/file/layouttech2.jpg",
+            "type":"tech"
+        },
+        {
+            "content":[
+                {
+                    "name":"layout_image",
+                    "title":"Hình ảnh cho layout",
+                    "value":"http://file.hstatic.net/1000234244/file/tech8.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_content_1",
+                    "title":"Nội dung 1 layout",
+                    "value":" Phiên bản lớn hơn của iPhone Xs có kích thước màn hình 6,5 inch và có tên gọi iPhone Xs Max. Mặc dù diện tích hiển thị lớn hơn dòng máy plus trước đây nhưng kích thước tổng thể của máy chỉ bằng chiếc iPhone 7 hoặc 8 plus. ",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_2",
+                    "title":"Nội dung 2 layout",
+                    "value":"Cả iPhone XS và XS Max đều được trang bị chip A12 Bionic, là con chip phát triển trên tiến trình 7nm đầu tiên. Chip A12 mới cho hiệu năng đồ hoạ gấp rưỡi A11 của năm ngoái.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_3",
+                    "title":"Nội dung 3 layout",
+                    "value":"Riêng khả năng xử lý các tác vụ liên quan tới máy học (Machine Learning) hiệu năng tăng gấp nhiều lần chip A11 nhưng chỉ tốn 1/10 lượng điện năng. ",
+                    "type":"text"
+                }
+            ],
+            "html":"<div id='layout-tech-1'> <div class='wrapper'> <div class='inner'> <div class='al-md3'> <img src='{layout_image}' class='img-up' alt='' width='90%'> <img src='{layout_image}' alt='' width='90%'> <div class='al-md3-content'> <div class='grid mg-left-15'> <div class='grid__item large--one-third pd-left15'> <div class='desc'> {layout_content_1} </div> </div> <div class='grid__item large--one-third pd-left15'> <div class='desc'> {layout_content_2} </div> </div> <div class='grid__item large--one-third pd-left15'> <div class='desc'> {layout_content_3}</div> </div> </div> </div> </div> </div> </div> </div>",
+            "css":"#layout-tech-1 .al-md3 { position: relative; margin-bottom:30px;} #layout-tech-1 .al-md3 .img-up { position: absolute; top: 0px; left: 0px; z-index: 9; } #layout-tech-1 .al-md3 .al-md3-content { margin-top: -80px; background: {primary_color}; color:{color_text}; padding: 110px 30px 30px; text-align:justify; } @media (max-width: 768px) { #layout-tech-1 .al-md3-content { padding: 95px 15px 15px !important; } }",
+            "id":"tech_layout_01_phuong-3",
+            "name":"tech_layout_01_phuong-3",
+            "color_text":"#000",
+            "image_demo":"http://file.hstatic.net/1000234244/file/layouttech3.jpg",
+            "type":"tech"
+        },
+        {
+            "content":[
+                {
+                    "name":"layout_image",
+                    "title":"Hình ảnh cho layout",
+                    "value":"http://file.hstatic.net/1000234244/file/mobile3.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_content_1",
+                    "title":"Nội dung 1 layout",
+                    "value":"Máy ảnh là một trong những cải tiến của bộ đôi iPhoen Xs và Xs Max. Vẫn sử dụng cụm camera kép được bố trí dọc nhưng các bức ảnh hiện nay đã được chip mới xử lý nhiều hơn, cùng một bức ảnh, cảm biến ảnh sẽ chụp hàng loạt bức ảnh, phân tích và kết hợp tạo ra một bức ảnh hoàn hảo cuối cùng.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_2",
+                    "title":"Nội dung 2 layout",
+                    "value":" iPhone Xr được coi là phiên bản giá rẻ của điện thoại trong sự kiện ra mắt lần này. Máy có tới 5 màu. Phía sau có thiết kế tương tự iPhone 7 hoặc 8 nhưng mặt trước của máy lại sử dụng thiết kế của iPhone X. ",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_3",
+                    "title":"Nội dung 3 layout",
+                    "value":" Đúng như các thông tin rò rỉ trước đây iPhone Xr có kích thước màn hình 6,1 inch, nằm giữa iPhone Xs và Xs Max. Mặc dù là giá rẻ nhưng máy vẫn được trang bị con chip mạnh nhất là A12 Bionic. Giá rẻ của máy nằm ở camera đơn, màn hình chỉ là công nghệ LCD. ",
+                    "type":"text"
+                }
+            ],
+            "html":"<div id='layout-tech-1'> <div class='wrapper'> <div class='inner'> <div class='al-md4'> <img src='{layout_image}' alt='' width='100%'> <div class='al-md4-content'> <div class='al-md4-content-wrapper'> <div class='desc desc-out'> {layout_content_1} </div> <div class='desc desc-center'>{layout_content_2}</div> <div class='desc desc-out'>{layout_content_3} </div> </div> </div> </div> </div> </div> </div>",
+            "css":"#layout-tech-1 .al-md4 { position: relative; margin-bottom:30px;} #layout-tech-1 .al-md4 .al-md4-content { position: absolute; top: 0; right: 0px; bottom: 0px; left: 50%; background: #fff; display: flex; align-items: flex-end; } #layout-tech-1 .al-md4 .al-md4-content .al-md4-content-wrapper { padding: 20px; border: 5px solid {primary_color}; background: #fff; margin-left: -100px; } #layout-tech-1 .al-md4 .al-md4-content .al-md4-content-wrapper .desc { color: {color_text}; text-align: justify; line-height: 1.6em; margin-bottom: 15px; } @media (max-width: 768px) { #layout-tech-1 .al-md4 .al-md4-content { position: static !important; left: 0% !important; } #layout-tech-1 .al-md4 .al-md4-content .al-md4-content-wrapper { margin: 15px 0px 0px !important; } }",
+            "id":"tech_layout_01_phuong-4",
+            "name":"tech_layout_01_phuong-4",
+            "color_text":"#000",
+            "image_demo":"http://file.hstatic.net/1000234244/file/layouttech4.jpg",
+            "type":"tech"
+        },
+        {
+            "content":[
+                {
+                    "name":"layout_image",
+                    "title":"Hình ảnh cho layout",
+                    "value":"http://file.hstatic.net/1000234244/file/tech10.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_content_1",
+                    "title":"Nội dung 1 layout",
+                    "value":" Lần này Apple cũng đã tạo ra một đỉnh giá mới cho iPhone. Rẻ nhất là iPhone Xr có giá 749 USD, đắt hơn là iPhone Xs có giá 999 USD và đắt nhất là Xs Max với giá 1099 USD. Đây cũng là mức giá cao nhất nếu so sánh các smartphone cao cấp mới ra mắt gần đây. ",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_2",
+                    "title":"Nội dung 2 layout",
+                    "value":" Bên cạnh iPhone mới, Apple còn giới thiệu đến người dùng Apple Watch thế hệ tiếp theo với thay đổi ở màn hình rộng hơn, thân đồng hồ mỏng hơn. Điểm đặc biệt nhất của chiếc đồng hồ Apple Watch Series 4 là có thể biết khi nào người dùng bị ngã từ trên cao xuống dựa vào phân tích chuyển động của người đeo qua các cảm biến. Sau khi biết người dùng bị ngã, đồng hồ có thể tự gọi cấp cứu hoặc gọi điện cho người thân. ",
+                    "type":"text"
+                }
+            ],
+            "html":"<div id='layout-tech-1'> <div class='wrapper'> <div class='inner'> <div class='al-md5'> <div class='grid mg-left-0'> <div class='grid__item large--one-half pd-left0'> <div class='al-md5-content'> <div class='desc desc-up'>{layout_content_1}</div> <div class='desc desc-down'>{layout_content_2}</div> </div> </div> <div class='grid__item large--one-half pd-left0'> <div class='al-md5-img'> <img src='{layout_image}' alt=''> </div> </div> </div> </div> </div> </div> </div>",
+            "css":"#layout-tech-1 .al-md5 { background: {primary_color}; margin-bottom:30px;}#layout-tech-1 .al-md5 img{width:100%;} #layout-tech-1 .al-md5 .al-md5-content .desc { padding: 15px; text-align: justify; line-height: 1.6em; color: {color_text}; } #layout-tech-1 .al-md5 .al-md5-content .desc.desc-up { background: #fff; }",
+            "id":"tech_layout_01_phuong-5",
+            "name":"tech_layout_01_phuong-5",
+            "color_text":"#000",
+            "image_demo":"http://file.hstatic.net/1000234244/file/layouttech5.jpg",
+            "type":"tech"
+        }
+    ],
+    "cake_layout_01_phuong":[
+        {
+            "content":[
+                {
+                    "name":"layout_image",
+                    "title":"Hình ảnh cho module",
+                    "value":"http://file.hstatic.net/1000234244/file/cake1.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_title",
+                    "title":"Tiêu đề cho module",
+                    "value":"Hà nội mùa thu",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title":"Nội dung cho module",
+                    "value":" Là mùa của chuỗi ngày dễ chịu với những chiều nắng và cơn mưa giao mùa, là mùa của hồng đỏ, của cốm xanh , của bánh nướng bánh dẻo, của ấu thơ cũ kỹ mà đẹp đẽ. Hà Nội mùa này, là mùa của Trung thu.",
+                    "type":"text"
+                }
+            ],
+            "html":"<div id='layout-cake-1'> <div class='wrapper'> <div class='inner'> <div class='al-md1'> <div class='al-md1-image'> <img src='{layout_image}' alt='' width='100%'> </div> <div class='al-md1-content'> <div class='grid'> <div class='grid__item large--one-third'> <div class='al-md1-title'> <h2> {layout_title} </h2> </div> </div> <div class='grid__item large--two-thirds'> <div class='al-md1-desc'>{layout_content} </div> </div> </div> </div> </div> </div> </div> </div>",
+            "css":"#layout-cake-1 .al-md1 { margin-bottom: 30px; } #layout-cake-1 .al-md1 .al-md1-content { position: relative; } #layout-cake-1 .al-md1 .al-md1-content .al-md1-title { margin: -50px 0px 0px 30px; } #layout-cake-1 .al-md1 .al-md1-content .al-md1-title h2, #layout-cake-1 .al-md1 .al-md1-content .al-md1-title .h2 { padding: 50px 15px 25px; text-transform: uppercase; font-weight: bold; color: {primary_color}; border: 3px solid {primary_color}; font-family: 'Patrick hand', cursive; } #layout-cake-1 .al-md1 .al-md1-content .al-md1-desc { padding: 15px 0px; color: {color_text}; } @media (max-width: 768px) { #layout-cake-1 .al-md1 .al-md1-title { margin: -30px 15px 10px !important; } }",
+            "id":"cake_layout_01_phuong-1",
+            "name":"cake_layout_01_phuong-1",
+            "color_text":"#333",
+            "image_demo":"http://file.hstatic.net/1000234244/file/layoutcake1.jpg"
+        },
+        {
+            "content":[
+                {
+                    "name":"layout_image",
+                    "title":"Hình ảnh cho module",
+                    "value":"http://file.hstatic.net/1000234244/file/cake6.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_title",
+                    "title":"Tiêu đề cho module",
+                    "value":"Ai nói Hà Nội chỉ có mùa đông và mùa hè",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_1",
+                    "title":"Nội dung 1 cho module",
+                    "value":"  Hà Nội có thể chỉ lớt phớt chút mùa xuân những ngày ra Giêng, nhưng cái tiết thu dễ chịu thì kéo dài từ quãng đầu tháng 9 đến giữa tháng 11. Hà Nội lúc này đã hết những đợt nắng nóng kéo dài hay những trưa hè bước ra đường thôi cũng thấy hầm hập. Thời tiết nhẹ nhàng, trong veo, tối ập xuống sẽ hơi lạnh. Trời vừa hửng nắng khi sáng sớm, đến trưa lại có thể mưa ào một cái như trút hết cái oi oi xuống mặt đất. Đi ra đường không phải lo che chắn nhiều như tầm giữa tháng 6, tháng 7 nữa, vậy nên tâm trạng cũng phấn chấn hơn.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_2",
+                    "title":"Nội dung 1 cho module",
+                    "value":" Nhiều người yêu mùa thu chỉ đơn giản là vì thứ tiết trời nhẹ nhàng, vui vẻ ấy thôi. Người lại nhớ đôi ba món quà vặt của mùa thu, nào hồng, nào cốm. Nhưng Hà Nội vào thu, khi mà phố Hàng Mã bắt đầu lập loè màu đỏ đèn lồng, hay những tiếng trống kêu cạch cạch khó chịu bắt đầu nhiều dần, thì cũng là lúc người ta nhìn nhau nói: Lại một mùa Trung thu... Chắc chỉ duy nhất có Tết Trung thu là cái Tết có thể biến đám người lớn trở thành lũ trẻ con, dù chỉ bằng những ký ức của những ngày đã cũ. ",
+                    "type":"text"
+                }
+            ],
+            "html":"<div id='layout-cake-1'> <div class='wrapper'> <div class='inner'> <div class='al-md2'> <div class='al-md2-image text-center'> <img src='{layout_image}' alt=''> </div> <div class='al-md2-content'> <div class='al-md2-title'> <h2>{layout_title}</h2> </div> <div class='desc'>{layout_content_1} </div> <div class='desc'>{layout_content_2}</div> </div> </div> </div> </div> </div>",
+            "css":"#layout-cake-1 .al-md2 { margin-bottom: 30px; padding: 30px; border-radius: 20px; border: 3px solid {primary_color}; } #layout-cake-1 .al-md2 .al-md2-content .desc{ color:{color_text}; line-height:1.6em; margin-bottom:15px; } #layout-cake-1 .al-md2 .al-md2-image { margin-bottom: 15px; } #layout-cake-1 .al-md2 .al-md2-title h2, #layout-cake-1 .al-md2 .al-md2-title .h2 { text-transform: uppercase; font-family: 'Patrick hand', cursive; text-align: center; color: {primary_color}; } @media (max-width: 768px) { #layout-cake-1 .al-md2 { padding: 15px !important; } }",
+            "id":"cake_layout_01_phuong-2",
+            "name":"cake_layout_01_phuong-2",
+            "color_text":"#333",
+            "image_demo":"http://file.hstatic.net/1000234244/file/layoutcake2.jpg"
+        },
+        {
+            "content":[
+                {
+                    "name":"layout_image_1",
+                    "title":"Hình ảnh 1 cho module",
+                    "value":"http://file.hstatic.net/1000234244/file/cake7.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_image_2",
+                    "title":"Hình ảnh 3 cho module",
+                    "value":"http://file.hstatic.net/1000234244/file/cake8.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_image_3",
+                    "title":"Hình ảnh 3 cho module",
+                    "value":"http://file.hstatic.net/1000234244/file/cake9.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_title",
+                    "title":"Tiêu đề cho module",
+                    "value":"Trung thu ngày đó",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title":"Nội dung 1 cho module",
+                    "value":" Những kỷ niệm của lũ người lớn bây giờ về Trung thu ngày xưa ấy bao giờ cũng có những đêm rước đèn, hay buổi phá cỗ trong sân nhà tập thể. Đấy là cái thời chưa có điện thoại, tivi nhiều khi cả xóm xem ké của một nhà, là cái thời mà cứ buổi tối - lũ trẻ con ăn vội vàng bát cơm để ùa ra sân chơi. Mà thật ra làm gì có đồ chơi, không biết các bạn thế nào, chứ tôi thường hay bứt lá rồi ngồi xé nhỏ ra, giả vờ làm lang y đang bốc thuốc, rồi khám bệnh cho thằng bạn hàng xóm. Đồ chơi không có, thế nên mỗi đêm Trung thu giống như một đại tiệc linh đình trong mắt lũ trẻ con ngày ấy. ",
+                    "type":"text"
+                }
+            ],
+            "html":"<div id='layout-cake-1'> <div class='wrapper'> <div class='inner'> <div class='al-md3'> <div class='grid mg-left-15'> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15'> <img src='{layout_image_1}' alt='' width='100%'> </div> <div class='grid__item large--one-half medium--one-half small--one-half pd-left15 '> <img src='{layout_image_3}' alt='' width='100%'> </div> <div class='grid__item large--one-half pd-left15'> <img src='{layout_image_3}' alt='' width='100%'> </div> <div class='grid__item large--one-half pd-left15'> <div class='al-md3-content'> <div class='al-md3-title'> <h2 class='text-center'>{layout_title}</h2> </div> <div class='desc'>{layout_content}</div> </div> </div> </div> </div> </div> </div> </div>",
+            "css":"#layout-cake-1 .al-md3 { margin-bottom: 30px; } #layout-cake-1 .al-md3 img { margin-bottom: 15px; } #layout-cake-1 .al-md3 .al-md3-content { background: {primary_color}; padding: 30px; color: #fff; text-align: justify; color:{color_text}; } #layout-cake-1 .al-md3 .al-md3-content .al-md3-title h2, #layout-cake-1 .al-md3 .al-md3-content .al-md3-title .h2 { font-family: 'Patrick hand ', cursive; text-transform: uppercase; }",
+            "id":"cake_layout_01_phuong-3",
+            "name":"cake_layout_01_phuong-3",
+            "color_text":"#fff",
+            "image_demo":"http://file.hstatic.net/1000234244/file/layoutcake3.jpg"
+        },
+        {
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title":"Tiêu đề cho module",
+                    "value":"Tôi vẫn nhớ hình ảnh về một trung thu được phá cỗ với lũ trẻ con hàng xóm",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_1",
+                    "title":"Nội dung 1 cho module",
+                    "value":"Trong khoảnh sân rất nhỏ thôi, bác Tổ trưởng tổ dân phố cùng mọi người kê một cái bàn mica đặt giữa sân, phủ tấm khăn trải bàn màu xanh, ở trên dĩ nhiên là những thức quà mùa Trung thu mà đứa trẻ nào cũng thuộc làu: Một con chó lông xù bằng bưởi, một đĩa hoa quả thật to mà tôi nhớ nhất là có nhiều quả hồng ngâm, chuối, rồi cốm non được bọc kín trong lá sen, rất nhiều kẹo và bánh quy, và dĩ nhiên là bánh nướng, bánh dẻo, rồi thì vài ba con lợn bánh nướng béo núc đặt trong giỏ đỏ - vàng. ",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_image",
+                    "title":"Hình ảnh 1 cho module",
+                    "value":"http://file.hstatic.net/1000234244/file/cake4.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_content_2",
+                    "title":"Nội dung 2 cho module",
+                    "value":" Có lẽ, ngoài Tết ra thì chỉ có Trung thu mới khiến người ta có nhiều cảm xúc nhớ thương, hoài niệm về một thời tuổi thơ như thế. Chỉ khác một điều, Tết gợi về nỗi nhớ thương đoàn viên, về gia đình, về những cột mốc trong cuộc đời mỗi người. Còn Trung thu lại gợi nhắc một cái gì đấy đứng chênh vênh giữa lằn ranh của niềm vui nhẹ nhàng và sự tiếc nuối. Một cảm giác vừa hân hoan khi biết rằng một phần đẹp đẽ của tuổi thơ vẫn hiển hiện, và một rung động trầm buồn nhắc ta rằng cả một ấu thơ đã lùi xa, êm ả và chẳng bao giờ có thể quay lại được nữa. ",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content_3",
+                    "title":"Nội dung 3 cho module",
+                    "value":"Thật ra, tôi vốn là một kẻ cực đoan trong việc nhìn những cái gì truyền thống bị lai tạp giữa những gì hiện đại. Tôi ghét đặc thứ bánh trung thu được nhồi nhét nào vi cá, hồng sâm, bào ngư, hay vỏ bánh chocolate, bánh trung thu thạch? Tôi không chê chúng chán, tôi chỉ nghĩ rằng chúng là một loại bánh đắt tiền nào đó đội lốt bánh nướng, bánh dẻo. Bánh trung thu ngon có khi chỉ mua hết vài chục nghìn ở mấy xí nghiệp bánh kẹo quốc doanh. Những chiếc bánh chỉ nhân hạt sen xát, hay nhân đậu xanh, ở trong có 1-2 quả trứng muối.  ",
+                    "type":"text"
+                }
+            ],
+            "html":"<div id='layout-cake-1'> <div class='wrapper'> <div class='inner'> <div class='al-md4'> <div class='al-md4-content'> <div class='grid-uniform mg-left-15'> <div class='grid__item large--one-half al-md4-desc pd-left15'> <div class='al-md4-title'> <h2>{layout_title}</h2> <div> {layout_content_1}</div> </div> </div> <div class='grid__item large--one-half al-md4-image pd-left15'> <img src='{layout_image}' alt='' width='100%'> </div> <div class='grid__item large--one-half al-md4-desc pd-left15'> <div>{layout_content_2}</div> </div> <div class='grid__item large--one-half al-md4-desc pd-left15'> <div>{layout_content_3}</div> </div> </div> </div> </div> </div> </div> </div>",
+            "css":"#layout-cake-1 .al-md4 { margin-bottom: 30px; } #layout-cake-1 .al-md4 .al-md4-content .al-md4-title h2{ font-family: 'Patrick hand', cursive; text-transform: uppercase; color: {primary_color}; } #layout-cake-1 .al-md4 .al-md4-content .al-md4-desc { text-align: justify; margin-bottom: 15px; color: {color_text}; } #layout-cake-1 .al-md4 .al-md4-content .al-md4-image { margin-bottom: 15px; }",
+            "id":"cake_layout_01_phuong-4",
+            "name":"cake_layout_01_phuong-4",
+            "color_text":"#333",
+            "image_demo":"http://file.hstatic.net/1000234244/file/layoutcake4.jpg"
+        }
     ]
 }
