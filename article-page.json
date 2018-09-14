@@ -1330,5 +1330,1812 @@
                 }
             ]
         }
+    ],
+    "news_layout_11_thanh":[
+        {
+            "type":"News 11",
+            "name":"news_layout_11_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/headdemo.png",
+            "color_text":"#000",
+            "color_bg":"#F6F5F3",
+            "html":"<div id='layout-article11'><div class='al-image-header'><div class='al-img'> <img src='{layout_img}' alt=''></div><div class='al-content-img' style='color:{color_text}'> {layout_title} <span style='color:{primary_color}'> {layout_content} </span></div></div></div>",
+            "css": "@media (max-width: 768px){#layout-article11 .al-image-header .al-content-img{display:none}}#layout-article11 img{width:100%}#layout-article11 .al-image-header{position:relative;background:{color_bg}}#layout-article11 .al-image-header .al-content-img{position:absolute;top:80%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);font-size:24px;font-family:'Playfair Display',serif;font-weight:bold, color:{color_text}}#layout-article11 .al-image-header .al-content-img span{color:{primary_color}}",
+            "id":"news_layout_11_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": " LAST YEAR <br> “OPEN HEART”<br> SUPPORTED PROGRAMS<br> THAT SERVED OVER<br>",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "700,000 CHILDREN IN 23 COUNTRIES.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/image_header.png",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"News 11",
+            "name":"news_layout_11_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/bannerdemo.jpg",
+            "color_bg":"#F6F5F3",
+            "color_text":"#000",
+            "html":"<div id='layout-article11'><div class='al-banner'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--one-half medium--one-whole small--one-whole'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-banner-img1'> <a href=''> <img src='{layout_img1}' alt=''> </a></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-banner-img1'> <a href=''> <img src='{layout_img2}' alt=''> </a></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-banner-img1'> <a href=''> <img src='{layout_img3}' alt=''> </a></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-banner-img1'> <a href=''> <img src='{layout_img4}' alt=''> </a></div></div></div></div><div class='grid__item large--one-half medium--one-whole small--one-whole'><div class='al-content-banner'><h2> {layout_title}</h2><p class='content1' style='color:{color_text}'> {layout_content1}</p><p class='content2' style='color:{color_text}'> {layout_content2}</p></div></div></div></div></div></div></div>",
+            "css": "#layout-article11 img{width:100%}#layout-article11 .al-banner{background:{color_bg}}#layout-article11 .al-banner .al-banner-img1{margin-bottom:25px}#layout-article11 .al-banner .al-content-banner h2{font-size:24px;font-weight:bold;text-transform:uppercase;color:#000}#layout-article11 .al-banner .al-content-banner p{font-size:14px;line-height:24px;color:{color_text};letter-spacing:0.5px}",
+            "id":"news_layout_11_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout 1",
+                    "value": "GIVE A HELPING HAND TO THOSE WHO NEED IT!",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et mgnis dis parturient montes ascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. orbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci ac sem.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et mgnis dis parturient montes ascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio orbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna onec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout 2",
+                    "value": "http://file.hstatic.net/1000234244/file/banner1_6c561bda493646869fef92c8cc21c16e.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout 2",
+                    "value": "http://file.hstatic.net/1000234244/file/banner2_c6ed5f7d91d54df0a3be825517a02f9a.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img3",
+                    "title": "Hình ảnh cho layout 3",
+                    "value": "http://file.hstatic.net/1000234244/file/banner3.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img4",
+                    "title": "Hình ảnh cho layout 4",
+                    "value": "http://file.hstatic.net/1000234244/file/banner4.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"News 11",
+            "name":"news_layout_11_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/banner2demo.jpg",
+            "color_text":"#99958c",
+            "html":"<div id='layout-article11'><div class='al-banner2'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--one-half medium--one-whole small--one-whole'><div class='grid'><div class='grid__item large--one-half medium--one-whole small--one-whole'><div class='al-banner2'><h2 style='color:{color_text}'> {layout_title1}</h2><p class='content1' style='color:{color_text}'> {layout_content1}</p></div></div><div class='grid__item large--one-half medium--one-whole small--one-whole'><div class='al-banner2'><h2 style='color:{color_text}'> {layout_title2}</h2><p class='content1' style='color:{color_text}'> {layout_content2}</p></div></div><div class='grid__item large--one-half medium--one-whole small--one-whole'><div class='al-banner2'><h2 style='color:{color_text}'> {layout_title3}</h2><p class='content1' style='color:{color_text}'> {layout_content3}</p></div></div><div class='grid__item large--one-half medium--one-whole small--one-whole'><div class='al-banner2'><h2 style='color:{color_text}'> {layout_title4}</h2><p class='content1' style='color:{color_text}'> {layout_content4}</p></div></div></div></div><div class='grid__item large--one-half medium--one-whole small--one-whole'><div class='al-banner2-img'></div></div></div></div></div></div></div>",
+            "css": "#layout-article11 img{width:100%}#layout-article11 .al-banner2{background-image:url('{layout_img}');padding:20px 0;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover;position:relative;overflow:hidden}#layout-article11 .al-banner2 h2{font-size:18px;text-transform:uppercase;font-weight:bold;color:{color_text}}#layout-article11 .al-banner2 p{font-size:14px;line-height:24px;color:{color_text};letter-spacing:0.5px}",
+            "id":"news_layout_11_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "HELP & SUPPORT",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout",
+                    "value": "Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibuset mgnis dis parturient montes ascetur ridiculus.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "education",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout",
+                    "value": "Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibuset mgnis dis parturient montes ascetur ridiculus.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title3",
+                    "title": "Tiêu đề layout",
+                    "value": "Adoption",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content3",
+                    "title": "Mô tả layout",
+                    "value": "Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibuset mgnis dis parturient montes ascetur ridiculus.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title4",
+                    "title": "Tiêu đề layout",
+                    "value": "VOLUNTEERING",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content4",
+                    "title": "Mô tả layout",
+                    "value": "Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibuset mgnis dis parturient montes ascetur ridiculus.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/al_banner2.png",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"News 11",
+            "name":"news_layout_11_thanh-4",
+            "image_demo":"http://file.hstatic.net/1000234244/file/footerdemo.jpg",
+            "color_bg":"#ff0000",
+            "color_text":"#fff",
+            "html":"<div id='layout-article11'><div class='al-about'><div class='grid'><div class='grid__item large--five-twelfths medium--one-whole small--one-whole'><div class='al-ab-img'></div></div><div class='grid__item large--six-twelfths medium--one-whole small--one-whole'><div class='al-ab-content'><h2> {layout_title}</h2><p>{layout_content1}</p><p style='color:{color_text}' class='al-ab-content-p2'> {layout_content2}</p></div></div></div></div></div>",
+            "css": "#layout-article11 img{width:100%}#layout-article11 .al-about{background-image:url('{layout_img}');background-position:center;background-repeat:no-repeat;background-size:cover;position:relative;overflow:hidden}#layout-article11 .al-about .al-ab-content{background:{color_bg};padding:50px 70px}#layout-article11 .al-about .al-ab-content h2{color:{color_text};font-size:24px;text-transform:uppercase;font-weight:bold !important}#layout-article11 .al-about .al-ab-content p{color:{color_text};font-size:14px;line-height:24px;color:{color_text};letter-spacing:0.5px}#layout-article11 .al-about .al-ab-content .al-ab-content-p2{text-transform:uppercase}",
+            "id":"news_layout_11_thanh-4",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout 1",
+                    "value": "WE NEED VOLUNTEER IN SOUTH AFRICA",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et mgnis dis parturient montes ascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. orbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna onec accumsan malesuada orci.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "PRAESENT VESTIBULUM / AENEAN NONUMMY / HENDRERIT MAURIS / CUM SOCIIS NATOQUE / PENATIBUS ET / MGNIS DIS / PARTURIENT / MONTES ASCETUR RIDICULUS",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout 2",
+                    "value": "http://file.hstatic.net/1000234244/file/bg-al-about.png",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "coffee_layout_12_thanh":[
+        {
+            "type":"Coffee 12",
+            "name":"coffee_layout_12_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article12'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--nine-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img1}' alt=''> </a></div><div class='al-item-desc'><h2>{layout_title1}</h2><p style='color:{color_text}'> {layout_content1}</p></div></div></div><div class='grid__item large--three-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img2}' alt=''> </a></div><div class='al-item-desc'><h2>{layout_title2}</h2><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div></div></div></div>",
+            "css": "#layout-article12{padding:20px}#layout-article12 .al-article-item .al-item-img{margin-bottom:20px;overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article12 .al-article-item .al-item-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article12 .al-article-item .al-item-img :hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article12 .al-article-item .al-item-desc h2{text-transform:uppercase;font-weight:bold !important;color:{color_text};font-size:18px}#layout-article12 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;color:{color_text};margin-bottom:0px}",
+            "id":"coffee_layout_12_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "SAWADA COFFEE TRIP",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "VEGAN BURGERS IN THE UK",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat. In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img2.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Coffee 12",
+            "name":"coffee_layout_12_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article12'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--nine-twelfths medium--eight-twelfths small--one-whole'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img1}' alt=''></a></div><div class='al-item-desc'><h2>{layout_title1}</h2><p style='color:{color_text}'> {layout_content1}</p></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img2}' alt=''></a></div><div class='al-item-desc'><h2>{layout_title2}</h2><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div></div><div class='grid__item large--three-twelfths medium--three-twelfths small--one-whole'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img3}' alt=''></a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img4}' alt=''></a></div></div></div></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img5}' alt=''></a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img6}' alt=''></a></div></div></div></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img7}' alt=''></a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img8}' alt=''></a></div></div></div></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img9}' alt=''></a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img10}' alt=''></a></div></div></div></div></div></div></div></div></div>",
+            "css": "#layout-article12{padding:20px}#layout-article12 .al-article-item .al-item-img{margin-bottom:20px;overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article12 .al-article-item .al-item-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article12 .al-article-item .al-item-img :hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article12 .al-article-item .al-item-desc h2{text-transform:uppercase;font-weight:bold !important;color:{color_text};font-size:18px}#layout-article12 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;color:{color_text};margin-bottom:0px}",
+            "id":"coffee_layout_12_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "THE PERFECT RASPBERRY PIE",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img3.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "VEGAN BURGERS IN THE UK",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat. In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img4.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img3",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img5.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img4",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img6.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img5",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img7.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img6",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img8.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img7",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img9.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img8",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img10.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img9",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img11.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img10",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img12.jpg",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "art_layout_13_thanh":[
+        {
+            "type":"Art 13",
+            "name":"art_layout_13_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_89b880a72409471cb34bfcf0785bd729.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article13'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><h2 style='color:{primary_color}'>{layout_title1}</h2><div class='al-item-img'> <a href=''> <img src='{layout_img1}' alt=''> </a></div><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><h2 style='color:{primary_color}'>{layout_title2}</h2><div class='al-item-img'> <a href=''> <img src='{layout_img2}' alt=''> </a></div><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item2'><div class='al-item-img2'> <a href=''> <img src='{layout_img3}' alt=''> </a></div><div class='al-item-desc2'><h2 style='color:{primary_color}'>{layout_title3}</h2><p style='color:{color_text}'> {layout_content3}</p></div></div></div></div></div></div></div>",
+            "css": "#layout-article13{padding:20px}#layout-article13 .al-article-item h2{text-transform:uppercase;font-weight:bold !important;color:{color_text};font-size:18px}#layout-article13 .al-article-item .al-item-img{margin-bottom:20px;overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article13 .al-article-item .al-item-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article13 .al-article-item .al-item-img:hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article13 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;color:{color_text};margin-bottom:0px;text-align:center}#layout-article13 .al-article-item2 .al-item-img2{margin-bottom:20px;overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;padding:30px;text-align:center}#layout-article13 .al-article-item2 .al-item-img2 a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article13 .al-article-item2 .al-item-img2:hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article13 .al-article-item2 .al-item-desc2 h2{text-transform:uppercase;font-weight:bold !important;color:{color_text};font-size:18px;text-align:center}#layout-article13 .al-article-item2 .al-item-desc2 p{line-height:24px;font-size:14px;color:{color_text};margin-bottom:0px;text-align:center}",
+            "id":"art_layout_13_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "SAWADA COFFEE TRIP",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img1.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "VEGAN BURGERS IN THE UK",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat. In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img2.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_title3",
+                    "title": "Tiêu đề layout",
+                    "value": "VEGAN BURGERS IN THE UK",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content3",
+                    "title": "Mô tả layout",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat. In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img3",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img3.png",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Art 13",
+            "name":"art_layout_13_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_1a86dc94c3244e7792f16a757174584f.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article13'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><h2 style='color:{primary_color}'>{layout_title1}</h2><div class='al-item-img'> <a href=''> <img src='{layout_img1}' alt=''> </a></div><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><h2 style='color:{primary_color}'>{layout_title2}</h2><div class='al-item-img'> <a href=''> <img src='{layout_img2}' alt=''> </a></div><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img3}' alt=''></a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img4}' alt=''></a></div></div></div></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img5}' alt=''></a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img6}' alt=''></a></div></div></div></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img7}' alt=''></a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''><img src='{layout_img8}' alt=''></a></div></div></div></div></div></div></div></div></div></div></div>",
+            "css": "#layout-article13{padding:20px}#layout-article13 .al-article-item h2{text-transform:uppercase;font-weight:bold !important;color:{color_text};font-size:18px;text-align:center}#layout-article13 .al-article-item .al-item-img{margin-bottom:20px;overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article13 .al-article-item .al-item-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article13 .al-article-item .al-item-img:hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article13 .al-item-desc p{line-height:24px;font-size:14px;color:{color_text};margin-bottom:0px;text-align:center}",
+            "id":"art_layout_13_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "THE PERFECT RASPBERRY PIE",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img4_b4cc154a0cbb4497a33a4f9cdc442846.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "VEGAN BURGERS IN THE UK",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat. In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img5.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img3",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img8.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img4",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img10.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img5",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img9.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img6",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img10.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img7",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img11.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img8",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img12.jpg",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "history_layout_14_thanh":[
+        {
+            "type":"History 14",
+            "name":"history_layout_14_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo14-1.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article14'><div class='wrapper'><div class='inner'><div class='al-article-img'> <a href=''><img src='{layout_img1}' alt=''></a></div><div class='al-article-desc'><p>{layout_title1}</p><h2 style='color:{primary_color}'>{layout_title2}</h2><div class='grid'><div class='grid__item large--three-twelfths medium--three-twelfths small--one-whole'><div class='left-desc-article'> {layout_content1}</div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='left-img-article'> <a href=''><img src='{layout_img2}' alt=''></a></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='left-img-article'> <a href=''><img src='{layout_img3}' alt=''></a></div></div></div></div><div class='grid__item large--nine-twelfths medium--three-twelfths small--one-whole'><div class='right-desc-article' style='color:{color_text}'> {layout_content2}</div><div class='right-desc-article' style='color:{color_text}'> {layout_content3}</div></div></div></div></div></div></div>",
+            "css": "#layout-article14{padding:20px}#layout-article14 .al-article-img{overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;text-align:center;margin-bottom:20px}#layout-article14 .al-article-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article14 .al-article-img:hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article14 .al-article-desc{border-bottom:solid 10px #f6f6f6;padding-bottom:50px}#layout-article14 .al-article-desc p{text-transform:uppercase;font-size:12px;color:#999}#layout-article14 .al-article-desc h2{font-size:24px;font-weight:bold}#layout-article14 .al-article-desc .left-desc-article{border-top:solid 5px #f6f6f6;padding:20px 0;color:#999;font-size:14px}#layout-article14 .al-article-desc .right-desc-article{color:{color_text};line-height:24px;font-size:14px}",
+            "id":"history_layout_14_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "AUGUST 18, 2018 by MIKE MCALISTER",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "Crater Lake National Park",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Crater Lake is the deepest lake in the United States, the second deepest in North America, and the ninth deepest lake in the world.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": " Crater Lake is a caldera lake in the western United States, located in south-central Oregon. It is the main feature of Crater Lake National Park and is famous for its deep blue color and water clarity. The lake partly fills a nearly 2,148-foot deep caldera that was formed around 7,700 years ago by the collapse of the volcano Mount Mazama.There are no rivers flowing into or out of the lake; the evaporation is compensated for by rain and snowfall at a rate such that the total amount of water is replaced every 250 years. At 1,943 feet, the lake is the deepest in the United States, and the seventh or ninth deepest in the world, depending on whether average or maximum depth is measured.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content3",
+                    "title": "Mô tả layout 3",
+                    "value": "Crater Lake is a caldera lake in the western United States, located in south-central Oregon. It is the main feature of Crater Lake National Park and is famous for its deep blue color and water clarity. The lake partly fills a nearly 2,148-foot deep caldera that was formed around 7,700 years ago by the collapse of the volcano Mount Mazama.There are no rivers flowing into or out of the lake; the evaporation is compensated for by rain and snowfall at a rate such that the total amount of water is replaced every 250 years. At 1,943 feet, the lake is the deepest in the United States, and the seventh or ninth deepest in the world, depending on whether average or maximum depth is measured.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img1_b72fa287601d4bb2b47bbc6215ef6240.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img4.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img3",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img5.jpg",
+                    "type":"file"
+                }
+            ]
+        },        
+        {
+            "type":"History 14",
+            "name":"history_layout_14_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo14-2.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article14'><div class='wrapper'><div class='inner'><div class='al-article-img'> <a href=''><img src='{layout_img1}' alt=''></a></div><div class='al-article-desc'><p>{layout_title1}</p><h2 style='color:{primary_color}'>{layout_title2}</h2><div class='grid'><div class='grid__item large--three-twelfths medium--three-twelfths small--one-whole'><div class='left-desc-article'> {layout_content1}</div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='left-img-article'> <a href=''><img src='{layout_img2}' alt=''></a></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='left-img-article'> <a href=''><img src='{layout_img3}' alt=''></a></div></div></div></div><div class='grid__item large--nine-twelfths medium--three-twelfths small--one-whole'><div class='right-desc-article' style='color:{color_text}'> {layout_content2}</div><div class='right-desc-article' style='color:{color_text}'> {layout_content3}</div></div></div></div></div></div></div>",
+            "css": "#layout-article14{padding:20px}#layout-article14 .al-article-img{overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;text-align:center;margin-bottom:20px}#layout-article14 .al-article-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article14 .al-article-img:hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article14 .al-article-desc{border-bottom:solid 10px #f6f6f6;padding-bottom:50px}#layout-article14 .al-article-desc p{text-transform:uppercase;font-size:12px;color:#999}#layout-article14 .al-article-desc h2{font-size:24px;font-weight:bold}#layout-article14 .al-article-desc .left-desc-article{border-top:solid 5px #f6f6f6;padding:20px 0;color:#999;font-size:14px}#layout-article14 .al-article-desc .right-desc-article{color:{color_text};line-height:24px;font-size:14px}",
+            "id":"history_layout_14_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "AUGUST 18, 2018 by MIKE MCALISTER",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "Crater Lake National Park",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Crater Lake is the deepest lake in the United States, the second deepest in North America, and the ninth deepest lake in the world.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": " Crater Lake is a caldera lake in the western United States, located in south-central Oregon. It is the main feature of Crater Lake National Park and is famous for its deep blue color and water clarity. The lake partly fills a nearly 2,148-foot deep caldera that was formed around 7,700 years ago by the collapse of the volcano Mount Mazama.There are no rivers flowing into or out of the lake; the evaporation is compensated for by rain and snowfall at a rate such that the total amount of water is replaced every 250 years. At 1,943 feet, the lake is the deepest in the United States, and the seventh or ninth deepest in the world, depending on whether average or maximum depth is measured.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content3",
+                    "title": "Mô tả layout 3",
+                    "value": "Crater Lake is a caldera lake in the western United States, located in south-central Oregon. It is the main feature of Crater Lake National Park and is famous for its deep blue color and water clarity. The lake partly fills a nearly 2,148-foot deep caldera that was formed around 7,700 years ago by the collapse of the volcano Mount Mazama.There are no rivers flowing into or out of the lake; the evaporation is compensated for by rain and snowfall at a rate such that the total amount of water is replaced every 250 years. At 1,943 feet, the lake is the deepest in the United States, and the seventh or ninth deepest in the world, depending on whether average or maximum depth is measured.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img2_c2268ce36e0c4fc9954d625b5f28fda5.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img8_db387898e0bd45269ed704fae1165327.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img3",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img9_e47cf65e2895432391ee392691836882.jpg",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "sweet_layout_15_thanh":[
+        {
+            "type":"Sweet 15",
+            "name":"sweet_layout_15_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_5ce244f58b6b478fb6fbf47a39fa089a.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article15'><div class='wrapper'><div class='inner'><div class='al-article-img'> <a href=''><img src='{layout_img}' alt=''></a></div><div class='al-article-desc'><h2 style='color:{primary_color}'>{layout_title}</h2><p>{layout_content1}</p><div class='right-desc-article' style='color:{color_text}'> {layout_content2}</div></div></div></div></div>",
+            "css": "#layout-article15{padding:20px}#layout-article15 .al-article-img{overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;text-align:center;margin-bottom:20px}#layout-article15 .al-article-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article15 .al-article-img:hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article15 .al-article-desc{border-bottom:solid 10px #f6f6f6;padding-bottom:50px}#layout-article15 .al-article-desc p{font-size:14px;color:#999;font-family:'Dancing Script',cursive}#layout-article15 .al-article-desc h2{font-size:24px;font-family:'Cormorant Upright',serif;font-weight:bold}#layout-article15 .al-article-desc .right-desc-article{color:{color_text};line-height:24px;font-family:'Lora',serif;font-size:14px}",
+            "id":"sweet_layout_15_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Relax",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "beauty, interior, lifestyle, travel",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Instant carajillo, french press, coffee, at doppio cream blue mountain skinny, filter crema barista sit, cultivar wings extraction et milk. Plunger pot, caramelization cinnamon, extra. Fusce feugiat sodales justo et consectetur. Morbi malesuada sapien pulvinar dapibus blandit. Nam dictum eleifend Instant carajillo, french press, coffee, at doppio cream blue mountain skinny, filter crema barista sit,",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img1_458ad713ae9244d880fa1cc1847b3363.jpg",
+                    "type":"file"
+                }
+            ]
+        }, 
+        {
+            "type":"Sweet 15",
+            "name":"sweet_layout_15_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_68c28823ebf642e6832d996a9c33beac.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article15'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-img'> <a href=''><img src='{layout_img}' alt=''></a></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-desc'><h2 style='color:{primary_color}'>{layout_title}</h2><p>{layout_content1}</p><div class='right-desc-article' style='color:{color_text}'> {layout_content2}</div></div></div></div></div></div></div>",
+            "css": "#layout-article15{padding:20px}#layout-article15 .al-article-img{overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;text-align:center;margin-bottom:20px}#layout-article15 .al-article-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article15 .al-article-img:hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article15 .al-article-desc{border-bottom:solid 10px #f6f6f6;padding-bottom:50px}#layout-article15 .al-article-desc p{font-size:14px;color:#999;font-family:'Dancing Script',cursive}#layout-article15 .al-article-desc h2{font-size:24px;font-family:'Cormorant Upright',serif;font-weight:bold}#layout-article15 .al-article-desc .right-desc-article{color:{color_text};line-height:24px;font-family:'Lora',serif;font-size:14px}",
+            "id":"sweet_layout_15_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Lovely flower",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "beauty, lifestyle",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Instant carajillo, french press, coffee, at doppio cream blue mountain skinny, filter crema barista sit, cultivar wings extraction et milk. Plunger pot, caramelization cinnamon, extra. Fusce feugiat sodales justo et consectetur. Morbi malesuada sapien pulvinar dapibus blandit. Nam dictum eleifend Instant carajillo, french press, coffee, at doppio cream blue mountain skinny, filter crema barista sit,",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img2_42671df4b5d34e98b6a2b7a5bb3ad9a9.jpg",
+                    "type":"file"
+                }
+            ]
+        }, 
+        {
+            "type":"Sweet 15",
+            "name":"sweet_layout_15_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo3.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article15'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-img'> <a href=''><img src='{layout_img}' alt=''></a></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-desc'><h2 style='color:{primary_color}'>{layout_title}</h2><p>{layout_content1}</p><div class='right-desc-article' style='color:{color_text}'> {layout_content2}</div></div></div></div></div></div></div>",
+            "css": "#layout-article15{padding:20px}#layout-article15 .al-article-img{overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;text-align:center;margin-bottom:20px}#layout-article15 .al-article-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article15 .al-article-img:hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article15 .al-article-desc{border-bottom:solid 10px #f6f6f6;padding-bottom:50px}#layout-article15 .al-article-desc p{font-size:14px;color:#999;font-family:'Dancing Script',cursive}#layout-article15 .al-article-desc h2{font-size:24px;font-family:'Cormorant Upright',serif;font-weight:bold}#layout-article15 .al-article-desc .right-desc-article{color:{color_text};line-height:24px;font-family:'Lora',serif;font-size:14px}",
+            "id":"sweet_layout_15_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Sweets from Paris",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "beauty, lifestyle",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Instant carajillo, french press, coffee, at doppio cream blue mountain skinny, filter crema barista sit, cultivar wings extraction et milk. Plunger pot, caramelization cinnamon, extra. Fusce feugiat sodales justo et consectetur. Morbi malesuada sapien pulvinar dapibus blandit. Nam dictum eleifend Instant carajillo, french press, coffee, at doppio cream blue mountain skinny, filter crema barista sit,",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img3_207cb18ba87646dd8ba54c2f6cc094bf.jpg",
+                    "type":"file"
+                }
+            ]
+        }, 
+        {
+            "type":"Sweet 15",
+            "name":"sweet_layout_15_thanh-4",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo4.jpg",
+            "color_text":"#404040",
+            "html":"<div id='layout-article15'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-img'> <a href=''><img src='{layout_img}' alt=''></a></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-desc'><h2 style='color:{primary_color}'>{layout_title}</h2><p>{layout_content1}</p><div class='right-desc-article' style='color:{color_text}'> {layout_content2}</div></div></div></div></div></div></div>",
+            "css": "#layout-article15{padding:20px}#layout-article15 .al-article-img{overflow:hidden;position:relative;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;text-align:center;margin-bottom:20px}#layout-article15 .al-article-img a img{width:100%;vertical-align:middle;transform:scale(1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article15 .al-article-img:hover img{width:100%;vertical-align:middle;transform:scale(1.05)}#layout-article15 .al-article-desc{border-bottom:solid 10px #f6f6f6;padding-bottom:50px}#layout-article15 .al-article-desc p{font-size:14px;color:#999;font-family:'Dancing Script',cursive}#layout-article15 .al-article-desc h2{font-size:24px;font-family:'Cormorant Upright',serif;font-weight:bold}#layout-article15 .al-article-desc .right-desc-article{color:{color_text};line-height:24px;font-family:'Lora',serif;font-size:14px}",
+            "id":"sweet_layout_15_thanh-4",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Laduree makeup collection",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "beauty, lifestyle",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Instant carajillo, french press, coffee, at doppio cream blue mountain skinny, filter crema barista sit, cultivar wings extraction et milk. Plunger pot, caramelization cinnamon, extra. Fusce feugiat sodales justo et consectetur. Morbi malesuada sapien pulvinar dapibus blandit. Nam dictum eleifend Instant carajillo, french press, coffee, at doppio cream blue mountain skinny, filter crema barista sit,",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/thanh_img4_fc394f9c68574516b9497c6a78080dea.jpg",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "love_layout_16_thanh":[
+        {
+            "type":"Love 16",
+            "name":"love_layout_16_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_26c43abf6cfe476597ad6acf1180310a.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article16'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--four-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-text-left'><h3>{layout_title1}</h3><h2>{layout_title2}</h2></div></div><div class='grid__item large--eight-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div><hr></div></div></div><div class='grid'><div class='grid__item large--two-twelfths medium--eight-twelfths small--one-whole'></div><div class='grid__item large--ten-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div><hr></div></div></div></div></div></div>",
+            "css": "#layout-article16{padding:20px 0}#layout-article16 .al-article-text-left h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#000;line-height:24px !important}#layout-article16 .al-article-text-left h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:14px;color:#676C72;line-height:24px !important;text-transform:uppercase}#layout-article16 hr{height:5px;background:#ddd;border:none;width:50px;margin:0px}#layout-article16 h4{font-size:16px}#layout-article16 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article16 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article16 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article16 .al-article-item{padding:20px 0 0 0}#layout-article16 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;color:#6f6f6f}",
+            "id":"love_layout_16_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "Frozen Food",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "The chilly life of a scallop farmer",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img2_7088d2173abf432fb1984bc2ef201007.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Love 16",
+            "name":"love_layout_16_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_4bdf0e252a2841d1b0eef59c54c2abdb.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article16'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--six-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div><div class='grid__item large--six-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p><hr><h4> {layout_title}</h4><hr></div></div></div></div><div class='grid'><div class='grid__item large--two-twelfths medium--two-twelfths small--one-whole'></div><div class='grid__item large--ten-twelfths medium--ten-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div></div></div></div>",
+            "css": "#layout-article16{padding:20px 0}#layout-article16 .al-article-text-left h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#000;line-height:24px !important}#layout-article16 .al-article-text-left h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:14px;color:#676C72;line-height:24px !important;text-transform:uppercase}#layout-article16 hr{height:5px;background:#ddd;border:none;width:50px;margin:0px}#layout-article16 h4{font-size:16px}#layout-article16 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article16 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article16 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article16 .al-article-item{padding:20px 0 0 0}#layout-article16 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;color:#6f6f6f}",
+            "id":"love_layout_16_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "\"I love it. I love what I've achieved...\" then cautions me, \"just never have a hangover\".",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1_97a48909180040e2945c8d138edfec5d.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Love 16",
+            "name":"love_layout_16_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo3_670376bb07324a8ebaf2eaecf696960c.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article16'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-text-left'><hr><h3>{layout_title}</h3><hr></div><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div><div class='grid'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div></div></div></div>",
+            "css": "#layout-article16{padding:20px 0}#layout-article16 .al-article-text-left h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#000;line-height:24px !important}#layout-article16 .al-article-text-left h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:14px;color:#676C72;line-height:24px !important;text-transform:uppercase}#layout-article16 hr{height:5px;background:#ddd;border:none;width:50px;margin:0px}#layout-article16 h4{font-size:16px}#layout-article16 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article16 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article16 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article16 .al-article-item{padding:20px 0 0 0}#layout-article16 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;color:#6f6f6f}",
+            "id":"love_layout_16_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "A good line in bivalve jokes",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Nulla commodo justo quis nisi varius iaculis. Nunc a leo eu justo blandit elementum. In vulputate feugiat risus eu tempor. Phasellus ornare augue nec orci elementum, ut facilisis lectus pharetra. Ut mattis dolor sit amet neque feugiat, nec efficitur elit gravida. Nunc commodo pretium ligula. Vivamus vitae sapien scelerisque nulla varius placerat.In finibus libero id ligula maximus blandit. Pellentesque imperdiet vitae odio id euismod. Curabitur id nisl in lectus congue elementum eu a ipsum. Curabitur dui velit, porta nec velit dapibus, rhoncus eleifend lorem. Maecenas pellentesque sapien nec neque laoreet, condimentum aliquet nibh hendrerit. Fusce semper lacus at tellus dapibus efficitur. Vivamus accumsan sapien in congue molestie.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1_97a48909180040e2945c8d138edfec5d.jpg",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "news2_layout_17_thanh":[
+        {
+            "type":"News2 17",
+            "name":"news2_layout_17_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_7e3aa75bffd842df981d9756fa1350c5.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article17'><div class='wrapper'><div class='inner'><h3>{layout_title1}</h3><div class='grid'><div class='grid__item large--two-twelfths medium--two-twelfths small--one-whole'><div class='al-article-img-left'> <a href=''><img src='{layout_img}' alt=''></a></div><div class='al-article-img-title'><h2>{layout_title2}</h2><p>{layout_title3}</p> <i>{layout_title4}</i><hr></div></div><div class='grid__item large--ten-twelfths medium--ten-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'> <span style='color:{color_text}'> {layout_content1} </span><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div></div></div></div></div>",
+            "css": "#layout-article17{padding:20px 0}#layout-article17 .al-article-img-left{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;padding:20px}#layout-article17 .al-article-img-left a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;border-radius:50%}#layout-article17 .al-article-img-left:hover a img{width:100%;transform:scale(1.05)}#layout-article17 .al-article-img-title h2{font-size:18px;text-transform:uppercase;font-weight:bold;color:{color_text};margin-top:0px}#layout-article17 .al-article-img-title p{font-size:14px;color:#b3b3b3;line-height:24px;margin-bottom:0px}#layout-article17 .al-article-img-title i{font-size:14px;color:#b3b3b3;line-height:24px}#layout-article17 .al-article-img-title hr{margin-top:10px}#layout-article17 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important}#layout-article17 hr{height:5px;background:#ddd;border:none;width:50px;margin:0px}#layout-article17 h4{font-size:16px}#layout-article17 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article17 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article17 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article17 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article17 .al-article-item .al-item-desc span{color:#b3b3b3;line-height:24px}",
+            "id":"news2_layout_17_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "Manhattan Bridge Photos from Washington Street",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "AAron Rieke",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title3",
+                    "title": "Tiêu đề layout",
+                    "value": "@arronrieke",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title4",
+                    "title": "Tiêu đề layout",
+                    "value": "Senior Editor",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Cầu George Washington - được gọi chính thức là cầu GW, GWB, GW, hoặc George - là một cây cầu treo hai tầng bắc qua sông Hudson giữa vùng lân cận Washington Heights Manhattan ở Thành phố New York và Fort Lee, New Jersey.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Tính đến năm 2015, cầu thông qua hơn 106 triệu xe mỗi năm, khiến nó là cầu cho xe cơ giới bận rộn nhất thế giới. Nó thuộc sở hữu của Chính quyền cảng New York và New Jersey, một cơ quan chính phủ hai tiểu bang vận hành một số cầu, đường hầm và các sân bay, cũng như các cảng biển hàng hải, và hệ thống vận chuyển nhanh PATH.Cây cầu trong khu vực đô thị New York, có tầng trên bốn làn xe mỗi chiều và tầng dưới có ba làn xe mỗi chiều, với tổng số 14 làn đường. Giới hạn tốc độ trên cầu là 45 mph (72 km / h), mặc dù thường xuyên ùn tắc giao thông chậm trên cả các ngày trong tuần và cuối tuần. Tầng trên của cầu cũng dành cho người đi bộ và đi xe đạp. Interstate 95 (I-95) và Hoa Kỳ lộ 1/9 (US 1/9) qua sông qua cầu. US 46, nằm hoàn toàn bên trong New Jersey, chấm dứt nửa chừng trên cây cầu ở biên giới tiểu bang New York. Tại ga cuối phía đông của nó trong thành phố New York, cây cầu kết nối với Đường cao tốc xuyên Manhattan (một phần của I-95, kết nối với đường cao tốc Cross Bronx).",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img2_6eac042709744bd9868e8f912cf426d8.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"News2 17",
+            "name":"news2_layout_17_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_75e5b73518904bc3bb0ea0127c46d810.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article17'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--six-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div><div class='grid__item large--six-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-item'><h3>{layout_title}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div></div></div></div><div class='al-article-item'><div class='al-item-desc'><p> {layout_content2}</p></div></div></div></div></div>",
+            "css": "#layout-article17{padding:20px 0}#layout-article17 .al-article-img-left{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;padding:20px}#layout-article17 .al-article-img-left a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;border-radius:50%}#layout-article17 .al-article-img-left:hover a img{width:100%;transform:scale(1.05)}#layout-article17 .al-article-img-title h2{font-size:18px;text-transform:uppercase;font-weight:bold;color:{color_text};margin-top:0px}#layout-article17 .al-article-img-title p{font-size:14px;color:#b3b3b3;line-height:24px;margin-bottom:0px}#layout-article17 .al-article-img-title i{font-size:14px;color:#b3b3b3;line-height:24px}#layout-article17 .al-article-img-title hr{margin-top:10px}#layout-article17 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important}#layout-article17 hr{height:5px;background:#ddd;border:none;width:50px;margin:0px}#layout-article17 h4{font-size:16px}#layout-article17 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article17 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article17 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article17 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article17 .al-article-item .al-item-desc span{color:#b3b3b3;line-height:24px}",
+            "id":"news2_layout_17_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Sự thật rùng mình về cây cầu",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Tiêu đề layout",
+                    "value": "Cây cầu Brooklyn không chỉ là một trong những kiệt tác kỹ thuật của thế kỉ 19, một địa điểm đáng xem/đáng ghi lại nhất khi tới thăm New York – đây cũng là công trình tiếp theo được chúng tôi đưa vào danh sách những sự thật thú vị mang tính bước ngoặt, thực sự ấn tượng, gây thích thú, và đáng để dành cả một buổi tối trải nghiệm.1. 14 NĂM VÀ 600 CÔNG NHÂN Mất 14 năm để xây dựng với số tiền lên đến 15 triệu đô la, cuối cùng, vào năm 1883, cây cầu Brooklyn đã được khánh thành – nối liền hai quận Manhattan và Brooklyn. Phải cần tới hơn 600 công nhân để biến 6,740 tấn nguyên liệu thành một kì quan mang tính biểu tượng cho Cuộc Cách mạng Công nghiệp. Cây cầu được chống đỡ bởi bốn sợi dây cáp, mỗi dây dài 3,578 feet (1,090m), dày 15,5 inches (40cm), và được dựng lên bởi 21,000 dây thép riêng lẻ.2. ĐẦU TIÊN VÀ DUY NHẤT Brooklyn là cây cầu treo dây thép đầu tiên, và là cây cầu treo dài nhất trên thế giới tại thời điểm mà nó được xây dựng, với chiều dài phần thân lên tới 1,595 feet (486m). Năm 1903, cây cầu “hàng xóm” Williamsburg đã phá vỡ kỉ lục đó với hơn 4.5 feet chiều dài so với Brooklyn.3. BI KỊCH TỪ NHỮNG TAI HỌAViệc xây cầu đã gây ra những thiệt hại to lớn (về người) – dù không có con số chính xác, nhưng ít nhất 20 người đã thiệt mạng trong quá trình thi công xây tạo nên kiệt tác kiến trúc này. Tai họa ập đến đầu tiên với người thiết kế công trình, John A.Roebling, người đã chết vì bệnh uốn ván không lâu sau khi cắt bỏ ngón chân bởi bàn chân đã bị nghiền nát. Rất nhiều công nhân đã bị ngã khỏi cầu, bị vôi gạch vỡ rơi vào người hoặc mắc phải bệnh khí ép – bệnh làm giảm áp suất và gây tê liệt, trong số những người mắc bệnh có cả Washington Roebling, con trai của kĩ sư thiết kế cây cầu này.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Sau khi cha của mình qua đời, Washington là người chịu trách nhiệm hoàn thành tiếp công trình, nhưng lại không thể trực tiếp chỉ đạo thi công vì ốm yếu liệt giường. Nhưng có một người đã biến những điều không thể thành có thể, người đã làm xuất sắc công việc của một trợ lí kĩ sư trưởng, người đã gần như thay thế tiếp quản những công việc mà Washington không thể làm được trong suốt 11 năm còn lại của công trình, đó chính là Emily Warren Roebling, người vợ tuyệt vời của ông. Bởi Emily đã đóng một vai trò vô cùng quan trọng trong quá trình xây dựng cây cầu, nên cô được là người đầu tiên đi qua nó trong ngày khánh thành.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img3_207d1a84349846deb2f6aa174d3cde5b.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"News2 17",
+            "name":"news2_layout_17_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo3_ca3411163f604321ae27399c1f1ad038.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article17'><div class='wrapper'><div class='inner'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div><h3>{layout_title}</h3><div class='al-article-item'><div class='al-item-desc'><p> {layout_content}</p></div></div></div></div></div>",
+            "css": "#layout-article17{padding:20px 0}#layout-article17 .al-article-img-left{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;padding:20px}#layout-article17 .al-article-img-left a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;border-radius:50%}#layout-article17 .al-article-img-left:hover a img{width:100%;transform:scale(1.05)}#layout-article17 .al-article-img-title h2{font-size:18px;text-transform:uppercase;font-weight:bold;color:{color_text};margin-top:0px}#layout-article17 .al-article-img-title p{font-size:14px;color:#b3b3b3;line-height:24px;margin-bottom:0px}#layout-article17 .al-article-img-title i{font-size:14px;color:#b3b3b3;line-height:24px}#layout-article17 .al-article-img-title hr{margin-top:10px}#layout-article17 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important}#layout-article17 hr{height:5px;background:#ddd;border:none;width:50px;margin:0px}#layout-article17 h4{font-size:16px}#layout-article17 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article17 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article17 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article17 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article17 .al-article-item .al-item-desc span{color:#b3b3b3;line-height:24px}",
+            "id":"news2_layout_17_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Kho báu được cất trên cây cầu",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Tiêu đề layout",
+                    "value": "Kế hoạch ban đầu khi tạo nên cây cầu có bao gồm cả việc xây dựng khu trung tâm mua sắm ở phía quận Brooklyn, gọi là chỗ neo đậu của cầu Brooklyn (the Brooklyn Bridge Anchorage). Nhưng việc thực hiện không hiệu quả cho lắm nên không gian này đã trở thành nơi tổ chức rất nhiều cuộc triển lãm trước khi nó bị đóng cửa vì một vài lí do an ninh vào năm 2001. Bên dưới khu vực đó là các tầng hầm đã từng được thuê để làm chỗ chứa rượu – nó quả thật là hầm chứa rượu cool nhất (chơi chữ “coolest” – chỉ nhiệt độ) – vì nó đã giúp hỗ trợ ngân sách cho cây cầu. Năm 2006, ở nơi được lưu giữ từ thời Chiến tranh lạnh, công nhân thành phố đã tìm ra chỗ trú ẩn ở một trong những căn hầm của cây cầu bên phía quận Manhattan– với đầy đủ vật tư y tế, chăn màn và hơn 300.000 gói bánh quy (đã hết hạn).",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1_4590c7e32c314d41aef9f6757f5aa22e.jpg",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "fashion18_layout_18_thanh":[
+        {
+            "type":"Fashion 18",
+            "name":"fashion18_layout_18_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_96facf44391f4755a99fbc1cc67b4d5e.jpg",
+            "color_text":"#a9a9a9",
+            "html":"<div id='layout-article18'><div class='wrapper'><div class='inner'><div class='art-bg'><div class='grid'><div class='grid__item large--six-twelfths medium--six-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc text-center'><h3>{layout_title1}</h3><h2>{layout_title2}</h2><p style='color:{color_text}'> {layout_content}</p></div></div></div><div class='grid__item large--six-twelfths medium--six-twelfths small--one-whole'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div></div></div></div></div>",
+            "css": "#layout-article18{background:#CDCED0;padding:20px 0}#layout-article18 .art-bg{background:#fff;-moz-box-shadow:0 1px 12px 0 rgba(0,0,0,.35);-webkit-box-shadow:0 1px 12px 0 rgba(0,0,0,.35);box-shadow:0 1px 12px 0 rgba(0,0,0,.35)}#layout-article18 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#000;line-height:24px !important}#layout-article18 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article18 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article18 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article18 .al-article-item{padding:60px}#layout-article18 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}",
+            "id":"fashion18_layout_18_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "fashionista",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "By Kate Atkinson",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Không phải vô cớ, các tấm hình du lịch của loạt fashionista nổi tiếng thế giới luôn thu hút sự chú ý đặc biệt của cư dân mạng. Tất cả là nhờ họ luôn chuẩn bị, \"lên đồ\" rất kĩ, dù ở bất kỳ hoàn cảnh nào. Đã bao giờ bạn tự hỏi rốt cuộc, trong vali của những cô nàng hot hit này có những thứ gì chưa? Aimee Song là một fashionista có phong cách biến hóa khá thú vị. Cô gần như không bao giờ đóng khung trong một hình ảnh nhất định. Kể cũng phải, vì trong vali du lịch của Aimee luôn có rất nhiều loại kính mắt, giày, túi khác nhau, đủ để cô thoải mái mix đồ.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1_7a9833e07a59474a98d9ea704c2aea28.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Fashion 18",
+            "name":"fashion18_layout_18_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_f0a93135f5bf4cd7b4b6b71b0af853b5.jpg",
+            "color_text":"#a9a9a9",
+            "html":"<div id='layout-article18'><div class='wrapper'><div class='inner'><div class='art-bg'><div class='grid'><div class='grid__item large--eight-twelfths medium--eight-twelfths small--one-whole'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><h3>{layout_title1}</h3><h2>{layout_title2}</h2><p style='color:{color_text}'> {layout_content}</p></div></div></div></div></div></div></div></div>",
+            "css": "#layout-article18{background:#CDCED0;padding:20px 0}#layout-article18 .art-bg{background:#fff;-moz-box-shadow:0 1px 12px 0 rgba(0,0,0,.35);-webkit-box-shadow:0 1px 12px 0 rgba(0,0,0,.35);box-shadow:0 1px 12px 0 rgba(0,0,0,.35)}#layout-article18 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#000;line-height:24px !important}#layout-article18 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article18 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article18 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article18 .al-article-item{padding:60px}#layout-article18 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}",
+            "id":"fashion18_layout_18_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "fashionista",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "By Kate Atkinson",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Không phải vô cớ, các tấm hình du lịch của loạt fashionista nổi tiếng thế giới luôn thu hút sự chú ý đặc biệt của cư dân mạng. Tất cả là nhờ họ luôn chuẩn bị, \"lên đồ\" rất kĩ, dù ở bất kỳ hoàn cảnh nào. Đã bao giờ bạn tự hỏi rốt cuộc, trong vali của những cô nàng hot hit này có những thứ gì chưa? Aimee Song là một fashionista có phong cách biến hóa khá thú vị. Cô gần như không bao giờ đóng khung trong một hình ảnh nhất định. Kể cũng phải, vì trong vali du lịch của Aimee luôn có rất nhiều loại kính mắt, giày, túi khác nhau, đủ để cô thoải mái mix đồ.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img2_f294da743c474deb9c52bc9ddc780bda.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Fashion 18",
+            "name":"fashion18_layout_18_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo3_52fad261bb1a44a0a50894d8678124f8.jpg",
+            "color_text":"#a9a9a9",
+            "html":"<div id='layout-article18'><div class='wrapper'><div class='inner'><div class='art-item3'><div class='grid'><div class='grid__item large--six-twelfths medium--six-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><h3>{layout_title1}</h3><h2>{layout_title2}</h2><p style='color:{color_text}'> {layout_content}</p></div></div></div><div class='grid__item large--six-twelfths medium--six-twelfths small--one-whole'></div></div></div></div></div>",
+            "css": "#layout-article18{background:#CDCED0;padding:20px 0;position:relative}#layout-article18 .art-item3:before{background-color:rgba(255,255,255,1);content:'';height:100%;left:-10%;position:absolute;top:0;width:60%;-webkit-transform:skewX(-15deg);-moz-transform:skewX(-15deg);-o-transform:skewX(-15deg);transform:skewX(-15deg)}#layout-article18 .art-item3{margin-bottom:50px;background-image:url({layout_img});background-position:center;background-repeat:no-repeat;background-size:cover;position:relative;overflow:hidden;-moz-box-shadow:0 1px 12px 0 rgba(0,0,0,.35);-webkit-box-shadow:0 1px 12px 0 rgba(0,0,0,.35);box-shadow:0 1px 12px 0 rgba(0,0,0,.35)}#layout-article18 .art-item3 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:16px;color:#000;line-height:24px !important;text-transform:uppercase}#layout-article18 .art-item3 h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:20px;color:#000;line-height:24px !important}#layout-article18 .art-item3 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article18 .art-item3 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article18 .art-item3 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article18 .art-item3 .al-article-item{position:relative;padding:60px}#layout-article18 .art-item3 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}",
+            "id":"fashion18_layout_18_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "fashionista",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "By Kate Atkinson",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Không phải vô cớ, các tấm hình du lịch của loạt fashionista nổi tiếng thế giới luôn thu hút sự chú ý đặc biệt của cư dân mạng. Tất cả là nhờ họ luôn chuẩn bị, \"lên đồ\" rất kĩ, dù ở bất kỳ hoàn cảnh nào. Đã bao giờ bạn tự hỏi rốt cuộc, trong vali của những cô nàng hot hit này có những thứ gì chưa? Aimee Song là một fashionista có phong cách biến hóa khá thú vị. Cô gần như không bao giờ đóng khung trong một hình ảnh nhất định. Kể cũng phải, vì trong vali du lịch của Aimee luôn có rất nhiều loại kính mắt, giày, túi khác nhau, đủ để cô thoải mái mix đồ.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img3_d19eadb04423468aa8ab4f7f33f6b4c2.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Fashion 18",
+            "name":"fashion18_layout_18_thanh-4",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo4_0b8d19973b9c48a7ae8ea4d8ad892f08.jpg",
+            "color_text":"#a9a9a9",
+            "html":"<div id='layout-article18'><div class='wrapper'><div class='inner'><div class='art-bg'><div class='grid'><div class='grid__item large--six-twelfths medium--six-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><h3>{layout_title1}</h3><h2>{layout_title2}</h2><p style='color:{color_text}'> {layout_content}</p></div></div></div><div class='grid__item large--six-twelfths medium--six-twelfths small--one-whole'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div></div></div></div></div>",
+            "css": "#layout-article18{background:#CDCED0;padding:20px 0}#layout-article18 .art-bg{background:#fff;-moz-box-shadow:0 1px 12px 0 rgba(0,0,0,.35);-webkit-box-shadow:0 1px 12px 0 rgba(0,0,0,.35);box-shadow:0 1px 12px 0 rgba(0,0,0,.35)}#layout-article18 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#000;line-height:24px !important}#layout-article18 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article18 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article18 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article18 .al-article-item{padding:60px}#layout-article18 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}",
+            "id":"fashion18_layout_18_thanh-4",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "fashionista",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "By Kate Atkinson",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Không phải vô cớ, các tấm hình du lịch của loạt fashionista nổi tiếng thế giới luôn thu hút sự chú ý đặc biệt của cư dân mạng. Tất cả là nhờ họ luôn chuẩn bị, \"lên đồ\" rất kĩ, dù ở bất kỳ hoàn cảnh nào. Đã bao giờ bạn tự hỏi rốt cuộc, trong vali của những cô nàng hot hit này có những thứ gì chưa? Aimee Song là một fashionista có phong cách biến hóa khá thú vị. Cô gần như không bao giờ đóng khung trong một hình ảnh nhất định. Kể cũng phải, vì trong vali du lịch của Aimee luôn có rất nhiều loại kính mắt, giày, túi khác nhau, đủ để cô thoải mái mix đồ.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img4_db0ca5f2320c411faa9b96a77e6844a8.jpg",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "furniture_layout_19_thanh":[
+        {
+            "type":"Furniture 19",
+            "name":"furniture_layout_19_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_a639a6e91cae4d0bb5bedf022b19297c.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article19'><div class='wrapper'><div class='inner'><h3>{layout_title1}</h3><div class='grid'><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div><div class='grid'><div class='grid__item large--one-whole medium--one-whole small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div></div></div></div></div>",
+            "css": "#layout-article19 img{width:100%;} #layout-article19{padding:20px 0;background:#F0F0F0}#layout-article19 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important}#layout-article19 h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:16px;color:{color_text};line-height:24px !important}#layout-article19 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article19 .al-item-img a img{width:100% !important;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article19 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article19 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article19 .al-article-item .al-item-desc span{color:#b3b3b3;line-height:24px}",
+            "id":"furniture_layout_19_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "Manhattan Bridge Photos from Washington Street",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": " Tại các thiết kế nội thất phòng làm việc sang trọng, sẽ không khó để bắt gặp những không gian thoáng đãng, thoải mái như thế này. Các địa điểm này có thể vừa dùng để tiếp khách vừa thuận tiện cho các buổi trao đổi riêng tư, đồng thời cũng có thể trở thành nơi thư giãn lý tưởng để mỗi nhân sự có thể nhanh chóng lấy lại nguồn năng lượng và cảm hứng trong công việc.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": " Tại các thiết kế nội thất phòng làm việc sang trọng, sẽ không khó để bắt gặp những không gian thoáng đãng, thoải mái như thế này. Các địa điểm này có thể vừa dùng để tiếp khách vừa thuận tiện cho các buổi trao đổi riêng tư, đồng thời cũng có thể trở thành nơi thư giãn lý tưởng để mỗi nhân sự có thể nhanh chóng lấy lại nguồn năng lượng và cảm hứng trong công việc.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1_aeeed62f1a3a45bdbc01e492353f886c.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Furniture 19",
+            "name":"furniture_layout_19_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_bd5bb1da54ec4c3eb7d438b86e68b4b8.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article19'><div class='wrapper'><div class='inner'><h3>{layout_title}</h3><div class='grid'><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div><div class='grid'><div class='grid__item large--eight-twelfths medium--eight-twelfths small--one-whole' style='margin-bottom: 30px;'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img1}' alt=''> </a></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole' style='margin-bottom: 30px;'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img2}' alt=''> </a></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img3}' alt=''> </a></div></div></div><div class='grid__item large--eight-twelfths medium--eight-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img4}' alt=''> </a></div></div></div></div></div></div></div>",
+            "css": "#layout-article19 img{width:100%;} #layout-article19{padding:20px 0;background:#F0F0F0}#layout-article19 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important}#layout-article19 h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:16px;color:{color_text};line-height:24px !important}#layout-article19 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article19 .al-item-img a img{width:100% !important;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article19 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article19 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article19 .al-article-item .al-item-desc span{color:#b3b3b3;line-height:24px}",
+            "id":"furniture_layout_19_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Manhattan Bridge Photos from Washington Street",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Tiêu đề layout 1",
+                    "value": "Tại các thiết kế nội thất phòng làm việc sang trọng, sẽ không khó để bắt gặp những không gian thoáng đãng, thoải mái như thế này. Các địa điểm này có thể vừa dùng để tiếp khách vừa thuận tiện cho các buổi trao đổi riêng tư, đồng thời cũng có thể trở thành nơi thư giãn lý tưởng để mỗi nhân sự có thể nhanh chóng lấy lại nguồn năng lượng và cảm hứng trong công việc.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": " Tại các thiết kế nội thất phòng làm việc sang trọng, sẽ không khó để bắt gặp những không gian thoáng đãng, thoải mái như thế này. Các địa điểm này có thể vừa dùng để tiếp khách vừa thuận tiện cho các buổi trao đổi riêng tư, đồng thời cũng có thể trở thành nơi thư giãn lý tưởng để mỗi nhân sự có thể nhanh chóng lấy lại nguồn năng lượng và cảm hứng trong công việc.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img2_aba512dfbf2840d48f1e4ada2eeab154.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img3_0514554a05174acb92186f7c00d951c2.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img3",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img4_b10aa18234e34e7bbb246c4e2f7e5853.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img4",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img5_d38f0235c83e447fb95f5325e29277ba.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Furniture 19",
+            "name":"furniture_layout_19_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo3_ce569b0b3e194f43ac3f2af7a8a84d11.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article19'><div class='wrapper'><div class='inner'><h3 class='text-right'>{layout_title1}</h3><div class='grid'><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><h2>{layout_title2}</h2><p style='color:{color_text}'> {layout_content2}</p></div></div><div class='al-article-item'><div class='al-item-desc'><h2>{layout_title3}</h2><p style='color:{color_text}'> {layout_content3}</p></div></div><div class='al-article-item'><div class='al-item-desc'><h2>{layout_title4}</h2><p style='color:{color_text}'> {layout_content4}</p></div></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-item-desc'><h2>{layout_title5}</h2><p style='color:{color_text}'> {layout_content4}</p></div></div><div class='al-article-item'><div class='al-item-desc'><h2>{layout_title6}</h2><p style='color:{color_text}'> {layout_content6}</p></div></div></div></div></div></div></div>",
+            "css": "#layout-article19 img{width:100%;} #layout-article19{padding:20px 0;background:#F0F0F0}#layout-article19 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important}#layout-article19 h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:16px;color:{color_text};line-height:24px !important}#layout-article19 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article19 .al-item-img a img{width:100% !important;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article19 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article19 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article19 .al-article-item .al-item-desc span{color:#b3b3b3;line-height:24px}",
+            "id":"furniture_layout_19_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "Thiết kế nội thất",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img6_06967c0bd5994934962a71a53b93dd4d.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout 2",
+                    "value": "Không gian sáng tạo",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Khi thiết kế nội thất văn phòng chuyên nghiệp thì sáng tạo là điều rất quan trọng trong công việc.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title3",
+                    "title": "Tiêu đề layout 3",
+                    "value": "Đa chức năng",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content3",
+                    "title": "Mô tả layout 3",
+                    "value": "Các địa điểm này có thể vừa dùng để tiếp khách vừa thuận tiện cho các buổi trao đổi riêng tư, đồng thời cũng có thể trở thành nơi thư giãn lý tưởng.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title4",
+                    "title": "Tiêu đề layout 4",
+                    "value": "Nghỉ ngơi thoải mái",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content4",
+                    "title": "Mô tả layout 4",
+                    "value": "Tại các thiết kế nội thất phòng làm việc sang trọng, sẽ không khó để bắt gặp những không gian thoáng đãng, thoải mái như thế này.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title5",
+                    "title": "Tiêu đề layout 5",
+                    "value": "Thiết theo ý tưởng",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content5",
+                    "title": "Mô tả layout 5",
+                    "value": "Lắng nghe mong muốn của các nhân sự, không ít doanh nghiệp đã đầu tư những không gian nghỉ ngơi với đầy đủ tiện nghi cần thiết như đồ uống, cây xanh, sách báo,... để có thể khiến các nhân viên của mình thực sự thoải mái.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title6",
+                    "title": "Tiêu đề layout 6",
+                    "value": "Thiết mẫu có sẵn",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content6",
+                    "title": "Mô tả layout 6",
+                    "value": "Thiết kế Nội thất Miền Bắc luôn sẵn sàng hỗ trợ và đồng hành cùng quý khách tư vấn thiết kế nội thất văn phòng làm việc hiện đại, cao cấp tạo không gian làm việc chuyên nghiệp và hiệu quả nhất.",
+                    "type":"text"
+                }
+            ]
+        }
+    ],
+    "food2_layout_20_thanh":[
+        {
+            "type":"Food2 20",
+            "name":"food2_layout_20_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_c3db6ab970ec4a0a98767ed95de55230.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article20'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><h3>{layout_title}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-item-img'> <a href=''> <img src='{layout_img1}' alt=''> </a></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img2}' alt=''> </a></div></div></div></div></div></div></div>",
+            "css": "#layout-article20 img{width:100%}#layout-article20{padding:20px 0;background:#F0F0F0}#layout-article20 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important;text-transform:uppercase;letter-spacing:1px}#layout-article20 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;-webkit-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);-moz-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}#layout-article20 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article20 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article20 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article20 .al-article-item .al-item-desc span{color:#b3b3b3;line-height:24px}",
+            "id":"food2_layout_20_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Xin chào !",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Brazil không chỉ nổi tiếng với những đường bãi biển xanh mát, vũ điệu samba sôi động hay nền bóng đá đậm chất Nam Mỹ... mà nơi đây còn thu hút du khách bởi nền ẩm thực đặc sắc và đa dạng. Mỗi món đều mang đến hương vị độc đáo và thể hiện được nét văn hóa truyền thống của quốc gia.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": " Brazil không chỉ nổi tiếng với những đường bãi biển xanh mát, vũ điệu samba sôi động hay nền bóng đá đậm chất Nam Mỹ... mà nơi đây còn thu hút du khách bởi nền ẩm thực đặc sắc và đa dạng. Mỗi món đều mang đến hương vị độc đáo và thể hiện được nét văn hóa truyền thống của quốc gia.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img2_0ff63fdd8c30428d9f4ab70c3ed725e0.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1_6120f6c27d4e467e86241bf284fce375.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Food2 20",
+            "name":"food2_layout_20_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_e5651a28913d4b4c9e2868cc423963bf.jpg",
+            "html":"<div id='layout-article20'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div>",
+            "css": "#layout-article20 img{width:100%}#layout-article20 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;-webkit-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);-moz-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}#layout-article20 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article20 .al-item-img:hover a img{width:100%;transform:scale(1.05)}",
+            "id":"food2_layout_20_thanh-2",
+            "content":[
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img3_dc665633da9342cc8e0704b37fae2800.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Food2 20",
+            "name":"food2_layout_20_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo3_abb6f815bac54b9098cf02be0e68f625.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article20'><div class='wrapper'><div class='inner'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img1}' alt=''> </a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><h3>{layout_title}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-item-img'> <a href=''> <img src='{layout_img2}' alt=''> </a></div></div></div></div></div></div></div></div>",
+            "css": "#layout-article20 img{width:100%}#layout-article20{padding:20px 0;background:#F0F0F0}#layout-article20 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important;text-transform:uppercase;letter-spacing:1px}#layout-article20 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;-webkit-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);-moz-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}#layout-article20 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article20 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article20 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article20 .al-article-item .al-item-desc span{color:#b3b3b3;line-height:24px}",
+            "id":"food2_layout_20_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Feijoada",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Feijoada là món ăn mang đậm nét đặc trưng của nền ẩm thực Brazil. Chúng được chế biến theo kiểu hầm cầu kì, giàu dinh dưỡng từ thịt lợn, đồ lòng lợn và đậu đen. Sau khi được hầm mềm và thấm đều trong sốt, Feijoada sẽ có màu nâu đậm và sệt lại. Hương vị của món ăn này tương đối nồng nhưng lại khiến người ta nhớ mãi bởi độ béo bùi, đậm đà hấp dẫn.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Thường xuất hiện trong những bữa ăn sáng hoặc ăn nhẹ tại Brazil là chiếc bánh mì nhỏ nhắn mang tên Pao de Queijo. Bánh được làm từ bột sắn, phô mai, trứng và sữa. Những viên bột tròn sẽ được nướng chín cho đến khi chuyển sang màu vàng bắt mắt. Nhờ lớp phô mai dẻo dai, ẩm mịn mà khi chỉ cần cắn nhẹ, bánh tan chảy ra một mùi thơm béo khó cưỡng. ",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img4_80e667fffc804a729edc05935260ff7b.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img5_a60189cf2c1343608134972d046c30c0.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Food2 20",
+            "name":"food2_layout_20_thanh-4",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo4_e16b3b6b63e145d388cf8a10e4266534.jpg",
+            "html":"<div id='layout-article20'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div>",
+            "css": "#layout-article20 img{width:100%}#layout-article20 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;-webkit-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);-moz-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}#layout-article20 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article20 .al-item-img:hover a img{width:100%;transform:scale(1.05)}",
+            "id":"food2_layout_20_thanh-4",
+            "content":[
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img6_7dbba772ac8d4e87ab693899e827f613.jpg",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "spa_layout_21_thanh":[
+        {
+            "type":"Spa 21",
+            "name":"spa_layout_21_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_083bdf5682124bb59542c21efb799e02.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article21'><div class='wrapper'><div class='inner'><div class='al-title'><h3>{layout_title1}</h3></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><h2>{layout_title2}</h2><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div><div class='line'></div></div></div></div>",
+            "css": "#layout-article21{padding:20px 0}#layout-article21 .al-title{position:relative;text-align:center}#layout-article21 .al-title h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important;text-transform:uppercase;letter-spacing:1px}#layout-article21 h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#e2c78b;line-height:24px !important;text-transform:uppercase;letter-spacing:1px;position:relative;padding-left:40px}#layout-article21 h2:after{content:'';position:absolute;z-index:1;height:2px;width:7%;background:{color_text};left:0px;right:0;top:calc(50%)}#layout-article21 .line{width:2px;height:90px;background:{color_text};margin:0 auto}#layout-article21 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article21 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article21 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article21 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}",
+            "id":"spa_layout_21_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "Về chúng tôi",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "CÔNG TY SUPLO",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Suplo Hotel & Spa tọa lạc tại thủ đô Hà Nội đậm đà bản sắc văn hóa, chỉ cách Nhà hát Múa rối Nước Thăng Long 200 m. Khách sạn có nhà hàng trong khuôn viên phục vụ tiệc tự chọn gồm các món ăn ngon. Những khách muốn thưởng thức 1 ly cocktail tùy chọn có thể ghé vào quầy bar nằm trong chỗ nghỉ này. Wi-Fi miễn phí có trong toàn bộ khuôn viên.Đền Ngọc Sơn và Hồ Hoàn Kiếm nằm trong bán kính lần lượt 300 m và 400 m từ Hanoi Emerald Waters Hotel & Spa. Sân bay gần nhất là Sân bay Quốc tế Nội Bài, cách chỗ nghỉ 21 km.Mỗi phòng nghỉ ở đây đều được trang bị nội thất kiểu dáng đẹp với gam màu trung tính. Trong phòng có TV truyền hình vệ tinh màn hình phẳng. Phòng tắm riêng đi kèm góc tắm vòi sen. Áo choàng tắm và dép cũng được cung cấp cho khách.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Chỗ nghỉ này có lễ tân 24 giờ, trung tâm dịch vụ doanh nhân, dịch vụ trợ giúp đặc biệt và các cửa hàng. Quận Hoàn Kiếm là lựa chọn tuyệt vời cho du khách thích mua sắm, ẩm thực đường phố và không gian.Đây là khu vực ở Hà Nội mà khách yêu thích, theo các đánh giá độc lập.Chỗ nghỉ này là một trong những vị trí được đánh giá tốt nhất ở Hà Nội! Khách thích nơi đây hơn so với những chỗ nghỉ khác trong khu vực.Các cặp đôi đặc biệt thích địa điểm này — họ cho điểm 9,7 cho kỳ nghỉ dành cho 2 người.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img22.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Spa 21",
+            "name":"spa_layout_21_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_88436f9048c14e219e736babb1376593.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article21'><div class='wrapper'><div class='inner'><div class='al-title'><h3>{layout_title1}</h3></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><h2>{layout_title2}</h2><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p><p style='color:{color_text}'> {layout_content2}</p></div></div></div></div><div class='line'></div></div></div></div>",
+            "css": "#layout-article21{padding:20px 0}#layout-article21 .al-title{position:relative;text-align:center}#layout-article21 .al-title h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important;text-transform:uppercase;letter-spacing:1px}#layout-article21 h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#e2c78b;line-height:24px !important;text-transform:uppercase;letter-spacing:1px;position:relative;padding-left:40px}#layout-article21 h2:after{content:'';position:absolute;z-index:1;height:2px;width:7%;background:{color_text};left:0px;right:0;top:calc(50%)}#layout-article21 .line{width:2px;height:90px;background:{color_text};margin:0 auto}#layout-article21 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article21 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article21 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article21 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}",
+            "id":"spa_layout_21_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "SẢN PHẨM CAO CẤP",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "CÔNG TY SUPLO",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Các sản phẩm của công ty chuyên về điều trị và chăm sóc da sau điều trị, chiết xuất 100% từ thiên nhiên, được mệnh danh là thương hiệu mỹ phẩm xanh. Với mong muốn đem sản phẩm an toàn, chất lượng cao giúp các chị em lấy lại sự tự tin đội ngũ cán bộ công ty không ngừng học hỏi để cập nhật những công nghệ mới nhất về phục vụ các tín đồ làm đẹp.Tất cả sản phẩm của công ty đều có giấy chứng nhận và kiểm định chất lượng do cục quản lý mỹ phẩm cấp. Hằng năm, công ty thường xuyên tuyển nhà phân phối độc quyền cho nhãn hàng, khách lẻ quan tâm đến sản phẩm vui lòng liên hệ tới các nhà phân phối của công ty để được tư vấn, hỗ trợ.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout 2",
+                    "value": "Dòng sản phẩm chính dẫn tới thành công của công ty Suplo là những sản phẩm điều trị chiết xuất từ thiên nhiên, áp dụng những công nghệ tiên tiến nhất trên thế giới.Đầu tiên, sản phẩm chiến lược cốt lõi của công ty là vi kim tảo biển Ultra B-tox Peel. Sản phẩm điều trị tất cả những bệnh lý cơ bản trên da như: mụn, nám tàn nhang, đào thải kháng viêm, chống lão hóa và trẻ hóa làn da. Đây là công nghệ làm đẹp ưu Việt giúp tất cả chủ spa và thẩm mỹ viện trên cả nước bùng nổ doanh số và được các tín đồ làm đẹp tin dùng.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img2_a5ec503b9e3748a49bb3c17a42276931.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Spa 21",
+            "name":"spa_layout_21_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo3_5ed516a78b154fdcafda50e3149b0064.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article21'><div class='bg-layout'><div class='bg-over-layout'></div><div class='wrapper'><div class='inner'><div class='al-article-item'><h4>{layout_title}</h4><div class='al-item-desc'><p> {layout_content1}</p></div><div class='al-btn'> <a href='{layout_content3}'>{layout_content2}</a></div></div></div></div></div></div>",
+            "css": "#layout-article21{padding:20px 0}#layout-article21 .bg-layout{background-image:url({layout_img});background-position:center;background-size:cover;background-repeat:no-repeat;position:relative}#layout-article21{padding:20px 0}#layout-article21 .al-btn{text-align:center}#layout-article21 .al-btn a{background:#fff;color:{color_text};padding:5px 10px;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article21 .al-btn:hover a{background:{primary_color}}#layout-article21 .bg-layout .al-article-item{position:relative;z-index:99;width:70%;margin:0 auto;padding:30px 0}#layout-article21 .bg-layout .al-article-item h4{text-decoration:underline;margin-bottom:10px;text-align:center;font-weight:bold;font-size:18px;color:{primary_color};line-height:24px !important;letter-spacing:1px}#layout-article21 .bg-layout .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:#fff;text-align:center}#layout-article21 .bg-over-layout{background:#000;opacity:0.8;position:absolute;top:0;left:0;bottom:0;right:0}",
+            "id":"spa_layout_21_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Bạn có đang lăn tăn lựa chọn các dòng sản phẩm dưỡng da cho mình ?",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout 1",
+                    "value": "Công ty Suplo chuyên các dịch vụ chữa trị các vấn đề về da. Chúng tôi luôn sử dụng các dòng sản phẩm chính hãng, tốt nhất giúp các bạn có thể trải nghiệm.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "CÔNG TY SUPLO",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Tiêu đề đường dẫn",
+                    "value": "Tìm hiểu thêm",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content3",
+                    "title": "đường dẫn nút",
+                    "value": "/",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh nền cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/bg.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Spa 21",
+            "name":"spa_layout_21_thanh-4",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo4_ced220455b2b4663b0c6e9516660bb72.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article21'><div class='wrapper'><div class='inner'><div class='line'></div><div class='al-title'><h3>{layout_title1}</h3></div><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><h2>{layout_title2}</h2><div class='al-item-desc'><p style='color:{color_text}'> {layout_content}</p></div></div></div></div></div></div></div>",
+            "css": "#layout-article21{padding:20px 0}#layout-article21 .al-title{position:relative;text-align:center}#layout-article21 .al-title h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important;text-transform:uppercase;letter-spacing:1px}#layout-article21 h2{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#e2c78b;line-height:24px !important;text-transform:uppercase;letter-spacing:1px;position:relative;padding-left:40px}#layout-article21 h2:after{content:'';position:absolute;z-index:1;height:2px;width:7%;background:{color_text};left:0px;right:0;top:calc(50%)}#layout-article21 .line{width:2px;height:90px;background:{color_text};margin:0 auto}#layout-article21 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article21 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article21 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article21 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}",
+            "id":"spa_layout_21_thanh-4",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "Các dòng sản phẩm khác",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "Dòng tế bào gốc 5GF, 4GF",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Các dòng tế bào gốc 5GF, 4GF, tế bào gốc mụn: hỗ trợ tái tạo, nhân đôi tế bào nhanh chóng thúc đẩy quá trình tái tạo da nhanh và hiệu quả. 4GF sản phẩm tái tạo làn da, 5GF hỗ trợ điều trị các sẹo rỗ lâu năm hiệu quả gấp 10 lần, tế bào gốc mụn điều trị tất các vấn đề về mụn.Bên cạnh đó các sản phẩm này cũng hỗ trợ điều trị nám tàn nhang, trẻ hóa làn da, chống lão hóa…..Ngoài những sản phẩm chuyên về điều trị còn có những sản phẩm chăm sóc da sau điều trị.Sản phẩm chăm sóc da đầu tiên là bộ chăm sóc da 5 trong 1 gồm: bột rửa mặt, nước hoa hồng, serum, kem dưỡng, kem chống nắng, có tác dụng ức chế nám da hiệu quả.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img2_a5ec503b9e3748a49bb3c17a42276931.jpg",
+                    "type":"file"
+                }
+            ]
+        }
+    ],
+    "thaoduoc_layout_22_thanh":[
+        {
+            "type":"Thảo dược 22",
+            "name":"thaoduoc_layout_22_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_0057e9d049994ff8b7920e7c84b85ca7.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article22'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><h3 class='al-title'>{layout_title1}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content}</p></div><h2>{layout_title2}</h2></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-item-img'> <a href=''> <img src='{layout_img}' alt=''> </a></div></div></div></div>",
+            "css": "#layout-article22 .al-title{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important;text-transform:uppercase;letter-spacing:1px;text-align:center;position:relative}#layout-article22 .al-title:after{content:'';margin:auto;position:absolute;left:0;right:0;bottom:-7px;height:3px;width:50px;background:{primary_color};}#layout-article22 h2{color:{primary_color};font-weight:bold;font-size:14px;font-family:'Lalezar',cursive;text-align:center;}#layout-article22 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article22 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article22 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article22 .al-article-item{padding:30px}#layout-article22 .al-article-item .al-item-desc{text-align:center}#layout-article22 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article22 .al-title-img{text-align:center}#layout-article22 .al-title-img img{width:100px}",
+            "id":"thaoduoc_layout_22_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "Tác dụng của măng tây",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "CÔNG TY SUPLO",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Măng trắng có đặc điểm là mềm hơn măng xanh và mùi vị có măng trắng nhẹ hơn. Nhưng măng tây xanh có nhiều chất xơ hơn măng trắng. Măng tím giống măng trắng nhưng vị ngọt hơn măng trắng và măng xanh.Theo các chuyên gia dinh dưỡng, măng tây là loại rau xanh chứa nhiều dưỡng chất,mang lại nhiều lợi ích về mặt sức khỏe và có thể được chế biến bằng nhiều cách khác nhau.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1_7dc26678dafc4ad3933eb79e58f493db.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Thảo dược 22",
+            "name":"thaoduoc_layout_22_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_270e2b62c8ed449e8d7eb4d3872cd801.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article22'><div class='grid'><div class='grid__item large--eight-twelfths medium--eight-twelfths small--one-whole'><div class='al-item-img'> <a href=''> <img src='{layout_img1}' alt=''> </a></div></div><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'><div class='al-article-item'><div class='al-title-img'> <a href=''> <img src='{layout_img2}' alt=''> </a></div><h3 class='al-title'>{layout_title1}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content}</p></div><h2>{layout_title2}</h2></div></div></div></div>",
+            "css": "#layout-article22 .al-title{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important;text-transform:uppercase;letter-spacing:1px;text-align:center;position:relative}#layout-article22 .al-title:after{content:'';margin:auto;position:absolute;left:0;right:0;bottom:-7px;height:3px;width:50px;background:{primary_color};}#layout-article22 h2{color:{primary_color};font-weight:bold;font-size:14px;font-family:'Lalezar',cursive;text-align:center;}#layout-article22 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article22 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article22 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article22 .al-article-item{padding:30px}#layout-article22 .al-article-item .al-item-desc{text-align:center}#layout-article22 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article22 .al-title-img{text-align:center}#layout-article22 .al-title-img img{width:100px}",
+            "id":"thaoduoc_layout_22_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "CÔNG DỤNG CỦA TRÀ THẢO MỘC",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "CÔNG TY SUPLO",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Trà thảo mộc có khả năng thu nhặt các gốc tự do, bảo vệ gan, phòng chống nhiễm vi khuẩn, virus, chống nấm và dự phòng một số bệnh mạn tính không lây. Các hiệu quả trên có được từ các hoạt chất chứa trong các loại thảo mộc như kim ngân hoa, cúc hoa, la hán quả, hạ khô thảo…",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img-title.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh 2 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img2_f3ddc1aaec38443c957fb0588c246a4b.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Thảo dược 22",
+            "name":"thaoduoc_layout_22_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo3_1988fef6e13a47b29941eb18246f34ab.jpg",
+            "color_text":"#000000",
+            "html":"<div id='layout-article22'><div class='grid'><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-article-item'><div class='al-title-img'> <a href=''> <img src='{layout_img1}' alt=''> </a></div><h3 class='al-title'>{layout_title1}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content}</p></div><h2>{layout_title2}</h2></div></div><div class='grid__item large--one-half medium--one-half small--one-whole'><div class='al-item-img'> <a href=''> <img src='{layout_img2}' alt=''> </a></div></div></div><div class='al-item-img'> <a href='{layout_content2}'> <img src='{layout_img3}' alt=''> </a></div></div>",
+            "css": "#layout-article22 .al-title{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important;text-transform:uppercase;letter-spacing:1px;text-align:center;position:relative}#layout-article22 .al-title:after{content:'';margin:auto;position:absolute;left:0;right:0;bottom:-7px;height:3px;width:50px;background:{primary_color};}#layout-article22 h2{color:{primary_color};font-weight:bold;font-size:14px;font-family:'Lalezar',cursive;text-align:center;}#layout-article22 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article22 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article22 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article22 .al-article-item{padding:30px}#layout-article22 .al-article-item .al-item-desc{text-align:center}#layout-article22 .al-article-item .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article22 .al-title-img{text-align:center}#layout-article22 .al-title-img img{width:100px}",
+            "id":"thaoduoc_layout_22_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "LỢI ÍCH TỪ HẢI SẢN",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "CÔNG TY SUPLO",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Hầu hết mọi người đều có khả năng bị bệnh trầm cảm do stress kéo dài. Trầm cảm có liên quan đến hàm lượng axit béo omega 3 trong cơ thể thấp. Trong khi đó, hải sản chứa các hợp chất giúp giảm nguy cơ bị mất trí nhớ, Alzheimer và trầm cảm ở mức độ nào đó. Hải sản làm tăng lượng axit béo omega3 (đặc biệt là DHA) cho cơ thể. Chính vì thế nó có thể làm giảm các dấu hiệu trầm cảm và chống lại chứng trầm cảm kinh niên.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img1",
+                    "title": "Hình ảnh 1 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img-title2.png",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img2",
+                    "title": "Hình ảnh 2 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img3_6a65b4d3873c4722841c5f46e5713a90.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_img3",
+                    "title": "Hình ảnh 3 cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img4_86b24ba94c364436873d2d95747094c8.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Đường dẫn ảnh",
+                    "value": "/",
+                    "type":"text"
+                }
+            ]
+        }
+    ],
+    "company2_layout_23_thanh":[
+        {
+            "type":"Company 23",
+            "name":"company2_layout_23_thanh-1",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_d413c513aaea4ad1b466b8ed64085502.jpg",
+            "html":"<div id='layout-article23'><div class='grid'><div class='grid__item large--four-twelfths medium--four-twelfths small--one-whole'></div><div class='grid__item large--eight-twelfths medium--eight-twelfths small--one-whole'><div class='grid mg-left0'><div class='grid__item large--one-half medium--one-half small--one-whole pd-left0'><div class='al-article-item1'><h3>{layout_title1}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content1}</p></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole pd-left0'><div class='al-article-item2'><h3>{layout_title2}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content2}</p></div></div></div><div class='grid__item large--one-whole medium--one-whole small--one-whole pd-left0'><div class='al-article-item3'><div class='al-item-desc'> <i class='fas fa-quote-left'></i> <br><p style='color:{color_text}'> {layout_content3}</p> <i class='fas fa-quote-right'></i></div></div></div></div></div></div></div>",
+            "css": "#layout-article23{background-image:url({layout_img});background-position:center;background-size:cover;background-repeat:no-repeat;position:relative}#layout-article23 .pd-left0{padding-left:0px !important}#layout-article23 .mg-left0{margin-left:0px !important}#layout-article23 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article23 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article23 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article23 .al-article-item1{padding:30px;background:#123468}#layout-article23 .al-article-item1 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#fff;line-height:24px !important;text-transform:uppercase;letter-spacing:1px}#layout-article23 .al-article-item1 .al-item-desc{text-align:left}#layout-article23 .al-article-item1 .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:#fff}#layout-article23 .al-article-item2{padding:30px;background:#DCDCDC}#layout-article23 .al-article-item2 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#000;line-height:24px !important;text-transform:uppercase;letter-spacing:1px}#layout-article23 .al-article-item2 .al-item-desc{text-align:left}#layout-article23 .al-article-item2 .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:#000}#layout-article23 .al-article-item3{padding:30px;background:#fff}#layout-article23 .al-article-item3 .al-item-desc{text-align:center}#layout-article23 .al-article-item3 .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:#000}#layout-article23 .al-article-item3 .al-item-desc .fa-quote-left{float:left;color:#81BCBA}#layout-article23 .al-article-item3 .al-item-desc .fa-quote-right{float:right;color:#81BCBA}#layout-article23 .al-title-img{text-align:center}#layout-article23 .al-title-img img{width:100px}",
+            "id":"company2_layout_23_thanh-1",
+            "content":[
+                {
+                    "name":"layout_title1",
+                    "title": "Tiêu đề layout",
+                    "value": "MÔI TRƯỜNG THÂN THIỆN",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content1",
+                    "title": "Mô tả layout",
+                    "value": "Một yếu tố không kém phần quan trọng khác là không khí làm việc trong công ty, mối quan hệ giữa lãnh đạo với nhân viên và giữa các đồng nghiệp với nhau. Để tạo được không khí làm việc thân thiện, trước hết công ty phải xây dựng quy định rõ ràng về giới hạn quyền lợi, trách nhiệm của từng người. Có chế độ thưởng phạt rõ ràng.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_title2",
+                    "title": "Tiêu đề layout",
+                    "value": "CHIẾN LƯỢC PHÁT TRIỂN RÕ RÀNG",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content2",
+                    "title": "Mô tả layout",
+                    "value": "Một biểu hiện khác của doanh nghiệp có môi trường làm việc chuyên nghiệp có thể gắn bó lâu dài chính là sản phẩm, dịch vụ của đơn vị đó phải thực sự tốt và chất lượng. Nếu ngay cả nhân viên cũng không tin tưởng vào tiềm năng của sản phẩm trên thị trường thì cũng sẽ không có niềm tin vào công ty.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh nền cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1_7fc89aa353c348a58fdfa7128022e54a.jpg",
+                    "type":"file"
+                },
+                {
+                    "name":"layout_content3",
+                    "title": "Mô tả layout",
+                    "value": "môi trường làm việc có tốt hay không sẽ còn phụ thuộc rất nhiều ở người lãnh đạo, một người lãnh đạo có “tâm” và có “tầm”, sẵn sàng đi đầu làm gương, dám chịu trách nhiệm trong công việc sẽ giúp cho cấp dưới nể phục và noi theo.",
+                    "type":"text"
+                }
+            ]
+        },
+        {
+            "type":"Company 23",
+            "name":"company2_layout_23_thanh-2",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo2_6cd7ed32c8b9424e912055acc5b0e294.jpg",
+            "html":"<div id='layout-article23-2'><div class='grid mg-left0'><div class='grid__item large--one-half medium--one-half small--one-whole pd-left0'><div class='al-article-item4'><h3>{layout_title}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content}</p></div></div></div><div class='grid__item large--one-half medium--one-half small--one-whole pd-left0'></div></div>",
+            "css": "#layout-article23-2{background-image:url({layout_img});background-position:center;background-size:cover;background-repeat:no-repeat;position:relative}#layout-article23-2 .pd-left0{padding-left:0px !important}#layout-article23-2 .mg-left0{margin-left:0px !important}#layout-article23-2 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article23-2 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article23-2 .al-item-img a img{width:100%;transform:scale(1.05)}#layout-article23-2 .al-article-item4{padding:30px;background:#DCDCDC}#layout-article23-2 .al-article-item4 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:{color_text};line-height:24px !important;text-transform:uppercase;letter-spacing:1px;text-align:center}#layout-article23-2 .al-article-item4 .al-item-desc{text-align:center}#layout-article23-2 .al-article-item4 .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:{color_text}}#layout-article23-2 .al-title-img{text-align:center}#layout-article23-2 .al-title-img img{width:100px}",
+            "id":"company2_layout_23_thanh-2",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Công ty tỷ đô",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Hoạt động của một startup nên được miêu tả trong khoảng 5 từ hoặc ít hơn, chẳng hạn Facebook là mạng lưới dành cho bạn bè hay Uber là gọi xe theo yêu cầu. Dù ý tưởng ban đầu có thể không phổ thông – như Facebook chỉ muốn kết nối các sinh viên Harvard khác nhau, chúng cần phát triển thành những thứ giải quyết nhu cầu cơ bản.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh nền cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/bg_390c94fa27784e47b9c646ead8bcc836.jpg",
+                    "type":"file"
+                }
+            ]
+        },
+        {
+            "type":"Company 23",
+            "name":"company2_layout_23_thanh-3",
+            "image_demo":"http://file.hstatic.net/1000234244/file/demo1_0057e9d049994ff8b7920e7c84b85ca7.jpg",
+            "html":"<div id='layout-article23-2'><div class='grid mg-left0'><div class='grid__item large--one-half medium--one-half small--one-whole pd-left0'></div><div class='grid__item large--one-half medium--one-half small--one-whole pd-left0'><div class='al-article-item4'><h3>{layout_title}</h3><div class='al-item-desc'><p style='color:{color_text}'> {layout_content}</p></div></div></div></div>",
+            "css": "#layout-article23-3{background-image:url({layout_img});background-position:center;background-size:cover;background-repeat:no-repeat;position:relative}#layout-article23-3 .pd-left0{padding-left:0px !important}#layout-article23-3 .mg-left0{margin-left:0px !important}#layout-article23-3 .al-item-img{overflow:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article23-3 .al-item-img a img{width:100%;transform:scale(1);vertical-align:middle;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}#layout-article23-3 .al-item-img:hover a img{width:100%;transform:scale(1.05)}#layout-article23-3 .al-article-item5{padding:30px;background:#fff}#layout-article23-3 .al-article-item5 h3{font-family:'Lalezar',cursive;font-weight:bold;font-size:18px;color:#000;line-height:24px !important;text-transform:uppercase;letter-spacing:1px;text-align:center}#layout-article23-3 .al-article-item5 .al-item-desc{text-align:center}#layout-article23-3 .al-article-item5 .al-item-desc p{line-height:24px;font-size:14px;letter-spacing:0.7px;margin-top:20px;color:#000}#layout-article23-3 .al-title-img{text-align:center}#layout-article23-3 .al-title-img img{width:100px}",
+            "id":"company2_layout_23_thanh-3",
+            "content":[
+                {
+                    "name":"layout_title",
+                    "title": "Tiêu đề layout",
+                    "value": "Công ty Việt Nam",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_content",
+                    "title": "Mô tả layout",
+                    "value": "Hoạt động của một startup Việt Nam nên được miêu tả trong khoảng 5 từ hoặc ít hơn, chẳng hạn Facebook là mạng lưới dành cho bạn bè hay Uber là gọi xe theo yêu cầu. Dù ý tưởng ban đầu có thể không phổ thông – như Facebook chỉ muốn kết nối các sinh viên Harvard khác nhau, chúng cần phát triển thành những thứ giải quyết nhu cầu cơ bản.",
+                    "type":"text"
+                },
+                {
+                    "name":"layout_img",
+                    "title": "Hình ảnh nền cho layout",
+                    "value": "http://file.hstatic.net/1000234244/file/img1_7dc26678dafc4ad3933eb79e58f493db.jpg",
+                    "type":"file"
+                }
+            ]
+        }
     ]
 }
